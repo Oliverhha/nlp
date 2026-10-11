@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/9586_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9964451193809509,
+        "predicted_confidence": 0.9964451193809509,
+        "review": "if you live in the suburbs, are relatively well off financially, and do not really have much contact with the city life of england, then this is the comedy for you. not something a mass audience would go for, but if you're like these characters they show you'll love it to pieces. overall this is a comedy that the snobs at the bbc will sit back and laugh at for their pleasure and only a select few of the publics. comparing it to bbc comedys like only fools and horses, fawlty towers, black adder, and other classics, this series tends to drift away from the bbc's regular product to the audience and deliver to somewhat of a folk culture."
+      },
+      {
+        "review_id": "test/neg/4017_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.993240475654602,
+        "predicted_confidence": 0.993240475654602,
+        "review": "pretty dreadful movie about several unbalanced young people in a car starts off reasonably well but becomes more bizarre and hard to swallow as it progresses. rachel leigh cook is the sole highlight in a tender and sexy performance, but i would recommend this film only to die-hard fans of the actress."
+      },
+      {
+        "review_id": "test/neg/11430_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.993078887462616,
+        "predicted_confidence": 0.993078887462616,
+        "review": "irvine welsh's follow up to trainspotting hits the screen as three short stories set in edinburgh, all with a few of welsh's trade marks, drug culture, depression, the working class and hibernian football club. uneasy to watch in places, it is no less than very well written, 2 of the stories having a darkly comic twist to them while the 2nd story a serious (and shockingly realistic) plot to it. will not appeal to most, including myself to a point, but will no doubt adopt a cult following."
+      },
+      {
+        "review_id": "test/neg/9354_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9893978834152222,
+        "predicted_confidence": 0.9893978834152222,
+        "review": "'helen of troy' follows the story of helen and the outbreak of the trojan war. this is more of a love story between helen and paris, who is shipwrecked and falls in love with helen without knowing she is queen. the film portrays the couple as lovesick and wanting nothing more than to be together. (other films and books have different portrayals of the characters, but in this one, they are simply hopelessly in love.) the film is pretty slow-moving in some places, but the battles and the detail to the scenery are done pretty well. there are also some good performances. i thought that the slave girl did a particularly good job, and she was one of the most well-liked characters. overall, this is a good adaption if you can look beyond the slow-moving story in places and look beyond some of the cheesy romance and dialogue. in my opinion, a perfect iliad film version has not yet been created, but this one is entertaining and does have some good bits."
+      },
+      {
+        "review_id": "test/neg/12279_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9887707233428955,
+        "predicted_confidence": 0.9887707233428955,
+        "review": "this movie is very violent, yet exciting with original dialog and cool characters. it has one of the most moving stories and is very true to life. the movie start off with action star leo fong as a down and out cop who is approaching the end of his career, when he stumbles on to a big case that involves corruption, black mail and murder. this is where the killings start. from start finish fong delivers in this must see action caper. this movie also co-stars richard roundtree. i really enjoyed this film as a child but as i got older i realized that this film is pretty cheesy and not very good. i would not recommend this film and the action is very, very bad."
+      },
+      {
+        "review_id": "test/neg/5529_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9886063933372498,
+        "predicted_confidence": 0.9886063933372498,
+        "review": "victor jory never became a major star. he is better known for later character roles than for his early leads. but he was very handsome and an excellent actor. his love scenes with loretta young in this romantic adventure thriller are passionate. their kisses look very real. and very modern. vivienne osborne is a standout here also. she plays a woman with a reputation. but the character has a good heart. the print i saw was not clear. but what a joy that rare movies like this are turning up! and they are, in some sort of watchable condition, still intact. this is nothing truly special. but if one is willing to sift through movies of its era with similarly intriguing titles, one is likely to find some suprtb movies."
+      },
+      {
+        "review_id": "test/neg/10794_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9871490597724915,
+        "predicted_confidence": 0.9871490597724915,
+        "review": "the camals are coming is a rather disappointing british comedy from 1934. i purchased this because i like desert adventures and states on the box that it is a drama. it certainly isn't. it is about a couple who head for egypt to capture some desert drug smugglers. this would have been much better if it had been done as a drama instead of a comedy, which lets it down a lot. it is quite silly in parts. depsite this, there are some good action and location scenes. the cast is lead by jack hulbert with anna lee as the love interest. one viewing is enough for this movie. overall, a disappointment. rating: 2 stars out of 5."
+      },
+      {
+        "review_id": "test/neg/12327_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9864591360092163,
+        "predicted_confidence": 0.9864591360092163,
+        "review": "audrey, i know you truly cherish your husband ted's memory but please do his legacy justice and heed his wishes. dr. seuss refused to license his characters during his lifetime for a very good reason. we beg of you to please stop cashing in on his stories, images, fantasies and characters. they are getting disemboweled by the powers that be of hollywood and broadway. the children of tomorrow will be stuck with these histrionic and grotesque interpretations that will forever pollute the loving warmth and innocence of his books. it is indeed your property to do with as you wish. i just wish you would listen to the advice of others for a little while. save what is left of dr. seuss. thank you."
+      },
+      {
+        "review_id": "test/neg/2815_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9858816862106323,
+        "predicted_confidence": 0.9858816862106323,
+        "review": "i really liked this quirky movie. the characters are not the bland beautiful people that show up in so many movies and on tv. it has a realistic edge, with a captivating story line. the main title sequence alone makes this movie fun to watch."
+      },
+      {
+        "review_id": "test/neg/6389_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9855308532714844,
+        "predicted_confidence": 0.9855308532714844,
+        "review": "this puddle of derivative drivel stole from every soviet film of note and failed miserably. i was left with an experience of everything that is wrong with organized religion in general and the russian orthodox church's particular shortcomings (mind you this comment comes from a person of faith). even the outstanding cinematography left me uninspired. i spent its most beautiful moments very aware of the masterworks that it was poorly imitating. i would not recommend seeing this movie unless you have a deep passion for the russian orthodox church, its monastic traditions, miracles in the face of communism, and saints of the seventies. it is a meaningless film from (and about) a narrow perspective that did absolutely nothing for me."
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/1875_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.000655871001072228,
+        "predicted_confidence": 0.9993441104888916,
+        "review": "its really been a long time since the last time somebody created a movie such as like this on. a so called b movie. maybe it was not a great movie, but it is fun to watch, classic bruce cambell, it has its good parts, funny ones, disgusting ones, even artistic ones. ******spoiler ahead******* ----------------------- --------------------------------- --------------------------- ------------- the part where his wife as a dummy-robot-avenger is about to die, i don't know about you, but it made me feel so weird, so sad and disgusted in a good way. i compare this scene with the scene form the fly 2 where his dog as a monster dies. makes you think oh my god. ---------------- --------------------------------------------- ------------------------------ -------------------------- ********no more spoilers********* if you are a bruce cambell fan, you definitely wanna have this movie in your collection. if you are generally interested in movies, you might wanna. just think that the movies target is to make you smile, gross you out(don't worry not that bad though) and make you have a good time with your buddies. attention, i said buddies, not possible future girlfriend."
+      },
+      {
+        "review_id": "test/pos/12495_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0011282057967036963,
+        "predicted_confidence": 0.9988718032836914,
+        "review": "sex, drugs, racism and of course you abc's. what more could you want in a kid's show! ------------------------------------------- ------------------------------------------- \"user comment guidelines please note there is a 1,000 word limit on comments. the recommended length is 200 to 500 words. the minimum length for comments is 10 lines of text. comments which are too short or have been padded with junk text will be discarded. you may only post a single comment per title. what to include: your comments should focus on the title's content and context. the best reviews include not only whether you liked or disliked a movie or tv-series, but also why. feel free to mention other titles you consider similar and how this one rates in comparison to them. comments that are not specific to the title will not be posted on our site. please write in english only and note that we do not support html mark-up within the comments\""
+      },
+      {
+        "review_id": "test/pos/11252_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0023503017146140337,
+        "predicted_confidence": 0.9976496696472168,
+        "review": "black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal. black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal. black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal."
+      },
+      {
+        "review_id": "test/pos/6202_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.003687812713906169,
+        "predicted_confidence": 0.9963122010231018,
+        "review": "i enjoyed this series, but felt that the whole thing was let down by the sound recording/mixing. for whatever reason, they've had to employ an awful lot of what's called adr, where the actors replace the original location sound with a re-recording of it in a sound booth. the reasons for doing this are usually due to problems at the location, or because somebody screwed up somewhere in the sound production chain. it wouldn't be so bad if the adr was done well, but at times it's just plain distracting. it's not just the adr that's the problem - the sound mix just doesn't match up to the quality of performances and the pictures. i'd be curious to know what went wrong."
+      },
+      {
+        "review_id": "test/pos/2108_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006467101164162159,
+        "predicted_confidence": 0.9935328960418701,
+        "review": "ninja hunter (aka wu tang vs ninja) is pure entertainment from start to finish due to its outrageous characters, nonsensical plot and lack of any pretensions whatsoever. the makers of this film have given us a truly ott masterpiece which has to be seen to be believed. the plot centres around wu tang villain, abbot white, who wants to destroy the shaolin monks and become supreme martial artist. in order to do so, he teams up with a clan of ninjas, led by three masters \u0096 gold lam\u00e9 ninja, white mustachioed ninja and black ninja \u0096 and succeeds in destroying the shaolin temple and most of its inhabitants. however, there are some survivors. it is their job to pass on the knowledge of the shaolin finger jab to a new generation, who must defeat the ninjas and abbott white if peace and order is to be restored. unfortunately, abbott white is a difficult foe to beat, since he is able to make himself virtually indestructible by sucking the life force out of hot naked chicks (an excuse for some welcome gratuitous nudity!). other treats in store for viewers include loads of very impressive fighting (despite some of it being speeded up), some really amazing outfits (the aforementioned gold lam\u00e9 ninja, abbott white's yin yang suits, and even some assassins wearing swastika tunics), a ninja turning into a flying carpet, plus some cheesy gore for good measure. and i nearly forgot to mention the really impressive eyebrows on display in this movie \u0096 surely a good reason not to pass up on this gem."
+      },
+      {
+        "review_id": "test/pos/9049_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.008565944619476795,
+        "predicted_confidence": 0.9914340376853943,
+        "review": "if a joke doesn't offend anybody, it isn't funny. the inki cartoons are offensive, no doubt about it. so is rap music. get over it. i suspect that any sane black person will find the inki cartoons hilarious, and that the people who are offended by them white people who still think black's need their patronizing protection against racist humor. seriously, the inki cartoons are funny. it saddens me that, not because anybody is really offended, but because somebody might, just might, be offended, i can't buy inki cartoons or the african queen or song of the south on dvd."
+      },
+      {
+        "review_id": "test/pos/4577_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.009090186096727848,
+        "predicted_confidence": 0.9909098148345947,
+        "review": "this movie deserved better. mike judge's satirical wit brought to light something too many in this country are trying to deny... we're getting dumber as a society. could the 24-hour-a-day anna nicole coverage be any more proof? mike judge paints a frightening future, where the dumb survive and thrive. makes you stop and think, and laugh. can you look at the world and not ask are we getting dumber? are we being overtaking by the human trash as well as our own trash? (beware of landslides). the movie is really funny. i'd tell you more of the plot but i don't want to spoil it. so why release this film with zero promotion? could it be that the stupid are already taking over?"
+      },
+      {
+        "review_id": "test/pos/3516_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.00980604812502861,
+        "predicted_confidence": 0.9901939630508423,
+        "review": "a quick glance at the premise of this film would seem to indicate just another dumb '80's inbred/backwood slash-fest; the type where sex equals death and the actors are all annoying stereotypes you actually want to die. however, \"jbd\" delivers considerably more. rather than focus on bare flesh and gore (though there is a little of each- no sex however), the flick focuses on delivering impending dread/mounting tension amidst a lovely scenic backdrop. these feelings are further heightened by a cast of realistically likable characters and antagonists that are more amoral than cardboard definitions of evil. oh yeah- george kennedy is here too and when is that not a good thing? if you liked \"wrong turn\", then watch this to see where much of its' methodology came from."
+      },
+      {
+        "review_id": "test/pos/2516_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.00983304064720869,
+        "predicted_confidence": 0.990166962146759,
+        "review": "cool action - yeah the premise has been done - but not this way - that's the trick. hey folks - shock - it's an x-file. to me - it's cool that scully/mulder have almost no scenes together -- they have to adapt, rely on each other's intrinsic sense about what's really going on - and each other's adaptation skills. they read into each other's moves and get the job done.... (sort of). oh yeah --- really good acting -- do these people get paid to do this? or- a slow day when the convenience store doesn't call them into work. (hey - duchovny - where's the day-old donuts?? malcolm - get to school...)"
+      },
+      {
+        "review_id": "test/pos/8516_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.009929057210683823,
+        "predicted_confidence": 0.9900709390640259,
+        "review": "there are lot of similarities between never say never again and thunderball not only on sean connery but also the story and plot. except the actors all other are same like hijacking atomic bombs, asking for ransom, trafficking nukes in a ship, etc only difference are place of occurrence in thunder ball plot it is in bahamas in never say never again it is over north africa. and in thunder ball the nato / raf itself loads the nukes into plane and in never say never again it is changed by an \"rouge arm of the axe\" and air dropped over us and stolen in caribbean. almost 99% is same.if anybody wants to dispute this they are most welcome."
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/pos/138_8.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5000407695770264,
+        "predicted_confidence": 0.5000407695770264,
+        "review": "although at times i was the only one in the cinema who was laughing, this is the main pleasure i took from the beautifully shot \"thirst\" - laughter. although sometimes it seemed that the movie had an identity crisis and didn't know whether it was a tragedy or a comedy, the blackest of black humour shone through at regular intervals. it helped of course that it the standard of acting by everyone concerned was wonderful, and that i was slightly obsessed by the at times wicked leading lady, who was gorgeously elegant no matter how blood soaked and malevolent she became. i read reviews that suggested this movie was overlong. i didn't think so. in fact the last scenes, moving and hilarious (i mean, the brown shoes....) by turns, were among the best in the film."
+      },
+      {
+        "review_id": "test/neg/7089_3.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4999539256095886,
+        "predicted_confidence": 0.5000460743904114,
+        "review": "just listen to the broadway cast album and to the voices of barbara harris and john cullum, who do wonders for the wonderful lerner and lane score. then, with that beautiful cast recording fresh in mind, watch the movie, with streisand as streisand, and yves montand reading his lines with such a heavy french accent that a chain saw couldn't cut through it. the best part (for those who need something to look forward to) is what montand does to the introductory part of the title song. listen as he sings/says: could anyone among us have an inkling or a clue, what magic feats of wizardry and voodoo you can do? (that one part sums up the problem that results from casting \"name stars\" in movie musicals instead of the appropriate talent for the various roles.) i can just see rex harrison entering that scene and suggesting montand, too, could learn to do justice to the beauty of the english language."
+      },
+      {
+        "review_id": "test/pos/9956_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5000622868537903,
+        "predicted_confidence": 0.5000622868537903,
+        "review": "having never actually seen anything by this beloved of the luvvies, let alone a production of merchant of venice, i cant comment on how faithful it is to previous adaptations of the play so i will treat it as just another movie that tries to be more than novocaine for the eye mov is an instantly gripping movie about a young lover bassanio (fiennes) and his merchant friend antonio (irons) and a jewish money lender shylock (pacino) plot summary bassiano is broke and needs money to woo the lovely portia (collins), he goes to his friend antonio, who sypathises with his friends predicament, so borrows some money off shylock now antonio does not like jews in general and shylock in particular and shylock bitter and twisted from the abuse he has suffered from antonio in particular and christians in general agrees to lend antonio the money on condition that if antonio does not repay the loan by the agreed deadline, shylock will cut a pound of flesh from antonios body comment the movie is breathtakingly beautiful and acted and spoken in such a way as to force you to think about what each line means, this in turn causes the viewer to gain insights into the characters and their motivations it seems to me to be a movie about the choices that shylock makes, and how making wrong choices leads to shylocks ruin from the moment shylock demands his pound of flesh he is doomed, for rest of the world is against him and connives to bring about his downfall this disturbed me greatly, normally in a movie when a victim gets a chance of revenge against those who have harmed him either the victim succeeds or makes the villain see the error of his ways leading to a big hug not in mov the victim quickly becomes seen as the villain and is stripped of his fortune and faith this movie is a powerful and subtle portrayal of casual anti semitism which shows how a whole society can turn on a minority and make it seem like the victim is really the offender i was blown away by this movie 10/10"
+      },
+      {
+        "review_id": "test/neg/3808_1.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49993693828582764,
+        "predicted_confidence": 0.5000630617141724,
+        "review": "another eli roth in the making. self promoting, bad script writing excuse for a horror director. victor is as far from the new horror icon as mary poppins (reference to the disney score). what is going on here? you have marilyn manson opening and closing this piece of crap and chitty chitty bang bang all through it. can this even be called horror? horrible, yes, but horror is a stretch. david lynch should sue them for stealing the elephant man prosthetics. please stop these fan boy want to be directors now. the video directors already have enough competition breaking into the film industry. getting online and talking about how great your movie is does not make it true. stop the insanity. i work in the industry and yes these films are fun to work on, but rarely ever entertaining to actually watch."
+      },
+      {
+        "review_id": "test/pos/510_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.499933123588562,
+        "predicted_confidence": 0.500066876411438,
+        "review": "i admit i go more for the traditional vampire tale, but this one is a real winner. lots of way out graphics and good story to go with them made for an interesting 2 hours. there was loads of gore with vicious blood suckers attacking mortals and even each other for control of the world. a good one for all us vampire lovers."
+      },
+      {
+        "review_id": "test/pos/4940_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49992406368255615,
+        "predicted_confidence": 0.5000759363174438,
+        "review": "this happened to be just starting on tv when i opened it, and as i felt too lazy to change the channel, i ended up watching it. man, was that fortunate. this film is more of a fairy tale than a demanding drama, and at times openly sentimental one. it is definitely what one could call a feel-good movie, and i usually find such either boring or irritating. yet this film is so very well done i could not help but love it. the script will not twist your brain; it is conventional, but flawless. the actors are brilliant, every single one is a perfect fit for the role. there is not much of a score, but the bits of music enhance the movie beautifully. if you can appreciate other things than expensive pyrotechnics, vicious murders or saving the world in a movie, do watch this if you ever have the chance. 5/5"
+      },
+      {
+        "review_id": "test/pos/11331_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4999113380908966,
+        "predicted_confidence": 0.5000886917114258,
+        "review": "the notion of marital fidelity portrayed in the film seems outdated today, but it is exactly the main characters' adherence to that notion which makes the entire story so touchingly tragic. it is this notion that ennobles them and allows them to stand out, to, as they refer to their respective spouses, \"not be like them\". as tony leung said in the film, love just happens. there doesn't need to be a rational explanation as to how it happens, it simply does. despite their not wanting to stoop to their respective spouses' level, it happened. fidelity, social mores, and timing all conspired against this relationship coming into fruition. simply being in love is far from enough. i had the misfortune of sitting beside a young couple (still in university from the snippets of conversation they kindly shared with me throughout the entire film, and uninitiated to the pains of lost love and missed opportunities). their gross inability to digest the subtleness and the deeper emotions evoked made me realize just how much a film such as this, as well as other wong kar wei's work, is wasted on the local audience."
+      },
+      {
+        "review_id": "test/pos/7550_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49990108609199524,
+        "predicted_confidence": 0.5000989437103271,
+        "review": "unfortunately, many great films on imdb such as this one have their scores \"adjusted\" by imdb. this is truly a fine and intriguing film by the accomplished director of bonnie and clyde, little big man, night moves, mickey one, and the chase. if you click in the user rating area, you'll see that the actual median for four friends is 7.6. however, imdb has \"adjusted\" (dumbed down?) the rating to 6.4. per imdb: \"imdb publishes weighted vote averages rather than raw data averages. various filters are applied to the raw data in order to eliminate and reduce attempts at 'vote stuffing' by individuals more interested in changing the current rating of a movie than giving their true opinion of it....the exact methods we use will not be disclosed. this should ensure that the policy remains effective.\" in other words, we won't disclose our methods, so you can't question how we arrived at the score! what a shame to see fine thought-provoking films like four friends fare no better than lame formulaic comedies due to imdb's \"filters\"."
+      },
+      {
+        "review_id": "test/pos/5541_7.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5001205205917358,
+        "predicted_confidence": 0.5001205205917358,
+        "review": "i'm not a fan of this brand of comedy - stereotyped characters over-acting their way through a cops and robbers farce. but there are enough likable characters to sustain interest. michelle pfeiffer is adorable, but the person really carrying the film is dean stockwell, who steals every scene as the head mobster (named tony, no less). stockwell's performance is the reason i'm writing this review (and the only reason i'd recommend it), in fact. you'll be tickled by his screen time. he's plays the mob boss perfectly, with comedic touches in the right places, managing to avoid becoming an overbearing cliche. in fact, stockwell's a complete delight to watch - a master of the 'double take,' and a real 'looker' in those classy suits and fedoras. meesa says: a good film to watch while folding laundry or eating leftovers."
+      },
+      {
+        "review_id": "test/neg/140_2.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4997774660587311,
+        "predicted_confidence": 0.5002225637435913,
+        "review": "the success of the original french \"emmanuelle\" series (i've only watched the first, which wasn't too bad considering) led to a spate of imitations; the italian counterpart, which even changed the race of its heroine, was clearly less polished and more exploitative - descending more and more into vulgarity as the series went along. incredibly, there were 16 \"black emanuelle\" films in total, with the heroine even having the spelling of her name changed to avoid copyright issues!! still, laura gemser - the titular object of desire - became almost as much of an icon as the original emmanuelle, sylvia kristel (although, personally, she's too skinny for my tastes)! here she's even billed as \"emanuelle\" rather than with her real name - with the director, likewise, becoming \"albert thomas\"! in itself, the film offers little of interest: as a matter of fact, one would do best to approach it as a travelogue with some decent footage of the african wildlife. with respect to the sex scenes, i don't know how complete the version i watched was but, while there was a lot of nudity, none of it was very explicit - or even titillating (the scene that came closest, perhaps, was when gemser - who works as a photographer - and her companion karin schubert turn the camera on each other, naturally sans clothes, in the middle of the jungle)! the film also features an artist made up to look like salvador dali but, mercifully perhaps, his scenes do not take much of the running time. the score by nico fidenco is typically bland 70s pop and, really, nothing to write home about."
+      }
+    ]
+  }
+}

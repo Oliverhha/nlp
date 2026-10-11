@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/12130_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9998718500137329,
+        "predicted_confidence": 0.9998718500137329,
+        "review": "this movie was pure genius. john waters is brilliant. it is hilarious and i am not sick of it even after seeing it about 20 times since i bought it a few months ago. the acting is great, although ricki lake could have been better. and johnny depp is magnificent. he is such a beautiful man and a very talented actor. and seeing most of johnny's movies, this is probably my favorite. i give it 9.5/10. rent it today!"
+      },
+      {
+        "review_id": "test/neg/6170_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9995682835578918,
+        "predicted_confidence": 0.9995682835578918,
+        "review": "mickey rourke hunts diane lane in elmore leonard's killshot it is not like mickey rourke ever really disappeared. he has had a steady string of appearances before he burst back on the scene. he was memorable in: domino, sin city, man on fire, once upon a time in mexico, and get carter. but in his powerful dramatic performance in the wrestler (2008), we see a full blown presentation of the character only hinted at in get carter. whenever we get to know him, rourke remains a cool, but sleazy, muscle bound slim ball. this is an elmore leonard story, and production. leonard wrote such notable movies as taunt western thriller 3:10 to yuma, be cool, jackie brown, get shorty, 52 pick-up, and joe kidd. this means that we get tough guys, some good, some not so good. it also means we get tight, realistic plots with characters doing what is best for them in each situation, weaving complications into violent conclusions. killshot is no different. tough, slim ball killer rourke stalks unhappily married witness lane. think history of violence meets no country for old men. it is not as intense, bloody or gory as those two, but it is almost as good. if you like those two, including david croneberg's equally wonderful eastern promises, you will like killshot also. director john madden has not done a lot of movies. his last few were enjoyable, if not successful: proof, captain corelli's mandolin and shakespeare in love. diana lane hasn't had a powerful movie role since she and richard gere gave incredible performances in unfaithful. lately she is charming and appealing in romantic stories such as nights in rodanthe, must love dogs, and under the tuscan sun. here she is right on mark, balancing her sexy appeal with reserved tension. this is a small part for rosario dawson. yet dawson does a good job with it. you see a lot more of lane, including an underwear scene to rival sigourney weaver in aliens and nicole kidman in eyes wide shut. while you are in the crime drama section, also pick up kiss, kiss, bang, bang, and gone baby gone, and before the devil knows your dead. the last has wonderful performances by phillip seymour hoffman, ethan hawke, marisa tomei and albert finney. killshot flopped at the box office. more is our luck. it is certainly worth a 3-4 dollar rental, if you like this genre. 6/20/2009"
+      },
+      {
+        "review_id": "test/neg/12279_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9994731545448303,
+        "predicted_confidence": 0.9994731545448303,
+        "review": "this movie is very violent, yet exciting with original dialog and cool characters. it has one of the most moving stories and is very true to life. the movie start off with action star leo fong as a down and out cop who is approaching the end of his career, when he stumbles on to a big case that involves corruption, black mail and murder. this is where the killings start. from start finish fong delivers in this must see action caper. this movie also co-stars richard roundtree. i really enjoyed this film as a child but as i got older i realized that this film is pretty cheesy and not very good. i would not recommend this film and the action is very, very bad."
+      },
+      {
+        "review_id": "test/neg/7652_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9992789626121521,
+        "predicted_confidence": 0.9992789626121521,
+        "review": "very disturbing, but expertly crafted & scripted and intelligently directed with a good eye for color and detail. mary beth hurt, sandy dennis, and especially randy quaid are unusually good. the story centers around a young boy (bryan madorsky) wondering where all the leftovers they eat every night comes from. his parents (hurt, quaid) strange behavior causes the school psychiatrist (dennis) to get involved. it is a gruesome cannibal movie. but it's not bad. if you like hannibal, you'll love this. if you don't like parents, stay away from the film. just giving advice to cannibal lover and haters. rated r for strong adult themes and graphic violence."
+      },
+      {
+        "review_id": "test/neg/10210_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9989211559295654,
+        "predicted_confidence": 0.9989211559295654,
+        "review": "ignoring rocky 3, this is easily hulk hogan's best film, and it still rates as one of the worst films ever. hulk hogan essentially plays hulk hogan, bringing his wrestling buddies in for a film, with all the cliches to go along with it - the crooked promoter, the unstoppable monster, the injured kid, the sexy woman and... \"dookie\"."
+      },
+      {
+        "review_id": "test/neg/5292_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.998224675655365,
+        "predicted_confidence": 0.998224675655365,
+        "review": "i enjoyed the beautiful scenery in this movie the first time i saw it when i was 9 . dunderklumpen is kind of cute for kiddies in a corny way. it reminded me of hrpuffinstuff on sat mornings, its swedish backdrops make it easy on the eyes . don't expect older kids to be interested as the live action/animation is way behind the times and most older kids will get bored.this is definitely an under 10 age set movie and a nice bit of memories for those of us who were little kids in 1974."
+      },
+      {
+        "review_id": "test/neg/12327_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.99760901927948,
+        "predicted_confidence": 0.99760901927948,
+        "review": "audrey, i know you truly cherish your husband ted's memory but please do his legacy justice and heed his wishes. dr. seuss refused to license his characters during his lifetime for a very good reason. we beg of you to please stop cashing in on his stories, images, fantasies and characters. they are getting disemboweled by the powers that be of hollywood and broadway. the children of tomorrow will be stuck with these histrionic and grotesque interpretations that will forever pollute the loving warmth and innocence of his books. it is indeed your property to do with as you wish. i just wish you would listen to the advice of others for a little while. save what is left of dr. seuss. thank you."
+      },
+      {
+        "review_id": "test/neg/10201_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9975908994674683,
+        "predicted_confidence": 0.9975908994674683,
+        "review": "this movie changed my life! hogan's performance was nothing short of incredible, and i still haven't recovered from his exclusion from the 1990 oscar nominations. and as brightly as the hulkster shines in this movie, you can't discount the brilliant writing and direction that vaults this masterpiece in to the highest strata of achievement in film. if you haven't seen this movie, drop what your doing right now and get yourself a copy. i guarantee it will blow your mind. and if you don't like it, then i just have one question for you.... watcha gonna do when the 24 inch pythons and hulkamania runs wild on you!!!!"
+      },
+      {
+        "review_id": "test/neg/5901_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.996591329574585,
+        "predicted_confidence": 0.996591329574585,
+        "review": "when it was released this film caused a sensation. i watched it and was thrilled. beautiful, usually young, naked women filmed in the classy style we knew so well from director hamiltons photography. his photographs never become porn and the same is true for this movie. today i saw it again and was bitterly disappointed. the soft core in extremely slow paced scenes, all filmed with some vaseline on the lenses, actually is all there is. there is no real story, the characters remain beautiful and beautifully filmed bodies, but they are not real creatures with a soul. actually nothing happens. it is like hamilton is photographing using moving pictures rather than stills. and this gets so boring after a while. i even didn't watch the whole thing the second time, for i fell vast asleep. that is all that remains of this masterpiece: it is a very good sleeping pill. and you will never become addicted to it! back then 7 out of 10, now 3 out of 10"
+      },
+      {
+        "review_id": "test/neg/9466_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.996459424495697,
+        "predicted_confidence": 0.996459424495697,
+        "review": "my friends and i have watched this so many time i have lost count. this is worth seeing for those in the right frame of mind, meaning that this is not so much a good horror film as a film to lampoon for its funny quotes and bad effects. this film is best watched with other like minded individuals so you have someone to laugh with. you'll laugh as greg leaps and shuffles around the lab, petting his pet rabbit, while his hunchback shifts from right to left on his back. \"greg, stop clowning!\", scolds dr. brandon. you'll laugh as j.g. patterson gives hand signals to direct greg to the other side of the operating table, while his hand is in the shot. and you'll probably chuckle when you realize that the final woman has none of the features he used to construct her with."
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/12378_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.00029821565840393305,
+        "predicted_confidence": 0.9997017979621887,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/7395_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.00029821565840393305,
+        "predicted_confidence": 0.9997017979621887,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/5744_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.000936153985094279,
+        "predicted_confidence": 0.9990639090538025,
+        "review": "right, here we go, you have probably read in previous reviews on this film that it is awful, badly acted, avoid at all costs. well i suppose in some ways this is true, it is fair to say that you couldn't write a spoiler in this comment as there is no plot to spoil. however, there is a fine line between plain awful and absolutely hilarious and believe me this film is the latter. the acting is so bad, the plot so non existent and the ending so completely baffling it will have you laughing the whole way through. there are scenes in this film that take comedy to a new level. do not expect an oscar winner but believe me for the small price you will pay for this disaster, it is worth every penny."
+      },
+      {
+        "review_id": "test/pos/1115_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0015121238538995385,
+        "predicted_confidence": 0.9984878301620483,
+        "review": "i saw this on the accent underground release with the short films. i found the film at first boring and old fashioned and switched it off after the first hour - i was a little drunk and tired. i went to bed, and no kidding i had a nightmare about this film within half and hour of falling asleep. i couldn't stop thinking about why, so i got up, switched the tv back on, loaded the dvd and saw the rest of the movie. well done alex frayne sir, you've managed to implant your film into this old, cynical movie goers head, and that takes doing. so 10 out of 10 to you. i can't say i 'love' this film of yours, but it has made a lasting impact despite its flaws and low budget etc."
+      },
+      {
+        "review_id": "test/pos/2473_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0017796431202441454,
+        "predicted_confidence": 0.9982203841209412,
+        "review": "i can't believe i missed this one. made in 1970 with a budget that would probably allow you to make one indifferent episode of a tv soap, this is 90 minutes of sustained, sharp as a knife film making. you will find the outline, plot etc elsewhere on this site.consider though that the whole thing was shot using a single, hand- held,16mm camera... all the dialogue is improvised... none of the 'actors' had appeared in front of a camera before... it sounds like a recipe for disaster. instead what we get is hippies v cops running around in the california desert in what evolves into a 'that's not fair.. i'm on that person's side'scenario. the only problem is, the director keeps making you shift your allegiance and at the end of 90 minutes we're still not sure who has one. brilliant... quite brilliant."
+      },
+      {
+        "review_id": "test/pos/6930_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.001811465946957469,
+        "predicted_confidence": 0.9981885552406311,
+        "review": "to surmise, this film involves two actors (caine and moran) trying to con a gangster. the plot is flimsy at best as several plot holes occur throughout. however this normally shouldn't matter as the comedy should carry a film like this. there are some genuinely funny bits (mostly provided by dylan moran). however, other times, there are long melodramatic scenes that fail to add anything to the movie. caine's character seemed overdone to me. especially at the start, he continually quotes shakespeare and acts like a pompous actor. one could say he was playing the part properly but the character seemed to me flat and unfunny. overall i would say see only if a fan of the actors involved. otherwise wait for video or tv."
+      },
+      {
+        "review_id": "test/pos/414_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0018169994000345469,
+        "predicted_confidence": 0.9981829524040222,
+        "review": "ugh, what an embarrassing episode last night! it was either a failed script for \"abc afterschool special\", or the product of an earnest rookie writer, just out of college, making an homage to that classic pc anti-gun homily from 1974, \"the gun\". in fact hubby & were disappointed that the closing shot wasn't of the gun being melted down like in the movie! no, i'm not some nra shill. it's just that when the producer of an intelligent & nuanced series gets it in his head that i should be subjected to a didactic dramatization of his personal cause, i'd appreciate it if the lecture at least wasn't delivered via 2-by-4. geez! ok, the sociology lesson is over. the message has been delivered. the important episode has been aired. now let's get back to some entertaining episodes that try to respect our intelligence."
+      },
+      {
+        "review_id": "test/pos/6275_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0018472500378265977,
+        "predicted_confidence": 0.9981526732444763,
+        "review": "miles o'keeffe once again assumes the role of the mighty ator in this the first sequel to the original film. what can i say? - this pretty much represents b-movie nirvana! the plot is ludicrous, the script is terrible, the acting is hammy throughout, the special effects....well let's not even go there! - all in all this movie is a veritable delight! highlights of the film include ator and thong (his mute companion, not his undergarments) being attacked by invisible assailants in a cave (certainly saved on the fx budget there!), ator battling what has to be the most unconvincing giant snake ever committed to celluloid, and of course, the infamous hangliding scene! there's one question i have though......at the end of the movie we see a huge atomic explosion when ator supposedly destroys the geometric nucleus (as the narrator tells us)......how in the hell did ator destroy it and manage get out alive?! did he fashion some form of primitive timer/detonator or something? oh well, such an illogical ending really only adds to the movies overall charm - they just don't make them like this anymore!"
+      },
+      {
+        "review_id": "test/pos/1376_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0019900649785995483,
+        "predicted_confidence": 0.998009979724884,
+        "review": "i was having a horrid day but this movie grabbed me, and i couldn't put it down until the end... and i had forgotten about my horrid day. and the ending... by the way... where is the sequel!!! the budget is obviously extremely low... but ... look what they did with it! it reminds me of a play... they are basically working with a tent, a 'escape pod', a few guns, uniforms, camping gear, and a 'scanner' thing. that is it for props. maybe this is even a good thing, forcing the acting and writing to have to step up and take their rightful place in film, as the centers of the work, instead of as afterthoughts used to have an excuse to make cgi fights (starwars). the cgi is fine. it is not exactly 'seamless'... but imho it still works. why? because there isn't too much of it, and what there is, is not 'taking over' with an army of effects house people trying to cram everything they can into the shot. it prompts the imagination... it's some relatively simple stuff, with decent composition (especially the heavy freighter shot.. there is one long shot that must be at least ten seconds...that tracks the entire length of the ship... it must be a record for sci fi battle sequence film making in the past 10 years, to have an action sequence that lasts longer than 0.75 seconds), and some relation to the story. it might look old or not 'state of the art', but it doesn't look stupid and it doesn't take away from the story. the acting is good, except the characters die too fast to get to know them. the captain was great, but a few of his scenes could have used another take. i also got confused with his character losing his cool and stomping on a corpse, i like to think captains are calm cool and in control... what was going on in that scene? did the other crew worry about him losing it at that moment? did he feel himself losing control? now, as for the plot.... mostly it is good... why? because it doesn't try to explain itself. it just happens. it's called 'the planet', its a mystery, get it?? nobody knows why there is a statue, and they don't find out either. the mysterious cult? the weird scientist with the tattoo? what do you expect to find out in less than 90 minutes? this isn't war and peace. and, thank god, it's not star wars/trek either. no midichlorians, no 5 minutes of expository boring dialog that has no purpose in the story. the characters are stranded, and are only able to figure out a few basic things... it is not a star trek episode where they find out it's leonardo davinci or a child like space wanderer. it is mysterious, and i liked that. i don't know why, maybe i can identify with these guys more , since they don't know whats happening, and i don't either... they don't talk a lot of space gibberish or have magic boxes telling them what is happening. in fact, i would argue that one of the weakest moments is when the 'traitor' turns on the crew, and tries to 'explain' the reason for the planet, the cult, etc. this coincidentally has some of the weakest dialog, imho, in the whole movie, and it interrupts the flow and some of the characters look unnatural in that scene. ok, sometimes i felt it was a little too mysterious, though. like, why did the guy get fried through his eyes with lightning? that was odd. just weird. the 'hamlet' ending... again i would have liked to have known some of these characters better. and would it have been so hard to have a 30 second rescue scene at the end? this is not a serial show, it was a film, and we like closure in films, even if they can have a sequel. imagine hamlet with no 'flights of angels sing thee to thy rest' anyways. what can i say. this was well worth the dollar i payed at the 'red box' machine at the supermarket. it was also, imho, a better piece of storytelling than starwars parts 1 2 or 3. like i said, it sucked me in, wanting to know what was happening, and i couldn't stop watching until the end."
+      },
+      {
+        "review_id": "test/pos/3810_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.002470713807269931,
+        "predicted_confidence": 0.9975293278694153,
+        "review": "don't even try to figure out the logic of this story. but do ride along with 10-year-old gus on the most bizarre road trip ever witnessed. more weird characters and implausible situations than a twin peaks reunion! nothing makes sense, yet it's impossible to stop watching motorama! now, where can i find that 'r'????"
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/neg/3875_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5003882646560669,
+        "predicted_confidence": 0.5003882646560669,
+        "review": "\"return of the seven\" has a few good action scenes, and elmer bernstein's score is as rousing as ever. nevertheless, it's a boring film, because it simply fails to involve us emotionally. mcqueen's absence makes a really bad impression, and the fact that his character here is played by a different (little-known) actor is odd - in a bad way. the characters are not developed, so we don't connect with them - and we hardly care when some of them die. this sequel is a passable but poor imitation of the original."
+      },
+      {
+        "review_id": "test/neg/7518_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49958035349845886,
+        "predicted_confidence": 0.5004196166992188,
+        "review": "the time machine starts in new york during 1899 where professor alexander hartdegen (guy pearce) proposes to his beloved girlfriend emma (sienna guillory) who accepts, unfortunately just after they are attacked by a mugger & emma is shot dead & dies in alexander's arms. jump forward 'four years later' & alexander has built a time machine which he uses to travel back to the night emma was killed in order to save her but she is still killed, only a different way this time. alexander realises whatever he does, however many times he goes back emma will always end up dead one way or another & he yearns to know the answer why so he travels far into the future to discover the truth. however after having destroyed the moon two new races have evolved on earth, the human like eloi & the monstrous morlock's that eat the eloi. alexander decides to stick around & save the eloi. directed by simon wells who is actually the great grandson of author h.g. wells who wrote the original the time machine book on which the original the time machine (1960) film was based & it is in fact the 1960 film that producer john logan's script is based upon here rather than wells original literally source. while all three share the same basic story & ideas this remake adds the subplot about alexander's fianc\u00e9 emma being killed & that's the reason he invents a time machine rather than just because he is clever & he can. the script is a mixture of sci-fi, action adventure & drama none of which really grabbed me or engaged me that much, sure there are a few pretty special effects, a few nice action scenes & the moment when alexander's question is answered regarding why he can't save emma is actually quite intelligent & makes sense it never really captured my imagination & i was never really moved by it either. the time travel aspects of the time machine feel very similar to terminator 2: judgment day (1992) in the sense you can't change the past but at the same time the future is not set only the time machine isn't anywhere near as good a film as terminator 2: judgment day. the character's are alright although i thought guy pearce just looked too young to be a brainy scientist capable of inventing a time machine & there's never any real explanation behind it's mechanics either as it's like one moment there's no time machine the next he has invented & made one & it works perfectly. i reckon the back to the future trilogy offer far more thrills, laughs, excitement & general entertainment value than the time machine ever does & while i will stop short of calling it a bad film since it moves along at a decent pace, tells a reasonable story & has it's moments i wouldn't call it brilliant or even particularly good. there is also a cheeky little reference to the book & original film which are both name-checked here. the benefit this modern version has over the original is the development of special effects & in particular cgi which leads to scenes of time rapidly passing around alexander in his time machine complete with huge buildings being built, new ridges, canyons & mountains being formed & a elaborate pan back which ends up in space as we see passenger rockets orbiting the moon. the effects work is good, there are one or two moments that look a little below par but generally speaking the effects are good. i saw the time machine on telly & the station playing it badly pan and scanned it so the left & right edges of the frame were cut off the screen thus cutting off part of the year on alexander's time machine dial so i actually didn't know what year he went to. apparently director gore verbinski took over the last eighteen days of filming as wells was suffering from 'extreme exhaustion' while the imdb says that the time machine itself was the biggest & most expensive prop ever built for a film at that point which i find hard to believe & guy pearce broke a rib during a fight scene but like a trooper carried on. with a supposed budget of about $80,000,000 the production values are high with a lovingly recreated period new york & good effects work although amazingly the time machine was nominated for an oscar for best make-up but lost out to frida (2002). the acting is mixed, jermey irons puts in a good performance in a terrible make-up job that has him looking like a reject from a lord of the rings film while singer samantha mumba makes her big screen debut here & is simply terrible although guy pearce is quite good & fairly likable. the time machine isn't a particularly bad film or a particularly good one, just a somewhat unremarkable one that is watchable & passes an hour and a half but not much else. watch back to the future (1985) again instead."
+      },
+      {
+        "review_id": "test/pos/9016_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4995426833629608,
+        "predicted_confidence": 0.5004572868347168,
+        "review": "it would appear that some previous reviewers may have had their expectations set a bit too high going into this film. i found it scanning the satellite channels for something (not knowing what) and happened upon it. i thought by the title it might be one of the myriad soft-core porn flicks appearing regularly on the movie channels but i was pleasantly surprised. although there was some male frontal nudity (in fact, more than your typical soft-core title -- go figure!), this was not the focus of the film. it was just fun. don't be deceived by my tastes: my recent screenings have included before night falls and europa, europa (both geat, imho). but i also enjoy total mental shutdown when watching a movie. virtual sexuality did this for me and that's not a bad thing!"
+      },
+      {
+        "review_id": "test/pos/2393_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49933698773384094,
+        "predicted_confidence": 0.5006629824638367,
+        "review": "i was a guest at the sept. 30th screening of eddie monroe and was pleasantly surprised with the story, the great acting and the talented directing. i found it hard to believe that all this talent can be found in an independent film. powerful performances by vario, (uncle benny), sara, (jessica tsunis), and morris, (eddie monroe). the supporting cast was chock full of colorful and amusing characters. this film reminds me of one of those movies that you will look back on in 20 years and discover that it launched many actors into stardom. much like \"the outsiders\" where tom cruise, emilio estavez, patrick swazey, ralph macchio, and others can be found. look out hollywood, there are new stars out on the horizon and they can be discovered in a little long island, independent film called, \"eddie monroe.\" great job!"
+      },
+      {
+        "review_id": "test/pos/5040_8.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5006694793701172,
+        "predicted_confidence": 0.5006694793701172,
+        "review": "possibly the best john travolta role ever. saturday night fever was a great movie & role, but a long time ago. i can't think of many of his movies or roles i've even liked, and it's easy to think of rotten ones. he can do meanies like in pulp fiction, but he makes the perfect funky angel, and it's hard to imagine anyone doing a better (equally slobby) job with it. plot summaries are available everywhere, but the plot isn't the point. just go for the ride and enjoy the cleverness of the little funnies along the way. there is nothing to dislike about this movie, unless one is searching for something profound. i wish there were more movies like this. we need a break from deep or awesome or grisly or complex or hysterical."
+      },
+      {
+        "review_id": "test/pos/11721_9.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.500779926776886,
+        "predicted_confidence": 0.500779926776886,
+        "review": "great just great! the west coast got \"dirty\" harry callahan, the east coast got sharky. burt reynolds plays sharky in \"sharky's machine\" and i enjoyed every minute of it. playing a maverick narcotics cop in atlanta, ga is just what everyone wants. instead of suspension, he's sent to vice squad. like in the dirty harry movies or any other cop movies, the captain is always going to be the jerk. when i was a kid, i was curious what that movie meant \"sharky's machine\". well i knew who played sharky, i wonder what his machine was. it was his group of fellow cops. after uncovering the murder, he goes all out to find the perp. when it turns out to be a big time mob boss, sharky doesn't play around. when he gets the other prostitute into safety, sharky fights back hard and good despite losing a finger to the thug. and i also like the part where the bad gets blown out of the building through a plate glass window. that was the bomb! randy crawford's \"street life\" really put the movie in the right mood, and the movie itself is really a great hit to me, always! rating 4 out of 5 stars."
+      },
+      {
+        "review_id": "test/pos/9948_7.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5008174180984497,
+        "predicted_confidence": 0.5008174180984497,
+        "review": "if you love japanese monster movies, you'll love this action packed battle pitting an alien invader, intent upon conquering the earth, and a \"giant robot\" with an armory of super weaponry. the alien, \"emporer guillotine,\" from the planet gargoyle, has a army of thugs called, (of course) \"the gargoyle gang,\" as well as an endless supply of immense hostile creatures that are routinely loosed upon the earth to smash buildings, make loud noises, panic the populace, etc. a little kid, named johnny sokko, has the giant robot at his beckon call, and sends the robot, as needed, to beat up, and then blast these creatures. johnny joins a group of \"good spies\" called unicorn, and endeavors to help save the world. in spite of the campy nature, unintentionally humorous dialog, and the fact that the target audience was obviously children, this movie has non-stop action, colorful characters, decent special effects, and just happens to be downright fun to watch. battle scenes are well executed, and frequent, as the storyline requires. the good guys and bad guys both made sure they had an inexhaustible supply of bombs, lasers, ammunition, and schemes to attack each other. in spite of the fact the movie was constructed from edited episodes of a tv series, the plot actually develops, and reaches an ultimate conclusion. the film has a positive outlook and appeals to everyone's (especially kids') desire to destroy evil in its many forms. kids may be the target audience, but it's fun for everyone to laugh at its comical silliness; yet, at the same time, root for the good guys to prevail and \"save the world.\" the acting is cheesy in places, but that is the charm: there are several lines of corny dialog (possibly translation errors or possibly intentional jokes by the movie makers), and you'll find yourself quoting these absurd lines later. admittedly, this film is not high in production quality or budget. however, for what it is, campy sci-fi, it's enjoyable for some laughs. i recommend it to anyone with a sense of humor for that sort of thing."
+      },
+      {
+        "review_id": "test/neg/1716_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.501012921333313,
+        "predicted_confidence": 0.501012921333313,
+        "review": "it's certainly a direct-to-video, but the story is not as bad as most of the other reviewers think. i quite like the fact the hero is doing the wrong thing most of the time. the hero's reactions and the reactions of the rebels are just human. the hopper character is actually playing god. that might be the right thing to do, but one may not like that anyway. in the end, the god player is doomed to death, and the hero, who would have spent his own life, can live. quite a morale. :-) the most unrealistic thing i saw, is that earth is doing so well with no moon stabilizing its rotation."
+      },
+      {
+        "review_id": "test/pos/6770_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49889978766441345,
+        "predicted_confidence": 0.5011003017425537,
+        "review": "not sure i've ever seen a black comedy from denamark before but this is quite good actually. the humor is suitably low-key and deadpan to go with some of the gruesome activity. svend and bjarne are fed up with working for their boss, because he's always putting them down (in fact he mentions that they weren't bright enough to unzip before peeing at one point). they do what they have to to start their own butcher shop and when a workman is accidentally locked in the cooler overnight while fixing a light, they hit upon something that makes their butcher shop far more popular than their old boss's. in fact, he's the one they sold their first \"filets\" to, and it's partly his fault, since he served them at a rotary dinner at his house and the guests raved about it and showed up at svend and bjarnes the next day. bjarne is somewhat horrified what svend has done but it doesn't stop there. svend has risen above his sad little existence to be someone of some popularity which is new for him and he doesn't want to let go of that, so the freezer continues to fill up with all manner of acquaintances (and, at one point, \"a small swede from the park\"). suspiccions arise, though, because ex-boss holger thinks something is wrong. bjarne is also haunted by his twin brother eigil, who lived in a sanitarium for years in a coma and whom bjarne wanted the plug pulled on so he could get inheritance money to help open the shop. when eigil was taken off the respirator he was revived, much to bjarne's horror. and bjarne has a love interest too in astrid, who works at the cemetery. neither svend nor bjarne are well adjusted individuals and so things start to spiral out of control. the deadpan humor really makes this, and while this isn't exactly laugh out loud material it certainly is amusing. it is somewhat creepy though considering the cuts of meat and body parts casually lying around, especially since these two take it all so matter-of-fact. if you're a fan of black comedies this is recommended, i liked it quite well myself. 8 out of 10."
+      },
+      {
+        "review_id": "test/pos/2499_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5011759996414185,
+        "predicted_confidence": 0.5011759996414185,
+        "review": "i thought the movie was pretty good. i really enjoyed myself as i viewed it. however, the last scene at johnny's birthday party was cut way too short. i, myself, was an extra in that scene and was upset with the results. but other than that, (and the weird casting), the movie was superb."
+      }
+    ]
+  }
+}

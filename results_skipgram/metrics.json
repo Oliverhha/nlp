@@ -1,0 +1,79 @@
+{
+  "method": "Skip-gram",
+  "config": {
+    "train_dir": "/home/plj/DSA4213/assignment/lm_tokenized/train",
+    "data_dir": "/home/plj/DSA4213/assignment/lm_encoded",
+    "output_dir": "/home/plj/DSA4213/assignment/results_skipgram",
+    "embedding_dim": 100,
+    "window": 5,
+    "negative": 5,
+    "min_count": 2,
+    "sample": 0.001,
+    "epochs": 10,
+    "workers": 1,
+    "seed": 42,
+    "missing_std": 0.1,
+    "method": "Skip-gram with negative sampling",
+    "sg": 1,
+    "hs": 0,
+    "alpha": 0.025,
+    "min_alpha": 0.0001,
+    "shrink_windows": true
+  },
+  "training_documents": 25000,
+  "training_raw_tokens_per_pass": 6777306,
+  "skipgram_vocabulary_size": 51556,
+  "effective_training_words_all_epochs": 48254467,
+  "raw_training_words_all_epochs": 67773060,
+  "timing": {
+    "build_vocabulary_seconds": 1.5414005509992421,
+    "vector_training_seconds": 138.8305814129999,
+    "embedding_fit_seconds": 140.37198196399913,
+    "vector_and_matrix_save_seconds": 0.022873767999953998
+  },
+  "coverage": {
+    "lexical_vocabulary_size": 14996,
+    "matched_lexical_tokens": 14996,
+    "missing_lexical_tokens": 0,
+    "vocabulary_coverage_percent": 100.0,
+    "splits": {
+      "train": {
+        "documents": 25000,
+        "text_tokens": 6777306,
+        "tokens_with_skipgram_vectors": 6552512,
+        "token_coverage_percent": 96.68313633765393,
+        "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+      },
+      "validation": {
+        "documents": 5000,
+        "text_tokens": 1359330,
+        "tokens_with_skipgram_vectors": 1311371,
+        "token_coverage_percent": 96.47186481575483,
+        "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+      },
+      "test": {
+        "documents": 5000,
+        "text_tokens": 1340804,
+        "tokens_with_skipgram_vectors": 1294414,
+        "token_coverage_percent": 96.54013562012047,
+        "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+      }
+    }
+  },
+  "initialization": {
+    "missing_words": "Normal(mean=0, std=0.1); seed=42",
+    "special_tokens": "PAD is zero; UNK/BOS/EOS use the same seeded random initialization.",
+    "freezing": "The entire aligned input table will be frozen in the language model.",
+    "normalization": "Learned vectors are copied without scaling or normalization."
+  },
+  "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+  "hardware": {
+    "device": "cpu",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python_version": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+    "workers": 1,
+    "gensim_version": "4.4.0",
+    "numpy_version": "2.4.6"
+  },
+  "source_sha256": "f0e2d1211793f2deb19f95914137464e5f982154a99f6e2ff27ca693d14c80ec"
+}

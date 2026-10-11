@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/11502_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9989711046218872,
+        "predicted_confidence": 0.9989711046218872,
+        "review": "this show is pretty alright and fun to watch, its a great disney channel shows and sometimes entertaining. i really enjoyed the first season but i hated the second and third seasons. this show has completely changed around. in the first season it was more about science and animals, all that is gone now in the season and third season. its more about her life and dating. ever since that gay kid (ben) came along, this show has sucked. the writers took a perfectly good kid show and changed it to a crappy teen comedy. disney took a turn for the worse. i cant stand to watch the newest episodes anymore, they're all garbage."
+      },
+      {
+        "review_id": "test/neg/12130_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9983314871788025,
+        "predicted_confidence": 0.9983314871788025,
+        "review": "this movie was pure genius. john waters is brilliant. it is hilarious and i am not sick of it even after seeing it about 20 times since i bought it a few months ago. the acting is great, although ricki lake could have been better. and johnny depp is magnificent. he is such a beautiful man and a very talented actor. and seeing most of johnny's movies, this is probably my favorite. i give it 9.5/10. rent it today!"
+      },
+      {
+        "review_id": "test/neg/5529_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9982824325561523,
+        "predicted_confidence": 0.9982824325561523,
+        "review": "victor jory never became a major star. he is better known for later character roles than for his early leads. but he was very handsome and an excellent actor. his love scenes with loretta young in this romantic adventure thriller are passionate. their kisses look very real. and very modern. vivienne osborne is a standout here also. she plays a woman with a reputation. but the character has a good heart. the print i saw was not clear. but what a joy that rare movies like this are turning up! and they are, in some sort of watchable condition, still intact. this is nothing truly special. but if one is willing to sift through movies of its era with similarly intriguing titles, one is likely to find some suprtb movies."
+      },
+      {
+        "review_id": "test/neg/3794_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9982640147209167,
+        "predicted_confidence": 0.9982640147209167,
+        "review": "i went to see this 3 nights ago here in cork, ireland. it was the world premiere of it, in the tiny cinema in the triskel arts centre as part of the cork film festival. i found \"strange fruit\" to be an excellent movie. it is a bit rough around the edges, but for a low-budget movie that is to be expected! in general the acting (particularly from the main lead kent faulcon) is wonderful, the cinematography and direction excellent, and the script hugely entertaining and thought-provoking, with some nice set-ups and witty dialogue. the ending was a bit sudden, with no conclusion given to characters and events once the finale came to its gripping end ... but perhaps that's what the filmmakers were going for? it certainly did make the movie more unsettling. i did like the fact that the main character never came to terms with his mother on screen: it leaves you wondering whether or not he ever will, as in real-life sometimes these things are never settled. this was a good choice, to leave it unresolved rather than sentimentally wrapping it up! taut and suspenseful throughout, \"strange fruit\" is a hugely ambitious debut and i have high hopes for what the writer/director kyle schickner will unleash next. he - and his colleagues - are a talent worth watching. i hope \"strange fruit\" gets a wider release soon, as more people deserve to see this movie, an above-average thriller with some original and insightful twists on homophobia and racism in america's deep south. highly recommended: 7/10"
+      },
+      {
+        "review_id": "test/neg/8591_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9981014132499695,
+        "predicted_confidence": 0.9981014132499695,
+        "review": "beautiful images, propaganda and history as toy. the ingredients of this film, good, interesting but with many shadows. politicall shadows. jefferson is more than the hero of a mythical america. he is silhouette of a vision about life and society, an extraordinary thinker, teacher of large part of north america. in film is only superman. the delicate contour of ideas are crushed. the subtle birth of essential truth is forgotten. and jefferson is basic instrument for create a good image of american realities. the end,triumphal and fake, romance and heroic, is gun suicide of a story who may be tall with more wisdom. and the war against \"avatar\" is another gray stain. for one who heard nothing about jefferson, movie is a good beginning. for the others - disillusion. it is like the precious silk of a tailor. but the tailor is fascinating about silk and the clothes are only ordinary cloth. so, a sad experience. slices of beauty and boring lakes, patriotic lesson and the crush of expectation. a film who must impressive. and the ash of a story who could be magnificent."
+      },
+      {
+        "review_id": "test/neg/12279_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9976152181625366,
+        "predicted_confidence": 0.9976152181625366,
+        "review": "this movie is very violent, yet exciting with original dialog and cool characters. it has one of the most moving stories and is very true to life. the movie start off with action star leo fong as a down and out cop who is approaching the end of his career, when he stumbles on to a big case that involves corruption, black mail and murder. this is where the killings start. from start finish fong delivers in this must see action caper. this movie also co-stars richard roundtree. i really enjoyed this film as a child but as i got older i realized that this film is pretty cheesy and not very good. i would not recommend this film and the action is very, very bad."
+      },
+      {
+        "review_id": "test/neg/6013_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9972488284111023,
+        "predicted_confidence": 0.9972488284111023,
+        "review": "this film should be called adventures in cinemascope. it is like the screenwriter and director tooks the cliff's notes page 3 outline and decided that this would be a great vehicle for a film about the italian alps. rock hudson is pretty good here, but the dialogue bears no resemblance to hemingway at all. this is a made up version of hemingway. hecht, the screenwriter, is a hack. watch the 1932 version with gary cooper and helen hayes. that is great cinema and was made by someone who understood hemingway and the war in northern italy. gary cooper is very, very good compared to his performance in for whom the bell tolls where he is stiff as a board and thinks he is in a western. anyway, if you are a hemingway fan, do yourself a favor and do not watch this film. your best bet is to get the unabridged audio cd and just listen to one of the greatest novels ever written."
+      },
+      {
+        "review_id": "test/neg/3486_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9966750144958496,
+        "predicted_confidence": 0.9966750144958496,
+        "review": "this film has the language, the style and the attitude down ... plus greats rides from occy (a world champ) and the great jerry lopez. john philbin as turtle has the surf pidgin down, and the surfing scenes are still the best ever. a true classic that can be seen many times. nia peeples is a babe, and laird hamilton shows the early stuff that has made him the world's number one extreme surfer."
+      },
+      {
+        "review_id": "test/neg/10307_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9959641695022583,
+        "predicted_confidence": 0.9959641695022583,
+        "review": "i love this show. i watched every episode last year. i bought the dvds. and i tune into to watch tonight and i see for some reason you have retooled this great show. and you have taken what made it work and ruined it. you took one of the best aspects of the show away which was the 4 friends. sam, sully, lizzy and piper. i love the other characters as well, but they are good in small dozes like derek, darcy and even sully. it is like the show lost some of its family and everyone else is trying to hard to fill in. it is overdose. while things are funny in small dozes when you are exposed to it all the time it goes from funny to annoying. i was so looking forward to the return of this show. so please bring back the charm. even if you could not fit piper into the show at least bring lizzy back. but i loved those girls. they brought the fun. the show was about sam trying to live his business life and handle his personal life and friends as well. that was the charm. and that great dog as well. i hope the network (fox) forced the writers to do this and the writers did not willingly do this to the show. i will give the show a couple more episodes before i give up, but tonight's episodes were bad. i made a big deal out of the show returning tonight and had people over and i felt like a fool, because no one was laughing except 2-3 times. i apologized to them and said i don't know what happened. and about 10 minutes into the episode i realized they were not going to show piper or lizzy and this was no longer a must see tv comedy."
+      },
+      {
+        "review_id": "test/neg/4201_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9957785606384277,
+        "predicted_confidence": 0.9957785606384277,
+        "review": "this is definitely one of the best kung fu movies in the history of cinema. the screenplay is really well done (which is not often the case for this type of movies) and you can see that chuck (in one of his first role)is a great actor. the final fight with the sherif deputy in the bullring is a masterpiece!"
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/5744_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0002851175086107105,
+        "predicted_confidence": 0.9997149109840393,
+        "review": "right, here we go, you have probably read in previous reviews on this film that it is awful, badly acted, avoid at all costs. well i suppose in some ways this is true, it is fair to say that you couldn't write a spoiler in this comment as there is no plot to spoil. however, there is a fine line between plain awful and absolutely hilarious and believe me this film is the latter. the acting is so bad, the plot so non existent and the ending so completely baffling it will have you laughing the whole way through. there are scenes in this film that take comedy to a new level. do not expect an oscar winner but believe me for the small price you will pay for this disaster, it is worth every penny."
+      },
+      {
+        "review_id": "test/pos/12386_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0022253820206969976,
+        "predicted_confidence": 0.9977746605873108,
+        "review": "okay, i'll say it. this movie made me laugh so hard that it hurt. this statement may offend some of you who may think that this movie is nothing more than a waste of film. but the thing that most people don't get is that this movie was intended to be bad and cheezy. i mean, did people actually think that a movie about a killer snowman was intended to be a masterpiece? just look at the \"scary\" hologram on the jacket of the movie and you'll find your answer. instead, like the original jack frost (which i thought was just as funny), this movie turned out to be a side-splitting journey into the depths of corny dialogue, bad one liners and horrible special effects. and it's all made to deliver laughter to us viewers. it certainly worked for me. for example: anne tiler (to her troubled husband): what makes you frown so heavily darling? if that chunk of dialogue doesn't make you laugh, then you have serious issues. who in their right mind would utter those words in real life? of course, no one because it was meant to sound ridiculous! just take one viewing of this movie with an open mind and low expectations, and hopefully you'll see what's so damn funny about jack frost 2."
+      },
+      {
+        "review_id": "test/pos/7403_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0022253820206969976,
+        "predicted_confidence": 0.9977746605873108,
+        "review": "okay, i'll say it. this movie made me laugh so hard that it hurt. this statement may offend some of you who may think that this movie is nothing more than a waste of film. but the thing that most people don't get is that this movie was intended to be bad and cheezy. i mean, did people actually think that a movie about a killer snowman was intended to be a masterpiece? just look at the \"scary\" hologram on the jacket of the movie and you'll find your answer. instead, like the original jack frost (which i thought was just as funny), this movie turned out to be a side-splitting journey into the depths of corny dialogue, bad one liners and horrible special effects. and it's all made to deliver laughter to us viewers. it certainly worked for me. for example: anne tiler (to her troubled husband): what makes you frown so heavily darling? if that chunk of dialogue doesn't make you laugh, then you have serious issues. who in their right mind would utter those words in real life? of course, no one because it was meant to sound ridiculous! just take one viewing of this movie with an open mind and low expectations, and hopefully you'll see what's so damn funny about jack frost 2."
+      },
+      {
+        "review_id": "test/pos/12378_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004396473523229361,
+        "predicted_confidence": 0.9956035614013672,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/7395_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004396473523229361,
+        "predicted_confidence": 0.9956035614013672,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/4635_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.005880753975361586,
+        "predicted_confidence": 0.9941192865371704,
+        "review": "there is no denying that this is a bad movie. the acting isn't great, likewise the script, acting and direction. still, i cannot wait until its 2/23/99 video release from anchor bay. everyone knows there are several bad movies out there that have a tremendous appeal to them. this one tops my list."
+      },
+      {
+        "review_id": "test/pos/3491_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.007994730956852436,
+        "predicted_confidence": 0.9920052886009216,
+        "review": "no real plot, no character development, no scorcese-level direction, but seriously, were you really expecting any of this? the only thing that matters is that this flick is absolutely hilarious, nearly on the same level as borat. sure, the ending drags a bit, but if borat's cameo didn't crack you up, you must be the worst batty boy in the history of batty boys. sacha baron cohen is possibly the greatest comedian alive, and here he gets more laughs than jude law on a nude beach. i dare you not to laugh. if you can pull the ten-foot pole out of your behind for an hour and a half and just enjoy some well timed and extremely stupid jokes in a stupid story about a stupid character, see this stupid movie. you'll be glad you did. keep it real!"
+      },
+      {
+        "review_id": "test/pos/9877_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.010626940988004208,
+        "predicted_confidence": 0.9893730282783508,
+        "review": "halloween 666 (1995) the producer's cut review! halloween 666 starts of with a recap of the horrific ending to part five. if you thought the last chapter was dark, this one will really blow your mind. a mysterious \"man in black\" has raided the haddonfield police department freeing micheal myers. in the process poor jamie lloyd was abducted by strange cultists. what they want with her? who knows, but let's just say her long suffering will end soon. doctor loomis is back spending the rest of his twilight years trying to stop michael myers from killing any more innocents (good luck). a friend of loomis, doctor wynn comes back after a four sequel hiatus to help the good doctor. another old face from part one guest stars as well. this dark and dreary sequel was dismantled during the post production editing. for some reason the distributors felt that the final product wasn't worth the average horror film watcher's time. so they decide to dumb it down. then after having the film sit on the shelf for several months it laid an egg at the box office. no matter what they did to the film, they made it worse. they should have left well enough alone. hey, the film company knows better than the filmmakers now....don't they? producer's cut :highly recommended released version: not recommended"
+      },
+      {
+        "review_id": "test/pos/9547_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.012326361611485481,
+        "predicted_confidence": 0.9876736998558044,
+        "review": "what could ever happen in a dull texan town in summer? well, a bunch of teenagers find out a few things can and do happen. it turns out the mexican werewolf of this story is nothing less than el chupacabra, and the movie, unlike the name would suggest, is not a remake or lookalike of the american werewolf movies, but something completely different. overall, for an obviously low-budget movie, it's not bad! some clever camera work, quite decent looking traditional creature and gore effects, and for once not all-knowing people that can and do make mistakes, like shooting a colleague thinking it's the big bad beast, and are baffled by things they could not possibly know. sit down at this expecting a blockbuster million-dollar production, and you will turn it off in disgust after a short while. sit down at this expecting a bit of entertainment and a relatively simple story, and it's quite good! overall it gets an 8/10 from me for being creative, having ok acting, and pulling off some good work for the budget this movie had."
+      },
+      {
+        "review_id": "test/pos/3928_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.012603425420820713,
+        "predicted_confidence": 0.9873965382575989,
+        "review": "i do not think that this movie deserves the low rating that most will give it. it's one of the best \"teenager\" horror films i've ever seen; and that's saying a lot. nothing is left without an explanation to back it up, the characters and plot break countless horror movie stereotypes, and it has got nothing to do with some other horrible pieces we've been submitted to lately. (a clear example is the mindless \"saint ange\".) the first 30-40 minutes might be downright boring with the exception of the beginning, although some minor light mistakes can be easily spotted. after the arrival to the village, though, the horror -a different, twisted kind of horror- begins. with the plot and the details, goofs are minor; the characters are this movie's strongest point, given that so many clich\u00e9s are broken in it. for example, the two main male characters, nick and wade, are not by any means the idiotic types we're used to; although dalton might fit better in this stereotype, not is he the only one to pay for this lack of consciousness. some scenes are truly, satisfyingly horrible, making up for tense moments scattered around all the film. and, in the end, and although everything is decorously explained, it's easy to see that things won't go so easy to the surviving characters. the only errors i can see, and which do not imply continuity (ie, carly not finding her own cut finger in the unconscious bo's pockets) is the illumination, which is somehow annoying during the first, boring 30 minutes. although, plot and effects-wise, everything is drastically and cruelly twisted with the arrival of the main characters to ambrosia, that little village in the midst of nothing, so i'll give it that. it's been pretty much argued that about 70% of the movie is illogical; \"how can two people build an entire house of wax?\", \"where do they get all the wax from?\". these wouldn't be uprising questions if people would have paid more attention to the movie. the sinclair brothers did not build the house of wax; their mother worked making actual wax figures, and they were exhibited at the museum. and the scenario where paris hilton's unfortunate character meets her untimely death is the answer to the second question; what is with all the personal objects (mobile phones, cars, clothes) of the dead people? using their third brother as a connection with the exterior, it's pretty much arguable that the sinclair twins should obtain the money necessary to buy the wax, in a wwii-type fashion. so, that aside, i think the movie deserves a lot more than it gets, and nobody should lose the chance to watch it. so go see the house of wax. right now."
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/neg/5815_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5000677108764648,
+        "predicted_confidence": 0.5000677108764648,
+        "review": "i saw this film when it came out. let me see now--this guy who had earlier skied down mount fuji manages to accumulate the funding and hire personnel to document what sounds on the surface like a bold and daring act---to ski down the world's highest peak. well--and here comes the spoiler--what happens, see, after a large crew of people manage to help him get near the top--and a life is lost in the bargain--he gets on his skis, manages to make it down a very very short way, at which point his parachute opens...and that's that. and instead of burning the footage to hide this amazingly anticlimactic ending to an embarrassing debacle, the guy goes ahead and releases it. spoiler ends i do admire the amazing courage and effort it must have taken the film crew to get some of the stunning shots they got. another spoiler--oh yes, one of the sherpas is killed by falling into a crevasse. the narrator, who is quoting the \"daredevil skier, casually remarks that, according to the sherpa religion, since this man's body cannot be recovered his soul will roam the world forever and never know rest. is it worth it, the narrator muses. yes he answers--because it served the purpose of letting this clown \"ski down everest.\" i can't remember ever seeing a more meretricious piece of celluloid. this is one to miss at all costs."
+      },
+      {
+        "review_id": "test/pos/2353_7.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5000690221786499,
+        "predicted_confidence": 0.5000690221786499,
+        "review": "what makes this one better than most \"movie movies\" is that it doesn't feel phony. the film the story of the hot-headed director and his rise and fall and rise, by using real recognizable names and events during the silent and early sound eras. instead of the generic \"sound will put us out of business\" business, they actually show jolson and \"the jazz singer\". the acting is really quite good, with believeable performances from don ameche, alice faye and j. edward bromberg in particular."
+      },
+      {
+        "review_id": "test/neg/1544_3.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4999306797981262,
+        "predicted_confidence": 0.5000693202018738,
+        "review": "hard to believe that director barbet schroeder once did the majestic and very funny maitresse (1976), and now only seems to do \"by the numbers\" hollywood thrillers. this is very lightweight john grisham material, crossed with the plot of a tv movie. bullock is cass mayweather, a feisty and independent crime investigator specialising in serial killers. ben chaplin is her reserved police partner sam kennedy, and together they make an uncomfortable duo. not good, when two unbalanced college maladriots (gosling and pitt) decide to send them on a wild goose chase - by planting very clever and misleading forensic evidence at a crime scene. fair enough, but while bullock and chaplin fail to create any sparks, we also have to endure a several dull overly-melodramatic flashbacks illustrating an important event in cass's history. then of course there are the frequent shots of a cliff-side log cabin where there's absolutely no doubt the ott ending will be set. oooh... the atmosphere. watch any episode of csi instead. it's to the point and far more exciting."
+      },
+      {
+        "review_id": "test/pos/11456_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5000780820846558,
+        "predicted_confidence": 0.5000780820846558,
+        "review": "i love this young people trapped in a house of horrors movie. not just because i'm a huge linnea quigley-jill terashita fan, but because it is a lot of fun and actually scary at times. the special effects are awesome, especially linnea's scene with the lipstick and towards the end when almost everyone is dead and possessed. plenty of nudity provided by linnea and jill, plenty of humor, cool soundtrack, high body count, etc...by the way, if you have never seen this one, try and buy/watch the unrated version which has more gore and some scenes the rated version is missing."
+      },
+      {
+        "review_id": "test/pos/5185_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4998532235622406,
+        "predicted_confidence": 0.500146746635437,
+        "review": "excellent special effects make this disaster move very plausible. one can see that the producers went to some trouble to get the displays on the computer screens just right - it all makes it very convincing. the sets are also very authentic looking. a good choice of music rounds off the film nicely. acting is good and the presence of david suchet adds some weight to the cast of course. compared to other movies of this genre, flood is right up there with the best of them. thankfully, the \"human drama\" aspect has not been overdone, as is often the case with this type of movie. the human suffering is portrayed in perfect balance with the actual flooding scenes. and of course, the movie confirms what many of us suspect anyway: weather forecasters so often do not get it right! :)"
+      },
+      {
+        "review_id": "test/pos/8926_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997257590293884,
+        "predicted_confidence": 0.5002742409706116,
+        "review": "i read a viciously hidden remarks on a previous comments stating that this film showed a bunch of gay guys romping around their gayness. this couldn't be more misleading. \"eighteen\" is not a gay film. it has only three gay characters in it and one of them is the victim of prejudice of people like the one who wrote the comments, despite his confession of fairness. pip's grandfather was not gay. the tender scene of the soldier and his sergeant is male bonding at the crucial moment of death. but some people gets appalled by a kiss and welcome scene of guts flying out of a man killed by a bomb. the focus of the film is the straight relationship of pip and that sweet girl and their facing their social obligation and parenthood. ralph rewes www.r1313.info"
+      },
+      {
+        "review_id": "test/pos/4817_8.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5002872347831726,
+        "predicted_confidence": 0.5002872347831726,
+        "review": "the world is going to miss john frankenheimer. this was his first feature film and it was four years before he directed his second, but don't let that dissuade you from seeking it out. frankenheimer's direction is assured, and he gets some compelling performances out of his cast. someone else has already pointed them out, but i also want to talk up james gregory and whit bissell in two key supporting roles. both would work for frankenheimer again -- gregory most notably as the bumbling senator in \"the manchurian candidate\" -- and they do good work for him here. if the whole thing seems too simple in the end, that's merely because frankenheimer and writer robert dozier chose to tell a simple story, and they do it well. keep a lookout for it -- turner classic movies just might show it again."
+      },
+      {
+        "review_id": "test/pos/5777_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49969467520713806,
+        "predicted_confidence": 0.5003052949905396,
+        "review": "this film broke a lot of ground and receives on the whole a lot less credit than it's due. it touches on a topic that is ever-present in our daily lives, but which is seen as a phenomenon so common that it does not merit discussion. this phenomenon is that of caregivers (be they doctors or, as in \"broken promise\", a senior social worker) who abuse their position in order to harm those they have been charged to protect. in broken promise, patty clawson and her family are abandoned by their parents; but are soon picked up by local law enforcement. faced with the certain prospect of foster care, patty begs a young social worker to keep her and her brothers and sisters together. this social worker approaches a senior member of another department, but his request is denied. the children are parcelled off to seperate homes, thereby following the prevailing opinions of the day and ensuring a \"clean break.\" but it is this event, the \"broken promise\" which gives the film it's name, which causes the dramatic tension that is to continue throughout the film. angered by the young social worker's apparent betrayal, patty clawson runs away from the foster home she has been sent to. faced with the daunting task of finding her family in a climate where the ideal is seen to be a complete separation from the past; she does the only the thing she can to ascertain their whereabouts and breaks into the senior social worker's office to steal the casefile. apprehended soon after she finds she has made a dangerous enemy. furious at the embarrassment this little girl has caused him and his department, the senior social worker decides to use his power and authority to destroy her; something that legally he is quite capable of doing. --------------- this topic, of the harm of caregivers to clients, is relatively taboo. it certainly has been touched on very little in films as few directors wish to tread the path that would imply that caregivers cause harm. i think that this film plays a very important role in making the public more aware of this sort of thing. the case portrayed is not only plausible, but has probably happened many times before to many other children all over the world. this film is critical to changing public opinion in order to get rid of the laws that protect harmful people like the senior social worker in \"broken promise\". i strongly recommend broken promise. it is especially appropriate viewing for trainee social workers, psychiatrists, psychologists, doctors, and other caregiving professions. it is a lesson in avoidance that should be taken to heart. ----------- in terms of the acting in \"broken promise.\" melissa michaelsen plays a superb part as patty clawson. especially in films such as this believability is critical. if the viewer did not identify with the character of patty, the whole message of the film would be in jeopardy. it's unfortunate that melissa doesn't still act in films today, as her performance in \"broken promise\" shows her to have had exceptional talent."
+      },
+      {
+        "review_id": "test/pos/2192_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5003104209899902,
+        "predicted_confidence": 0.5003104209899902,
+        "review": "not having seen the 1936 version of this story, i cannot offer any comparison there. i can, however, state that stephen sondheim's musical treatment of this story is absolutely genius. only sondheim could come up with music and lyrics that are stellar in their own right, yet perfectly suited to the very bizarre subject matter. if anyone needs an explanation of what a dark comedy is, they should see this (and \"dr. strangelove\" as well). when mrs. lovett goes from having the \"worst pies in london\" to a booming business with high acclaim, we aren't talking \"soylent green,\" - but the ingredients are similar. particularly brilliant is the song where mrs. lovett pitches her idea to mr. todd. even in the introductory number, the line \"...they went to their maker impeccably shaved...\" gives a great indication of the premise, the drama, and the comedy to come. outstanding!"
+      },
+      {
+        "review_id": "test/pos/5330_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4996529817581177,
+        "predicted_confidence": 0.5003470182418823,
+        "review": "don't let any reviews (critics, imdb users or mine) influence you seeing this movie. i read only the plot premise and became intrigued. after watching, this movie, in my opinion, is definitely worth seeing. it gives a perspective on life that many have probably not contemplated. its is not however, as leland himself says, a movie that \"can be wrapped up in a neat package with a bow and everything.\" other user reviews on this website claim to have a psychological background and imply that the story is not feasible. quite obviously they missed the entire point of the movie, which is disappointing. to say the least. in short, it is a well acted, well directed movie. the story is not a feel good one, but i feel if you don't come away from the movie feeling good, you may just have missed something. to characterize it as \"art house\" is unfair, in my opinion, but as our society likes labels, this is probably the one that fits. if you find you know everything there is to know about the world... i'd suggest skipping this one. if you feel movies should be a form of escape \"from the world\"... you won't find it here. but if you do watch it... you just might find something in yourself."
+      }
+    ]
+  }
+}

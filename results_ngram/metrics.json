@@ -1,0 +1,648 @@
+{
+  "validation": {
+    "cross_entropy": 5.023167120905465,
+    "perplexity": 151.89160187920052,
+    "target_tokens": 1364330
+  },
+  "test": {
+    "cross_entropy": 5.003630878306874,
+    "perplexity": 148.9530086934188,
+    "target_tokens": 1345804,
+    "seconds": 1.6038616099995124,
+    "target_tokens_per_second": 839102.3213034004
+  },
+  "weights": [
+    0.2,
+    0.4,
+    0.4
+  ],
+  "training_seconds_counting": 6.965162593000059,
+  "checkpoint_bytes": 44020465,
+  "stored_ngram_entries": 4407671,
+  "seed": 42,
+  "context_length": 128,
+  "alpha": 0.1,
+  "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+  "hardware": {
+    "device": "CPU",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "python_version": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+    "logical_cpus": 32,
+    "cpu_model": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "training_counting_workers": 1,
+    "system_ram_bytes": 16488144896,
+    "available_logical_cpus": 32,
+    "numpy_threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 32,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/plj/miniconda3/envs/dsa4213/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+        "version": "0.3.31.188.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ]
+  },
+  "numpy_version": "2.4.6",
+  "timing": {
+    "clock": "time.perf_counter (wall clock)",
+    "counting_training_seconds": 6.965162593000059,
+    "validation_components_seconds": 1.5849758360000124,
+    "validation_weight_search_seconds": 0.4108739429993875,
+    "fit_and_selection_seconds": 8.961012371999459,
+    "test_evaluation_seconds": 1.6038616099995124,
+    "checkpoint_serialization_seconds": 0.28256206399964867,
+    "pipeline_elapsed_before_metrics_write_seconds": 13.109847781001008
+  },
+  "training_budget": {
+    "training_documents": 25000,
+    "training_target_tokens": 6802306,
+    "training_passes": 1,
+    "vocabulary_size": 15000,
+    "prediction_support_size": 14998,
+    "validation_target_tokens": 1364330,
+    "test_target_tokens": 1345804,
+    "weight_candidates": 55,
+    "weight_grid_step": 0.1,
+    "selection_metric": "validation token-average cross-entropy",
+    "alpha_tuned": false
+  },
+  "validation_weight_search": [
+    {
+      "weights": [
+        0.1,
+        0.0,
+        0.9
+      ],
+      "cross_entropy": 5.596061369344242,
+      "perplexity": 269.3633924735729,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "cross_entropy": 5.226968453175836,
+      "perplexity": 186.2273898618954,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.2,
+        0.7
+      ],
+      "cross_entropy": 5.125848355243479,
+      "perplexity": 168.31687360187198,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "cross_entropy": 5.073024623322947,
+      "perplexity": 159.65649855174638,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.4,
+        0.5
+      ],
+      "cross_entropy": 5.045466530186073,
+      "perplexity": 155.31674224727251,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.5,
+        0.4
+      ],
+      "cross_entropy": 5.0357920344665565,
+      "perplexity": 153.82137620872348,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.6,
+        0.3
+      ],
+      "cross_entropy": 5.041922860433719,
+      "perplexity": 154.76732505722208,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.7,
+        0.2
+      ],
+      "cross_entropy": 5.065484839119996,
+      "perplexity": 158.4572497260139,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.8,
+        0.1
+      ],
+      "cross_entropy": 5.1147415738160795,
+      "perplexity": 166.4577583811922,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.1,
+        0.9,
+        0.0
+      ],
+      "cross_entropy": 5.261175164031656,
+      "perplexity": 192.70782158413692,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.0,
+        0.8
+      ],
+      "cross_entropy": 5.415140931037327,
+      "perplexity": 224.7842225200928,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "cross_entropy": 5.154669146150093,
+      "perplexity": 173.23848065784978,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "cross_entropy": 5.0766736927980585,
+      "perplexity": 160.24016047090538,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "cross_entropy": 5.03838512059986,
+      "perplexity": 154.22076588850163,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.4,
+        0.4
+      ],
+      "cross_entropy": 5.023167120905465,
+      "perplexity": 151.89160187920052,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "cross_entropy": 5.026358789615088,
+      "perplexity": 152.37716401672174,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.6,
+        0.2
+      ],
+      "cross_entropy": 5.048682212723716,
+      "perplexity": 155.8169954798358,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.7,
+        0.1
+      ],
+      "cross_entropy": 5.098277878874377,
+      "perplexity": 163.73968478869895,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.2,
+        0.8,
+        0.0
+      ],
+      "cross_entropy": 5.249068142942104,
+      "perplexity": 190.3887706505068,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.0,
+        0.7
+      ],
+      "cross_entropy": 5.338487857791057,
+      "perplexity": 208.19764768852986,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.1,
+        0.6
+      ],
+      "cross_entropy": 5.133867739371467,
+      "perplexity": 169.6720980362421,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "cross_entropy": 5.073133329808272,
+      "perplexity": 159.67385519193576,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "cross_entropy": 5.048041373536982,
+      "perplexity": 155.71717383140137,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "cross_entropy": 5.046225589921669,
+      "perplexity": 155.43468168845402,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.5,
+        0.2
+      ],
+      "cross_entropy": 5.066257870649764,
+      "perplexity": 158.57978953363764,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.6,
+        0.1
+      ],
+      "cross_entropy": 5.115797956552207,
+      "perplexity": 166.63369439496313,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.3,
+        0.7,
+        0.0
+      ],
+      "cross_entropy": 5.271890805228257,
+      "perplexity": 194.78391291535442,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.0,
+        0.6
+      ],
+      "cross_entropy": 5.310339090132739,
+      "perplexity": 202.4188549885955,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.1,
+        0.5
+      ],
+      "cross_entropy": 5.143272115653522,
+      "perplexity": 171.27528496151191,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "cross_entropy": 5.098224709058233,
+      "perplexity": 163.7309790112075,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "cross_entropy": 5.087708065540944,
+      "perplexity": 162.01810132120104,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "cross_entropy": 5.103798857693412,
+      "perplexity": 164.64618821074026,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.5,
+        0.1
+      ],
+      "cross_entropy": 5.152676483020525,
+      "perplexity": 172.89361843604985,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.4,
+        0.6,
+        0.0
+      ],
+      "cross_entropy": 5.315124063153506,
+      "perplexity": 203.38974473678184,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.5,
+        0.0,
+        0.5
+      ],
+      "cross_entropy": 5.315228050475707,
+      "perplexity": 203.4108957914017,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "cross_entropy": 5.177941505252545,
+      "perplexity": 177.31742805867034,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "cross_entropy": 5.149799361916098,
+      "perplexity": 172.39689746347065,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "cross_entropy": 5.158778490880106,
+      "perplexity": 173.95184201538368,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "cross_entropy": 5.2058702868772695,
+      "perplexity": 182.3394914034876,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "cross_entropy": 5.375934837237051,
+      "perplexity": 216.14183533078173,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.6,
+        0.0,
+        0.4
+      ],
+      "cross_entropy": 5.349232091674591,
+      "perplexity": 210.44663208153793,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.6,
+        0.1,
+        0.3
+      ],
+      "cross_entropy": 5.239538520817781,
+      "perplexity": 188.58305516788755,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "cross_entropy": 5.233494629226737,
+      "perplexity": 187.44671703784962,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "cross_entropy": 5.276391968010299,
+      "perplexity": 195.66264318507893,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.6,
+        0.4,
+        0.0
+      ],
+      "cross_entropy": 5.455634417611412,
+      "perplexity": 234.0733242130891,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.7,
+        0.0,
+        0.3
+      ],
+      "cross_entropy": 5.41528980725368,
+      "perplexity": 224.8176900358342,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cross_entropy": 5.336753714926367,
+      "perplexity": 207.83691609380702,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cross_entropy": 5.368890002805843,
+      "perplexity": 214.624502840694,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.7,
+        0.3,
+        0.0
+      ],
+      "cross_entropy": 5.559168303758757,
+      "perplexity": 259.6068324838337,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.8,
+        0.0,
+        0.2
+      ],
+      "cross_entropy": 5.525561267467521,
+      "perplexity": 251.0271918850692,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "cross_entropy": 5.495300273972594,
+      "perplexity": 243.54464530038155,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cross_entropy": 5.697854821848803,
+      "perplexity": 298.2269643193487,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.9,
+        0.0,
+        0.1
+      ],
+      "cross_entropy": 5.71820824649685,
+      "perplexity": 304.35909763131815,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0
+      ],
+      "cross_entropy": 5.901561450726223,
+      "perplexity": 365.6079011204367,
+      "target_tokens": 1364330
+    },
+    {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cross_entropy": 6.405852444025009,
+      "perplexity": 605.3776293319257,
+      "target_tokens": 1364330
+    }
+  ],
+  "inference_config": {
+    "task": "teacher-forced next-token scoring on the full test split",
+    "device": "cpu",
+    "context_length": 128,
+    "target_tokens": 1345804,
+    "repetitions": 1,
+    "included": "probability component collection and CE/PPL calculation",
+    "excluded": "initial test dataset loading, model training, validation selection, checkpoint serialization and disk writes"
+  },
+  "inference_seconds": 1.6038616099995124,
+  "inference_tokens_per_second": 839102.3213034004,
+  "model_size": {
+    "checkpoint_bytes": 44020465,
+    "unigram_entries": 14998,
+    "bigram_entries": 984128,
+    "trigram_entries": 3408545,
+    "bigram_context_entries": 14998,
+    "trigram_context_entries": 979916
+  },
+  "source_sha256": {
+    "train_ngram.py": "793f83ae2083ecc316c5bece4ec120a7fecd3e06cd136b1d82edd67d51d541a7",
+    "lm_data.py": "05deb03e5fe6c572dcb53e364ae053d042c72f17f7b226fc637aa8f7aa0265d8",
+    "tokenize_imdb.py": "81fae7f354a166ffe0598aafe52c430f9928448e9dc9cec0bc2d7bdcd05b6d74"
+  }
+}

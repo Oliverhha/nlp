@@ -1,0 +1,47 @@
+{
+  "source": "/home/plj/DSA4213/assignment/aclImdb",
+  "output": "/home/plj/DSA4213/assignment/aclImdb_cleaned",
+  "normalization": "HTML unescape; HTML breaks to spaces; NFC; lowercase; collapse whitespace",
+  "groups": {
+    "train/unsup": {
+      "input": 50000,
+      "written": 50000,
+      "empty_removed": 0,
+      "changed": 49866,
+      "html_break_before": 29608,
+      "html_break_after": 0
+    },
+    "train/pos": {
+      "input": 12500,
+      "written": 12500,
+      "empty_removed": 0,
+      "changed": 12466,
+      "html_break_before": 7156,
+      "html_break_after": 0
+    },
+    "train/neg": {
+      "input": 12500,
+      "written": 12500,
+      "empty_removed": 0,
+      "changed": 12469,
+      "html_break_before": 7509,
+      "html_break_after": 0
+    },
+    "test/pos": {
+      "input": 12500,
+      "written": 12500,
+      "empty_removed": 0,
+      "changed": 12453,
+      "html_break_before": 7114,
+      "html_break_after": 0
+    },
+    "test/neg": {
+      "input": 12500,
+      "written": 12500,
+      "empty_removed": 0,
+      "changed": 12465,
+      "html_break_before": 7421,
+      "html_break_after": 0
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/3486_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.999496340751648,
+        "predicted_confidence": 0.999496340751648,
+        "review": "this film has the language, the style and the attitude down ... plus greats rides from occy (a world champ) and the great jerry lopez. john philbin as turtle has the surf pidgin down, and the surfing scenes are still the best ever. a true classic that can be seen many times. nia peeples is a babe, and laird hamilton shows the early stuff that has made him the world's number one extreme surfer."
+      },
+      {
+        "review_id": "test/neg/10100_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9987473487854004,
+        "predicted_confidence": 0.9987473487854004,
+        "review": "when the legends die is a powerful, moving story of an orphaned ute indian who goes on to become tom black bull, a champion bronc rider. raised in the old ways, tom is given a white man's name and must adopt the language and ways of the white man to live in that world. bitter about the role he has been forced into, tom finds fulfillment doing one thing, busting horses, riding them to death, in the rodeo. the movie has richard widmark in the role of red, the man who befriends tom and acts as his manager. red is a drunk who eventually dies in the story, which is about where the movie ends. the real story is completely ignored, the dark side of tom black bull who develops a reputation as a killer of horses in the rodeo arenas. oh well, you should read the book, this movie doesn't come close to doing the story justice."
+      },
+      {
+        "review_id": "test/neg/5479_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9983091354370117,
+        "predicted_confidence": 0.9983091354370117,
+        "review": "this could have been the best game ever!! but the game makers just screwed up after 3 assassinations and the ending!! this is a combination of prince of persia, hit-man, gta and age of empires ii (saladin). yes these four games mentioned above are considered to be one of the greatest games ever made. you combine the four and you get this game!! it has all the good aspects of the four games like acrobatic skills, stealth assassinations, open world and the history!! for the first 3 assassinations you feel this game is greatest!! but after the third, things seem to get so repetitive, that you only hope for the game to end. i have played this on a pc and the pc version is horrible with glitches and the stupid side missions are senseless. my advice to all. this is a good game but get it either for the xbox360 or ps3. don't get it for the pc. lastly, this game came from the creators of prince of persia. surely the producer is hot, but the game is not hot and it is not better than the four games mentioned above!!"
+      },
+      {
+        "review_id": "test/neg/5292_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9976310729980469,
+        "predicted_confidence": 0.9976310729980469,
+        "review": "i enjoyed the beautiful scenery in this movie the first time i saw it when i was 9 . dunderklumpen is kind of cute for kiddies in a corny way. it reminded me of hrpuffinstuff on sat mornings, its swedish backdrops make it easy on the eyes . don't expect older kids to be interested as the live action/animation is way behind the times and most older kids will get bored.this is definitely an under 10 age set movie and a nice bit of memories for those of us who were little kids in 1974."
+      },
+      {
+        "review_id": "test/neg/2257_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9973465204238892,
+        "predicted_confidence": 0.9973465204238892,
+        "review": "a very un-tom and jerry short. jerry narrates this tale that revolves around tom the cat falling in love and losing her to his rival, butch. tom is best friends with jerry here which irked me a bit. the cartoon is also presented in cinemascope. overall i found this tom and jerry cartoon sad and depressing. the should have just put \"puss gets the boot\" on the dvd instead and i would've been happy. this experimental animated short can be found on disc 2 of warner brother's 2-dvd spotlight collection set. it's the last one on the set and i'm hoping that warner brothers chooses to release a second volume soon. my grade: c-"
+      },
+      {
+        "review_id": "test/neg/6667_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.996483325958252,
+        "predicted_confidence": 0.996483325958252,
+        "review": "this film gives a look at the suffering a family experiences at the death of a child, and the healing that can finally come to them. the family learns of the death of their son on christmas eve, 1991, ruining the christmas season for them. they do not celebrate it again for many years. there is an interesting comment by the daughter that will remind viewers to consider the needs of surviving children in such a situation. the matthew character makes a reference to jesus, but i suspect that other comments he makes come from non-christian sources. i wonder if any other viewers would recognize those comments. if so, it would be an interesting addition to the data on this movie."
+      },
+      {
+        "review_id": "test/neg/3603_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.995751142501831,
+        "predicted_confidence": 0.995751142501831,
+        "review": "another direct to video movie from disney, that is essentially perfect for the kids. the problem with kronk's new groove i find is that everything that made the first movie a fun great ride is replaced with a more sad and sombre film. in this movie, kronk learns a great deal of lessons at many others' expenses. it takes away much time that could be spent at creating a more enjoyable film. kronk's new groove deals with two stories: yzma returns for payback and one ms. birdwell hopes to defeat kronk's camp counseling championship. this all leads up to kronk confronting his father and his disapproval over his son's direction in life. from lord of the rings to michael jackson's thriller, kronk's new groove recycles every bit of time that it allows to entertain its viewers. if you loved the original, or are looking forward to the upcoming tv series about kuzco, i recommend kronk to his loyal fans."
+      },
+      {
+        "review_id": "test/neg/9133_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9955803751945496,
+        "predicted_confidence": 0.9955803751945496,
+        "review": "the peace and beauty of koyaanisqatsi was a powerful affirmation of the natural world. in naqoyqatsi, we are assaulted by images of the synthetic, the competitive, the violent, and the digital -- the destructive constructs of our culture. some liberties are taken with the images, with posterization, distressing, and much slow motion. the connections between the sequences are inscrutable, if there are any. naqoyqatsi is defined at the film's end, a missed opportunity to place the images in context. the film is difficult to watch, the quality of the archival footage uneven, and it's most redeeming qualities are its theme and the hypnotic score of philip glass."
+      },
+      {
+        "review_id": "test/neg/12130_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9947226047515869,
+        "predicted_confidence": 0.9947226047515869,
+        "review": "this movie was pure genius. john waters is brilliant. it is hilarious and i am not sick of it even after seeing it about 20 times since i bought it a few months ago. the acting is great, although ricki lake could have been better. and johnny depp is magnificent. he is such a beautiful man and a very talented actor. and seeing most of johnny's movies, this is probably my favorite. i give it 9.5/10. rent it today!"
+      },
+      {
+        "review_id": "test/neg/2504_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9946306943893433,
+        "predicted_confidence": 0.9946306943893433,
+        "review": "one of a few movies filmed at coronado high school in scottsdale, az in the late 80's as well as just one of the guys, bill and ted's excellent adventure and just perfect (which was a segmented movie played during the mickey mouse club.) movie is definitely for kids as the previous comments have it pretty right on. coronado has gone through an overhaul in the past couple of years and many of the buildings seen in this film are now gone. the field where they are playing catch is adjacent to the football field, one of the few areas still there. the internal scenes near the lockers i believe were in the old 200 building. unless it is playing late at night on the disney channel it may be a very hard to find flick. how they ever made sequels to this is beyond me."
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/414_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0009191752760671079,
+        "predicted_confidence": 0.9990808367729187,
+        "review": "ugh, what an embarrassing episode last night! it was either a failed script for \"abc afterschool special\", or the product of an earnest rookie writer, just out of college, making an homage to that classic pc anti-gun homily from 1974, \"the gun\". in fact hubby & were disappointed that the closing shot wasn't of the gun being melted down like in the movie! no, i'm not some nra shill. it's just that when the producer of an intelligent & nuanced series gets it in his head that i should be subjected to a didactic dramatization of his personal cause, i'd appreciate it if the lecture at least wasn't delivered via 2-by-4. geez! ok, the sociology lesson is over. the message has been delivered. the important episode has been aired. now let's get back to some entertaining episodes that try to respect our intelligence."
+      },
+      {
+        "review_id": "test/pos/11252_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0012958531733602285,
+        "predicted_confidence": 0.9987041354179382,
+        "review": "black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal. black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal. black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal."
+      },
+      {
+        "review_id": "test/pos/6499_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0015382921556010842,
+        "predicted_confidence": 0.9984617233276367,
+        "review": "what about dj cash money??? this film fails in part by not covering the mid to late 80s. there was only a small mention of dj cheese in 86. also, it's grandmixer \"dst\", not \"dxt\"!!!!!"
+      },
+      {
+        "review_id": "test/pos/948_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0027134392876178026,
+        "predicted_confidence": 0.9972865581512451,
+        "review": "if you were enjoyed by watching \"guinea pig\" - then you'll like this movie to! \"psycho: the snuff reels\" is a nice pseudo snuff movie with lots of sex elements. actually the effects are not so realistic like in \"guinea pig\", but its still pretty gory. \"psycho: the snuff reels\" contains 70 minutes of sex, fetish and then torture scenes. first 20 minutes is like a normal porno movie. after that you'll see fetish sex scenes. and last one is a torture scene. the guys torture and rape girl - they cut off her legs, hand, tongue... in the end guy rapes girl in her stomach (!) and after that other guy beat him and cut off his balls. sounds pretty sick, isn't it?:) like i said - it's pseudo snuff movie. \"psycho: the snuff reels\" is pretty rare japanese movie and as i know it's really hard to find it. but if you are crazy about that sort of films i believe that you can find it!"
+      },
+      {
+        "review_id": "test/pos/2473_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0032205916941165924,
+        "predicted_confidence": 0.9967793822288513,
+        "review": "i can't believe i missed this one. made in 1970 with a budget that would probably allow you to make one indifferent episode of a tv soap, this is 90 minutes of sustained, sharp as a knife film making. you will find the outline, plot etc elsewhere on this site.consider though that the whole thing was shot using a single, hand- held,16mm camera... all the dialogue is improvised... none of the 'actors' had appeared in front of a camera before... it sounds like a recipe for disaster. instead what we get is hippies v cops running around in the california desert in what evolves into a 'that's not fair.. i'm on that person's side'scenario. the only problem is, the director keeps making you shift your allegiance and at the end of 90 minutes we're still not sure who has one. brilliant... quite brilliant."
+      },
+      {
+        "review_id": "test/pos/6938_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004251287318766117,
+        "predicted_confidence": 0.9957486987113953,
+        "review": "do-it-yourself indie horror auteur todd sheets returns with another entertainingly atrocious nickel'n'dime shot-on-video clunker that's basically just a feeble excuse to sling around a lot of watery blood and gleaming guts as often as possible. an evil demonic scarecrow resurrects the dead as ravenous rot-faced zombies so they can feast on the living. a bunch of bickering college kids, a trio of dangerous escaped convicts led by the vicious slade (byron nichodemus hamming it up to an outrageous degree), two equally savage sleazeball hoodlums, and a trio of hottie sisters all have to do their best to survive this harrowing ordeal. that's it for the needlessly muddled and convoluted plot, but fortunately what this hilariously horrendous hoot lacks in narrative coherence (plenty) it more than compensates for with a pleasing plethora of gloriously gross'n'graphic gore. disgusting highlights include a woman having her fingers chopped off, a fatal gunshot to a young gal's groin, attempted necrophiliac rape, evisceration, and, of course, more repulsive entrail eating than you can shake a pile of moist intestines at. moreover, we've also got rough, grainy cinematography that constantly alternates between washed-out color and grimy black and white, ineptly staged fight scenes, lousy acting from a uniformly pathetic no-name cast (jerry angell in particular cops the top crummy thespic dishonors for his laughably abysmal histrionics as slimy no-count psycho criminal joe bob), a grating head-banging thrash metal soundtrack, and a generic shivery'n'ominous synthesizer score. let's not forget the ridiculous ending in which several of our survivors stumble across a few vials of flesh-eating bacteria to use on the shambling undead hordes. sure, this flick is pure dreck, but it has a certain endearingly abominable quality to it that in turn makes it a great deal of so-awful-it's-awesome grade z fun for hardcore aficionados of bad fright fare."
+      },
+      {
+        "review_id": "test/pos/3491_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004687681328505278,
+        "predicted_confidence": 0.9953123331069946,
+        "review": "no real plot, no character development, no scorcese-level direction, but seriously, were you really expecting any of this? the only thing that matters is that this flick is absolutely hilarious, nearly on the same level as borat. sure, the ending drags a bit, but if borat's cameo didn't crack you up, you must be the worst batty boy in the history of batty boys. sacha baron cohen is possibly the greatest comedian alive, and here he gets more laughs than jude law on a nude beach. i dare you not to laugh. if you can pull the ten-foot pole out of your behind for an hour and a half and just enjoy some well timed and extremely stupid jokes in a stupid story about a stupid character, see this stupid movie. you'll be glad you did. keep it real!"
+      },
+      {
+        "review_id": "test/pos/11881_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.005997841712087393,
+        "predicted_confidence": 0.9940021634101868,
+        "review": "critters 4: this movie was continued after the 3rd critters movies. this one was released in the same years as critters 3 was released in 1991. critters 4 takes you in space as they hunt for the humans in a space ship. i doubt if there will be a critters 5 because the ending for the 4th was quite a good ending, which brought the end to the critters as there was no more left. i give this movie 10 out of 10."
+      },
+      {
+        "review_id": "test/pos/12378_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006188592407852411,
+        "predicted_confidence": 0.9938114285469055,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/7395_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006188592407852411,
+        "predicted_confidence": 0.9938114285469055,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/pos/8915_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4999479055404663,
+        "predicted_confidence": 0.5000520944595337,
+        "review": "why do i give this 1974 porn movie 7 points? because i watched it. and i found it hilarious! aliens, their weird spaceship, their weird helmets... my god, was that a sight. and all what these desperate alien women need is semen from the earth. and where do they look for it? in upper bavaria, germany. and that is where the main fun comes from: in europe (and more so in german-speaking countries), bavaria is seen as a traditional and backward region. and then the actors are so helpless with the alien women. well, there have been films about people being unable to deal with women like the \"american pie\" series. but what this film achieved is a true, funny weirdness. you constantly wonder how they came up with these crackpot ideas. but it was 1974, and looking back 35 years fills one with a kind of nostalgia. you've never seen a film like that. and if you don't mind seeing the casual pubic hairs and breasts, watch it once. it is a comedy essentially, not a porn flick."
+      },
+      {
+        "review_id": "test/pos/9238_7.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.500056266784668,
+        "predicted_confidence": 0.500056266784668,
+        "review": "watch this movie. it's truly a good ride through the difficulties of making a indie movie, and what happens when it blows up in the film maker's face. there's a lot of stuff about punk rock, and the philosophy behind that movement and it's relationship to this project. so if you're into old punk, american punk, you'll dig it.... but, beware, there's a ton of bad acting bits from the failed project that are incorporated... yet they do come off funny at times. and, actually, some of the best parts are listening to people who have never been involved in movie making pontificate and what they went through in the three year period that it took to put this together. so anyone out there that's about to make a film, especially if you haven't been to film school or worked in the field, you should watch this and learn from the film maker's mistakes."
+      },
+      {
+        "review_id": "test/neg/10804_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5001166462898254,
+        "predicted_confidence": 0.5001166462898254,
+        "review": "soultaker was written by and starred vivian schilling. it also starred joe estevez, gregg thomsen, and robert d'zar as the angel of death. the story begins with introduction to soultaker, played by joe estevez. we quickly learn what soultaker's role will be in this movie. next the college aged young people are getting ready for a summer festival, aptly named \"summerfest\". in this film, the battle of the classes is omni-present throughout the film. the girls come from a wealthy class, and the guys come from roughly middle or lower class. the class roles seem to play a role in the film for some reason which isn't really clear or pertinent to the story. at summerfest we learn more about the apparent class struggles of why zach isn't encouraged to date natalie. soultaker makes an appearance as well, with apparently his boss the angel of death. here d'zar's character points out who is to die and who's souls are to be taken. it's revealed as well, that soultaker will have a character conflict regarding natalie, and how he deals with her because of someone in his past. meanwhile natalie is ditched by her ride to summerfest, and zach convinces her to ride home with them. during the ride home, soultaker takes an active role causing them to wreck horribly at high speeds. the rest of the story surrounds the soultaker collecting the souls of the dead passengers, and zach and natalie trying to outwit him to return to their bodies so they can continue to live. the class and character conflicts lay in the story, but are really never brought to the forefront or resolved. there's an attempt towards the end to drag out some of the drama, there's a lot of chasing and running which does tend to be really boring. it's not really acceptable, and it would've been nice had this been dealt with differently, somehow to maybe increase the drama but not bore the audience. the story and acting are decent. the soundtrack is ok, and even the production values are good. robert d'zar in his brief on screen appearances does a nice job as the angel of death. joe estevez does ok, however sometimes his role acting a bit flat. vivian is pretty and does a decent job as natalie, although perhaps over acting a bit in a few scenes. this may sound odd, but this movie definitely could've benefited from some pointless nudity. vivian teases us a bit but that wasn't enough. in my opinion this was a pretty serious attempt at making a movie. the results, it's worth watching. just don't expect a perfect production. 3/10"
+      },
+      {
+        "review_id": "test/neg/11798_2.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4998032748699188,
+        "predicted_confidence": 0.5001966953277588,
+        "review": "imagine if you will: four teen students have an assignment to spend the night in a haunted house in st. francisville, louisiana to check for the existence of the paranormal. if you watch this in the dark and late at night; you possibly will have the hair on the back of your neck rise a couple of times. otherwise this mock documentary is a very lazy rip off of blair witch project. what is to be dialogue is very lame and the actors are pleasant looking enough, but seem to lack genuine personality. it seems to take forever before something real spooky even happens. this movie is excellent for 'sleep overs', when you have both eyes barely open and everyone is yakin' and snackin'."
+      },
+      {
+        "review_id": "test/pos/5861_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997762143611908,
+        "predicted_confidence": 0.5002237558364868,
+        "review": "\"murder by numbers\" stars ryan gosling and michael pitt as two rebellious high schoolers who are content on the perfect murder for the sake of overcoming their shattered self-esteem. sandra bullock plays the heroic thorn in the way of their plans as det. cassie mayweather. this is nowhere near the traditional finger-pointing murder mystery as the film graciously reveals the killers to us (gosling and pitt). what the film does instead is concentrate on the purposes of their killings and if they have what it takes to commit the perfect murder. the title itself is a rightfully chosen one for various reasons mainly being that the \"numbers\" in the title is the most vocal. the angle focusing on the reasons behind the heinous killings, although will haunt you with its chilling dialogue (especially from the callous boys), it doesn't fully live up exploring the origins of what lead them to their killing frenzy. the characters are riveting you have the good-looking rich kid richard (ryan gosling) and the intelligent but socially awkward justin (michael pitt). in school, they pretend that they despise one another, and even share a liking towards the a classmate name lisa (agnes bruckner), but off-school they are allies and collaborate in a ritual in which murder is an escape to free the mind. sure the story involving the boys seems exciting, but it's pushed in the background to a more mundane subplot involving det. mayweather (bullock) who assumes their murders was because of discrimination (hence the arrogant looks of gosling) and unexplained characteristics but manages to get it right. at first, the audience may despise cassie's character due to the fact she's very headstrong and not very supportive. she displays dominance and control over her junior partner sam kennedy (ben chaplin). even as he tries to reason with her, he knows it's a battle he surely won't likely win. the reason behind her tyrant behavior stems back in which cassie was the sad victim of a crime that has left a permanent mental scar on her. this side-story does not have much of a place in this movie partially because it doesn't offer anything riveting with the main plot (the boys' murder spree). it also offers some development to bullock's character in the movie but it's only a half-assed job and not very fulfilling. i would've liked it if they the diabolical students had a side-story. the resources were right there in front of them for the perfect crime foil, the creative schemes for the boys to manipulate the cops with their phony evidence and lies just to get out of a potential life-sentence in jail. despite the lopsided sub-plots and the pointless \"real killer\" ending, \"murder by numbers\" sports a strong performance by a great cast. sandra bullock was convincing as the tough verbally remorseless cop who tries to shift her inner pain to a more positive light. ben chaplin shows his strength as the young detective who tries every way to understand his partner and is able to fend off her occasional tyrannical put-downs. but the scene stealer's are the devilish duo of michael pitt and ryan gosling as they keep you glued to their seat waiting for what they're going to do next. the chemistry of the boys is reminiscent to matt damon-jude law in \"the talented mr. ripley\"."
+      },
+      {
+        "review_id": "test/pos/10696_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49957728385925293,
+        "predicted_confidence": 0.5004227161407471,
+        "review": "after seeing this movie, i have no choice but to write a review in the hopes that there are others like me out there who were blown away by the rocket fueled ninja action and white hot sexual titillation that is ninja iii: the domination. we all know that sho kosugi rocks. that is a given, but how about jordan bennett's ultra macho interpretation of his character police officer \"billy secord\"? bravo mr. bennett, bravo. you prove early on, while trying to seduce the buxom christie (played to perfection by one miss lucinda dickey of breakin' fame)that you are not afraid to take chances on your craft. i particularly enjoyed how you do not feel the need to step in and attempt to help her as 4 thugs try to rape her outside her gym. oh you could have helped sure, but by standing there and watching you let her know who was boss. secord will wear the pants in this relationship. i also enjoyed how mr. bennett was not afraid to repeatedly take off his shirt or wear the wife-beater tank top despite his gorilla like shoulders and back. back and shoulder hair are hot and secord knows it. and how about lucinda dickey? all i can say is \"kaboom\" - i see a sex bomb getting ready to explode. she's got all the right moves as both a temptress and a martial arts whiz. the chemistry behind dickey and bennett is what makes this movie tick. you'd think she would hate him because he's kind of a cheesy jerk, but no my friends. the animal magnetism is too strong to resist, and they bond like crazy glue. sho kasugi is not as prominent as you might think, though still a main character, which is fine by me because all i wanted was more bennett and dickey. he does seem to wear a lot of eye makeup which was nice to see. the special effects? wow. that is all i can say. i will not give away the ending but let's just say it will not disappoint. i love ninja iii: the domination, and can only hope that there is a ninja 4. i give it a 5 out of 5 throwing stars. disappoint."
+      },
+      {
+        "review_id": "test/pos/8519_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49953100085258484,
+        "predicted_confidence": 0.5004689693450928,
+        "review": "\"empire strikes back\" director irvin kershner's \"never say never again,\" a remake of the 1965 james bond movie \"thunderball,\" doesn't surpasses the terence young original, but this non-harry saltzman & albert r. broccoli film is well worth watching if you call yourself a 007 aficionado. nevertheless, despite its shortage of clever gadgets and the lack of a vibrant musical score, \"never say never again\" rates as an above-average, suspenseful doomsday thriller with top-flight performances by a seasoned cast including sean connery, kim basinger, klaus maria brandauer, max von sydow, barbara carrera, edward fox, bernie casey, alec mccowen, and rowan atkinson. the film bristles with surprises galore from the invigorating title credits sequence throughout its generally exciting but lengthy 134 minutes. unlike the franchise james bond sagas with their breath-taking moments of spectacle, \"never say never again\" provides few of these scenes because of its prohibitive budget. indeed, the film features only three gadgets: an explosive ball-point pen, a wristwatch with a laser, and a souped-up motorcycle. aside from the flavorful lani hall opening theme song, \"ice station zebra\" composer michel legrand's orchestral music score leaves much to be desired. legrand replicates none of those snappy, jazz cues that made john barry's music for the regular bond franchise so memorable. all in all, \"never say never again\" seems to fit more into the first two bond movies\u0097\"dr. no\" and \"from russia with love\"\u0097and \"on her majesty's secret service\" in terms of its more down to earth approach to the subject matter. \"never say never again\" presents sean connery's james bond as an older 007 who has seen his day and has been taken off active service to teach. ironically, roger moore was a year older than connery and moore's bond movies treated 007 as an active, young guy. sean connery seems to be responsible for making 007 a more mature secret agent and a number of changes take place in the lorenzo semple screenplay that emphasize bond's age. initially, connery had lobbied to play bond without a hairpiece, but mercifully wiser minds prevailed and connery sports a hairpiece. he looks tanned and fit and appears in better condition than he did twelve years earlier when he was rushed into \"diamonds are forever\" at the last moment to replace john gavin. connery had been working on another movie and had gained weight for the role that he was unable to remove in time for \"diamonds are forever.\" at 52, connery still has a youthful vigor here despite the contrived demands of the script. the action unfolds with 007 single-handedly trying to rescue a kidnapped woman on a remote desert island. he dispatches several guards armed with machine guns and frees the woman, only to have her stab him with a knife in the side when he isn't looking. it seems that this entire sequence was an exercise designed by m (edward fox of \"day of the jackal\") to test bond's ability. the new m doesn't share his predecessor's use of field agents. m decides that bond needs to clean out his system of all 'free radicals' and has 007 packed off to shrublands. while at the country clinic, bond notices suspicious activity between a nurse and a patient and gets noticed watching them. the nurse is none other than spectre assassin fatima blush (barbara carrera of \"the island of dr. moreau\") and she is in charge of making sure that nobody sees usaf officer jack petachi (gavan o'herlihy of \"superman 3\"). petachi is part of a spectre plan by millionaire businessman maximilian largo (klaus maria brandauer of \"out of africa\") to black the world powers by stealing two nuclear warheads. the villains implant a duplicate eyeball into captain petachi who has access to the highly sophisticated computers and can order the arming of weapons. after he steals the weapons for spectre, fatima blush runs him off the road by tossing her pet snake in his lap and then attaches an explosive to his wrecked car and blows him up. indeed, the first part of \"never say never again,\" apart from the spectre planning conference, belong to fatima as she supervises petachi's stay at the clinic and then repeatedly tries to kill bond, one at sea with sharks and later in a motel suite with an explosives device. eventually, bond meets the beautiful blond domino (kim basinger of \"mother lode\") and sneaks into largo's charity banquet at a monte carlo casino where the two face off in an elaborate video game called 'domination' to see who will rule the world. bond bests him and largo hates him doubly now because 007 is his only rival to domino and a thorn in his side that not even fatima seems to be able to remove. bond and fatima have it out after a motorcycle chase when he returns the favor and blows her up. their earlier encounter in the bahamas when she attached a device to lure a shark after him is pretty lame. like in the original \"thunderball,\" the villains recover the hijacked nuclear warheads at sea, but just the warheads themselves. bond flies to the bahamas where he meets his diplomatic liaison, nigel small-fawcett (no lesser than rowan atkinson of \"mr. bean\" fame, who is worried that bond may kill somebody and ruin the island paradise. of course, nigel small-fawcett serves as the film's source of comic relief. the c.i.a. sends felix leiter (bernie casey of \"guns of the magnificent seven\") to back up bond. this is the first time that an african-american portrayed leiter. bond encounters his share of problems, involving saving domino from arab slavers, while leiter and he save the world. \"never say never again\" is a richly respectable james bond thriller with many neat touches, but it never generates the air of danger that the franchise bond films have. indeed, \"never say never again\" looks like a dignified masterpiece theatre take on 007."
+      },
+      {
+        "review_id": "test/pos/1415_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49951547384262085,
+        "predicted_confidence": 0.5004845261573792,
+        "review": "stephen hawking has one of the greatest minds, or if that's too simplistic to coin for him one of the most curious and daring, that also happens to be trapped in a body crippled by a disease that leaves him in a wheelchair and a computer to communicate. perhaps i didn't know enough about hawking going in (i always knew him as 'that guy speaking like a computer who knows a lot about like, the universe and stuff, you know') that he is british, that he was a rather normal kid, and, perhaps most remarkably, the disease that could have possibly left him dead at 21 put him in the position of putting his life in focus. according to errol morris's equally curious and coolly, visually dazzling portrait in a brief history of time, hawking was already brilliant, in spurts (when other oxford students were faced with daunting algebraic equations, he answered more than three times the amount in an hour's time), but when faced with challenges, mostly from other theories by other scientists, he bounced back with his own. beneath some of the complex scientific talk- and if you got any less than a b- in astronomy, like me, you'll need to keep your ears especially perked up in explanations of time's possible infinity or the peculiarities of the black hole- there's a human being who just wants to enjoy his goose on his birthday. morris captures hawking just right for those who can't get enough of his theories on how particles may be going in and out of a black hole, or if there is even a creator or not depending on how much one takes into account einstein and time. but he also captures the back-story on the man and his condition, which creates this as something much more interesting than if morris had done one or the other. too much talk about the cosmos would make one's head hurt, and too much about his personal life and one might wonder what all the fuss is about this bloke who's book of the film's title was on bestseller lists for over five years. almost in spite of his appearance, hawking defines what it is to be a conscious entity in a universe which, he observes, he won't be apart of if and when the universe goes kaput another 10 billion years from now. through it all, in a brief history of time, we get a glimpse of a genius and his humility (not to mention his colleagues and family's' ten cents here and there) through an unfathomably hypothetical and mathematical thought process of the universe."
+      },
+      {
+        "review_id": "test/pos/9140_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5006489157676697,
+        "predicted_confidence": 0.5006489157676697,
+        "review": "wow, i just loved watching all these hot babes! the scenery around malibu and california was off the fizzy. i could watch it again just to see all that flesh crammed into those tiny, teeny bikinis! i recently saw pilar lastra, the steaming hot housekeeper in malibu spring break, as a center fold in my favorite mag, playboy. she is hot, hot hot! the opening seen was bitchin. when the two main girls run out of gas and stop at this desert gas station, they drive the gas-guy nuts with their bodies and skimpy outfits! the slow-mo lets me enjoy every inch of them! my girlfriend liked looking at this shredded hot dude too (now i'd like a bod like that) and at all the other hot dudes....and some of the girls too! any movie that can bring that out in my girlfriend is a 10 + for me!"
+      },
+      {
+        "review_id": "test/pos/8234_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4993383586406708,
+        "predicted_confidence": 0.5006616115570068,
+        "review": "note the wide release date of aug 8, 1945 - about a week before japan surrendered in wwii, so there will probably be a message for us in \"over 21\". irene dunne (it happened one night, the 1939 version of love affair) is paula wharton, who goes to live on an army base while her newspaper editor husband is in training school. alexander knox ( the longest day) is her hubby max. look for charles coburn (monkey business, gentlemen prefer blondes) as the stuffy, commanding, newspaper boss. also look for cora witherspoon as mrs. gates, from the women, bank dick, libeled lady. war story written for the wives' point of view, which wasn't too common in those days. fun commentary on the shabby condition of the \"married housing\"; irene's wardrobe in this film certainly wasn't at all shabby.. since they never had to leave their little cottage, it appears the whole movie budget was spent on her always-exquisite dresses and hats."
+      }
+    ]
+  }
+}

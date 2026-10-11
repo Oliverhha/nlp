@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/5479_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9997759461402893,
+        "predicted_confidence": 0.9997759461402893,
+        "review": "this could have been the best game ever!! but the game makers just screwed up after 3 assassinations and the ending!! this is a combination of prince of persia, hit-man, gta and age of empires ii (saladin). yes these four games mentioned above are considered to be one of the greatest games ever made. you combine the four and you get this game!! it has all the good aspects of the four games like acrobatic skills, stealth assassinations, open world and the history!! for the first 3 assassinations you feel this game is greatest!! but after the third, things seem to get so repetitive, that you only hope for the game to end. i have played this on a pc and the pc version is horrible with glitches and the stupid side missions are senseless. my advice to all. this is a good game but get it either for the xbox360 or ps3. don't get it for the pc. lastly, this game came from the creators of prince of persia. surely the producer is hot, but the game is not hot and it is not better than the four games mentioned above!!"
+      },
+      {
+        "review_id": "test/neg/10100_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9995431900024414,
+        "predicted_confidence": 0.9995431900024414,
+        "review": "when the legends die is a powerful, moving story of an orphaned ute indian who goes on to become tom black bull, a champion bronc rider. raised in the old ways, tom is given a white man's name and must adopt the language and ways of the white man to live in that world. bitter about the role he has been forced into, tom finds fulfillment doing one thing, busting horses, riding them to death, in the rodeo. the movie has richard widmark in the role of red, the man who befriends tom and acts as his manager. red is a drunk who eventually dies in the story, which is about where the movie ends. the real story is completely ignored, the dark side of tom black bull who develops a reputation as a killer of horses in the rodeo arenas. oh well, you should read the book, this movie doesn't come close to doing the story justice."
+      },
+      {
+        "review_id": "test/neg/12130_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9988545179367065,
+        "predicted_confidence": 0.9988545179367065,
+        "review": "this movie was pure genius. john waters is brilliant. it is hilarious and i am not sick of it even after seeing it about 20 times since i bought it a few months ago. the acting is great, although ricki lake could have been better. and johnny depp is magnificent. he is such a beautiful man and a very talented actor. and seeing most of johnny's movies, this is probably my favorite. i give it 9.5/10. rent it today!"
+      },
+      {
+        "review_id": "test/neg/4984_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9983280301094055,
+        "predicted_confidence": 0.9983280301094055,
+        "review": "starring: james belushi; peter dinklage; alex neuberger and jason lee underdog is a true hero's tale. here is the story of shoeshine, a regular, playful little beagle. when he is dog napped by a megalomaniac midget hell-bent on destruction, something freaky happens. our quirky little neighborhood pooch gains extraordinary powers. he can run as fast a cheetah; fly as fast a superhero and has the power of thunder. he is no longer shoeshine; he is underdog \u0096 the best crime-fighter in the animal kingdom. the city cannot sleep until underdog rids it of the evil midget dr. simon barsinister and his cronies. if you fancy some really light-hearted entertainment with all the clich\u00e9s of superhero action flicks, then this one is for you. as for quality entertainment, this one is strictly for the juniors. those of you hoping to enjoy the comedy of the fast-fading star -james belushi - a word of caution: this is not one of his finer works."
+      },
+      {
+        "review_id": "test/neg/5292_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9981980919837952,
+        "predicted_confidence": 0.9981980919837952,
+        "review": "i enjoyed the beautiful scenery in this movie the first time i saw it when i was 9 . dunderklumpen is kind of cute for kiddies in a corny way. it reminded me of hrpuffinstuff on sat mornings, its swedish backdrops make it easy on the eyes . don't expect older kids to be interested as the live action/animation is way behind the times and most older kids will get bored.this is definitely an under 10 age set movie and a nice bit of memories for those of us who were little kids in 1974."
+      },
+      {
+        "review_id": "test/neg/3603_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9981966614723206,
+        "predicted_confidence": 0.9981966614723206,
+        "review": "another direct to video movie from disney, that is essentially perfect for the kids. the problem with kronk's new groove i find is that everything that made the first movie a fun great ride is replaced with a more sad and sombre film. in this movie, kronk learns a great deal of lessons at many others' expenses. it takes away much time that could be spent at creating a more enjoyable film. kronk's new groove deals with two stories: yzma returns for payback and one ms. birdwell hopes to defeat kronk's camp counseling championship. this all leads up to kronk confronting his father and his disapproval over his son's direction in life. from lord of the rings to michael jackson's thriller, kronk's new groove recycles every bit of time that it allows to entertain its viewers. if you loved the original, or are looking forward to the upcoming tv series about kuzco, i recommend kronk to his loyal fans."
+      },
+      {
+        "review_id": "test/neg/5529_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9981842637062073,
+        "predicted_confidence": 0.9981842637062073,
+        "review": "victor jory never became a major star. he is better known for later character roles than for his early leads. but he was very handsome and an excellent actor. his love scenes with loretta young in this romantic adventure thriller are passionate. their kisses look very real. and very modern. vivienne osborne is a standout here also. she plays a woman with a reputation. but the character has a good heart. the print i saw was not clear. but what a joy that rare movies like this are turning up! and they are, in some sort of watchable condition, still intact. this is nothing truly special. but if one is willing to sift through movies of its era with similarly intriguing titles, one is likely to find some suprtb movies."
+      },
+      {
+        "review_id": "test/neg/11090_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.998104453086853,
+        "predicted_confidence": 0.998104453086853,
+        "review": "julie delpy stars in this horrific film about a sadistic relationship between a father and a daughter in france of the 14th century. the film attempts to shatter the romantic chivalry image of the heroic medieval knight, by showing a rather dreary image of the period, defined by psychological dysfunction, and violence. the movie opens with a child, fran\u00e7ois, growing up in the shadow of the hundred years' war, told by his father to keep his mother safe and to wait for his return. fran\u00e7ois takes action when he discovers his mother with a lover in bed. fran\u00e7ois murders him in the name of defending his father's honour. like father like son, fran\u00e7ois grows up, and leaves his family, also to go to the same war. this setting is somewhat of an explanation for the events to come, as on his way home, we already notice that something is wrong with fran\u00e7ois. the war has not done well with him, he has changed. the daughter, b\u00e9atrice de cortemart (delpy), awaits her beloved father, to return from captivity of the english. she is pure of heart and she was left to take care of the estate while her father was gone. in her father's absence, b\u00e9atrice needs to deal with financial difficulties, which strengthens b\u00e9atrice's hope that her father will return to save her. but, upon his return, she notices that he lost the will to enjoy life, and he tortures and humiliates everything around him, even his own daughter. from this points the film depicts various ways how fran\u00e7ois torments his family. starting with humiliating his own son, and ending with the rape of his own daughter, b\u00e9atrice. setting the film in the middle ages supposed to soften the blow, as the viewer may tell himself, that these kind of violent acts were held in difficult times. and indeed, many films on the topic of incest, such as tim roth's \"the war zone (1999)\" which are contemporary were more shocking because of that. delpy appears in this film in several daring nude scenes. indeed she appears to be angelic and beautiful. i was annoyed when i saw some animal torture scenes. i believe, and this is not confirmed, that some birds were killed for the making of this film, which really upsets me. the quality of a film drops when real violence is used towards animals. i would hope that this movie will be re-released without those cruelty scenes. those scenes do not contribute much to the film storyline. overall, the movie is too long. the script is problematic. we don't get to see fran\u00e7ois and b\u00e9atrice before the war, we don't really get the answer why is he changed to such extreme. i would have pass on this film, however, i have to mention a few scenes that made this film worth watching: * scenes of a young child being able to murder in cold blood is truly shocking. i saw it first time on \"city of god (2002)\". here, fran\u00e7ois, murders his mother's lover, while his father away at war. excellent scene and very graphic. * the scenes from b\u00e9atrice being raped by her father till she finds out she is pregnant from him are truly shocking and interesting. the scene after the rape, where delpy burns her cloths and cleans herself. she asks her brother to kick her in the stomach with hopes to have a miscarriage. * the brother humiliation scenes where the father dumps his son's head into the food - humiliating him then ranting about the war. later, dressing his son with women's cloths. the film won the c\u00e9sar (french oscar) for best costume design, i agree, the costumes here really make the film look authentic for the time period. the movie location is ch\u00e2teau de puivert, a real 12th century castle and a historical monument, located in aude, south-central france. beautiful castle and mountain view, really helps you set into the period of this film. the film also nominated for 3 more c\u00e9sar awards, but they were all snatched to the widely successful french film \"au revoir, les enfants\" (\"goodbye, children\", 1998). --- released as \"beatrice\" in new york city, march 1987. only to be screened in france on november 2007. watched it on yes3 on 3 may 2007, 17:45, at work."
+      },
+      {
+        "review_id": "test/neg/10929_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9978827834129333,
+        "predicted_confidence": 0.9978827834129333,
+        "review": "this is a pretty simplistic romance. girl finds boy, girl loves boy, girl loses boy, girl finds boy. colleen moore is the outstanding ingredient in this recipe, delivering a wonderfully varied dramatic/romantic performance, well deserving of an oscar nom. equally fine are the aerial combat special effects. moore plays a french girl whose mother has turned over their field to a british aerial squadron during wwi. she is the \"daughter of the regiment\", loved as a little sister. into this mix comes a fill-in for a downed flyer, gary cooper. at first they hate each other, then they love each other, then the entire squadron is sent out on a suicide mission. cooper returns but crashes in the village and a red cross unit removes him. moore searches for him, is told at a hospital he is dead, then wanders the streets until he calls from a hospital window and they are reunited. it's a nice little romance, but hardly more than that. recommended for fans of ms. moore and mr. cooper"
+      },
+      {
+        "review_id": "test/neg/4201_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9978252649307251,
+        "predicted_confidence": 0.9978252649307251,
+        "review": "this is definitely one of the best kung fu movies in the history of cinema. the screenplay is really well done (which is not often the case for this type of movies) and you can see that chuck (in one of his first role)is a great actor. the final fight with the sherif deputy in the bullring is a masterpiece!"
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/2473_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 8.042604167712852e-05,
+        "predicted_confidence": 0.9999195337295532,
+        "review": "i can't believe i missed this one. made in 1970 with a budget that would probably allow you to make one indifferent episode of a tv soap, this is 90 minutes of sustained, sharp as a knife film making. you will find the outline, plot etc elsewhere on this site.consider though that the whole thing was shot using a single, hand- held,16mm camera... all the dialogue is improvised... none of the 'actors' had appeared in front of a camera before... it sounds like a recipe for disaster. instead what we get is hippies v cops running around in the california desert in what evolves into a 'that's not fair.. i'm on that person's side'scenario. the only problem is, the director keeps making you shift your allegiance and at the end of 90 minutes we're still not sure who has one. brilliant... quite brilliant."
+      },
+      {
+        "review_id": "test/pos/5744_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0008683772175572813,
+        "predicted_confidence": 0.9991316199302673,
+        "review": "right, here we go, you have probably read in previous reviews on this film that it is awful, badly acted, avoid at all costs. well i suppose in some ways this is true, it is fair to say that you couldn't write a spoiler in this comment as there is no plot to spoil. however, there is a fine line between plain awful and absolutely hilarious and believe me this film is the latter. the acting is so bad, the plot so non existent and the ending so completely baffling it will have you laughing the whole way through. there are scenes in this film that take comedy to a new level. do not expect an oscar winner but believe me for the small price you will pay for this disaster, it is worth every penny."
+      },
+      {
+        "review_id": "test/pos/12378_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0010966083500534296,
+        "predicted_confidence": 0.9989033937454224,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/7395_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0010966083500534296,
+        "predicted_confidence": 0.9989033937454224,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/414_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0020473795011639595,
+        "predicted_confidence": 0.9979525804519653,
+        "review": "ugh, what an embarrassing episode last night! it was either a failed script for \"abc afterschool special\", or the product of an earnest rookie writer, just out of college, making an homage to that classic pc anti-gun homily from 1974, \"the gun\". in fact hubby & were disappointed that the closing shot wasn't of the gun being melted down like in the movie! no, i'm not some nra shill. it's just that when the producer of an intelligent & nuanced series gets it in his head that i should be subjected to a didactic dramatization of his personal cause, i'd appreciate it if the lecture at least wasn't delivered via 2-by-4. geez! ok, the sociology lesson is over. the message has been delivered. the important episode has been aired. now let's get back to some entertaining episodes that try to respect our intelligence."
+      },
+      {
+        "review_id": "test/pos/8446_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0026024996768683195,
+        "predicted_confidence": 0.9973975419998169,
+        "review": ">>>>author: msgreen-1 from canada >>>>the big problem was the \"china syndrome\" claim - that if the reactor error occurred and radioactive waste leaked out it could burn its way straight through the earth to china. a lot of people have made fun of this and if the movie makers meant it seriously then yes it should be made fun of. the spill wouldn't make it anywhere near the center of the earth or even the molten rock. even if it did make it to the center of the earth how would it come out in china? it would have to flow against gravity the rest of the way! also china is not the opposite side of the world, the indian ocean is.<<<<< ......... ......... ........................ ................ ..................... .................. .............. ............ ................ this point is brought up by the characters of the film, saying that of course it could not happen, as the core would hit ground water and release a radio-active cloud, raining down on the population. before you try to find a weak point in the film, you should watch it first!!!! don't judge a book by it's title..."
+      },
+      {
+        "review_id": "test/pos/6247_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0035513918846845627,
+        "predicted_confidence": 0.9964486360549927,
+        "review": "ok...i have seen just about everything....and some are considered classics that shouldn't be ( like all those halloween movies that suck crap or even steven king junk).......and some are considered just ok that are really great.....( like carnival of souls )........and then some are just plain ignored............like ( evil ed ) or ( pumpkin head and brain dead \"the bud cort one\" ) then some stick in your head once seen and never leave...........that's what this did to me........and for my money this is much better than last house on the left............last house was great till the ending...then it blew chunks.....what kind of dummy is gonna give a blow job to someone who just killed their kids ????.completely stupid ..go find the movie \"bully\" or even \"funny games\" if ya want realism and to be creep ed out.........but this damn thing stuck with me for years.........one cause chuck connors always was scary.........two tanya roberts is the best female victim ever........three the chick being smothered in plaster still is one of the all time worst killings on film........and 4th the telekinetic powers thing blew my mind and came totally unexpected.......not to mention the dummies wax figures puppets etc.......it should be right there with psycho,last house,texas chainsaw,etc....... it's a classic..............and deservedly so..........."
+      },
+      {
+        "review_id": "test/pos/3491_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004157295450568199,
+        "predicted_confidence": 0.9958426356315613,
+        "review": "no real plot, no character development, no scorcese-level direction, but seriously, were you really expecting any of this? the only thing that matters is that this flick is absolutely hilarious, nearly on the same level as borat. sure, the ending drags a bit, but if borat's cameo didn't crack you up, you must be the worst batty boy in the history of batty boys. sacha baron cohen is possibly the greatest comedian alive, and here he gets more laughs than jude law on a nude beach. i dare you not to laugh. if you can pull the ten-foot pole out of your behind for an hour and a half and just enjoy some well timed and extremely stupid jokes in a stupid story about a stupid character, see this stupid movie. you'll be glad you did. keep it real!"
+      },
+      {
+        "review_id": "test/pos/6275_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004363629035651684,
+        "predicted_confidence": 0.9956364035606384,
+        "review": "miles o'keeffe once again assumes the role of the mighty ator in this the first sequel to the original film. what can i say? - this pretty much represents b-movie nirvana! the plot is ludicrous, the script is terrible, the acting is hammy throughout, the special effects....well let's not even go there! - all in all this movie is a veritable delight! highlights of the film include ator and thong (his mute companion, not his undergarments) being attacked by invisible assailants in a cave (certainly saved on the fx budget there!), ator battling what has to be the most unconvincing giant snake ever committed to celluloid, and of course, the infamous hangliding scene! there's one question i have though......at the end of the movie we see a huge atomic explosion when ator supposedly destroys the geometric nucleus (as the narrator tells us)......how in the hell did ator destroy it and manage get out alive?! did he fashion some form of primitive timer/detonator or something? oh well, such an illogical ending really only adds to the movies overall charm - they just don't make them like this anymore!"
+      },
+      {
+        "review_id": "test/pos/6499_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006539271213114262,
+        "predicted_confidence": 0.9934607744216919,
+        "review": "what about dj cash money??? this film fails in part by not covering the mid to late 80s. there was only a small mention of dj cheese in 86. also, it's grandmixer \"dst\", not \"dxt\"!!!!!"
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/pos/9698_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4999770224094391,
+        "predicted_confidence": 0.5000229477882385,
+        "review": "all you could ever hope for if your a jackass fan.as always knoxville & his crew risk life & limb just for our viewing entertainment. if you are fan of the series & of the first movie you won't be let down like most sequel often do. the jokes they pull on each other as twice as funny,cruel,crude as ever before & the stunts & dares are twice as rough as any jackass episode you have ever seen. if your a fan don't waste time go check it out for yourself because on jackaass standards this movie is an easy 10 out of 10 just for the opening credits alone, i can't go into detail without spoilers but you've got to see it to believe it."
+      },
+      {
+        "review_id": "test/neg/8516_1.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49990057945251465,
+        "predicted_confidence": 0.5000994205474854,
+        "review": "i'm a big fan of patricia hodge and mariam margolyes, so i watched this show when it came on a&e some years ago. the show was strange to say the least, but i gave it a chance because i liked these actresses. this has got to be one of the worst shows i've ever seen. i wouldn't watch it again and certainly wouldn't waste money on buying the video. the storyline of this tv version is ludicrous and just plain stupid! the \"kicker\" (pun intended) comes when ruth has surgery done on her leg bones. that kind of nonsense belongs in james bond and sci-fi movies. if this version is true to the book, then i won't be checking the book out from my local library! the american version came out some years after i'd seen this original. to my surprise the americans got it right this time, as their version with meryl streep and roseanne is played for laughs and is rather funny. when played for laughs the storyline works."
+      },
+      {
+        "review_id": "test/neg/12012_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5001152157783508,
+        "predicted_confidence": 0.5001152157783508,
+        "review": "junior and his dad start a new life in a new town. it's the same life because junior hasn't changed one bit. he is still the same rotten brat as before only he's gotten bigger. this time he has a pal named trixie and she is only slightly worse. junior doesn't like his dad dating and messes up every opportunity that he has. then grandpa moves in and the dog comes along. i thought that the two of them would have made it a good movie but they didn't even become buddies until the end. this is a movie for the most immature people. it has diapers, farts, doggy do do, and toilet humor in it. only someone under the age of twelve would find this to be super hilarious. i hope when i have a son, he is exactly like junior."
+      },
+      {
+        "review_id": "test/neg/985_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4998677372932434,
+        "predicted_confidence": 0.5001323223114014,
+        "review": "the most generic, surface-level biography you could hope for. busey's impersonation of holly is accurate -- but who wants to hear gary busey sing \"maybe baby\"? typically, the members of the hollies are used for comic relief and melodrama (smith and stroud, respectively) instead of as people or even characters. when holly uses a string section, the old jewish-looking guys who come in tell him he's using the same techniques as mozart. it's just this kind of cheeky statement that makes film biographies like this (and \"amadeus\", about the aforementioned mozart) so worthless. some entertainment can be derived from holly's excellent styles and songs done in a b-variation."
+      },
+      {
+        "review_id": "test/neg/703_2.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4998663365840912,
+        "predicted_confidence": 0.5001336932182312,
+        "review": "i could almost wish this movie had not been made. stan laurel was dying, and it shows in his face, even more angular and gaunt than usual. a poor script, and inept supporting cast."
+      },
+      {
+        "review_id": "test/pos/7317_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49985235929489136,
+        "predicted_confidence": 0.5001477003097534,
+        "review": "this is an early one from the boys, but some people may not be satisfied with this one like all the others. i found it to be different somehow than the your average stooge slapstick. it was more funny for it's jokes rather than the poke in the eye or slap. watch for a hilarious part when larry grabs the stethoscope from moe and sings into it. moe gives him a good smack. that part made me crack up for a good ten minutes. another hit for the stooges."
+      },
+      {
+        "review_id": "test/neg/1935_3.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4998311996459961,
+        "predicted_confidence": 0.5001687407493591,
+        "review": "i saw this when it came out in theaters back in 1996. i remember i was already familiar with elijah wood's work (that's right, he made stuff before \"lord of the rings\"!) and the merchandising tie-ins to the film were pretty abundant (\"flipper\" water guns were even circulating). adults were reminded of the old movies and tv show and for nostalgia's sake took their kids to see it, who were excited because it was a movie about a dolphin and a stupid boy. unfortunately it wasn't what anyone expected and flopped severely. you know a movie's in trouble when a boy swims away from a hammerhead shark in the middle of the ocean, and a pack of dolphins scare the shark away, and the kid -- instead of getting out of the water into a boat -- floats in the water for five minutes thanking his dolphin for saving him ... apparently he hasn't taken into mind that the shark is still out there, perhaps even below him. another problem is paul hogan. he looks old, crusty and tired of recycling his croc dundee shtick. by now, no one even remembered \"crocodile dundee\" much less hogan, and i half expected him to suddenly start pretending he didn't know what a hair dryer was for the sake of fish-out-of-water/social-satire laughs. all in all this is a really poor \"family\" movie that is amateurish and almost hard to watch at times. i hated it when i saw it in theaters back in '96 and i hate it more now."
+      },
+      {
+        "review_id": "test/neg/8146_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49982333183288574,
+        "predicted_confidence": 0.500176727771759,
+        "review": "froggie is upset that he never has a big party like all the other kids. spanky and the gang seek to remedy that by giving him a surprise party. unaware that all the decorations and preparations are for him froggy sabotages everything only to find out too late that the party is for him. okay our gang comedy works in fits and starts. the bits work but i don't think it really works as a whole. part of the problem is that we all know where this is going and since much of the humor needs to have some form of surprise for it to work the whole thing falls down. i think in a weird way the film just sort of misses. its the type of thing that had they actually thought about it might have amounted to something more than a misfire. worth trying if you lower your expectations"
+      },
+      {
+        "review_id": "test/pos/2688_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997544586658478,
+        "predicted_confidence": 0.5002455115318298,
+        "review": "i think the problem with this show not getting the respect it truly deserves is that it comes after seinfeld,after elr and after friends. those three sitcoms were the star shows of their time. koqs came at the end of this special time in tv. but don't let that dissuade you. king of queens is as good if not better than two of the three mentioned. seinfeld started it all and was and is a timeless classic. i never laughed so hard than i did at seinfeld. but koqs comes real close. when it comes to laughing, i have to rate koqs second only to seinfeld. elr has to be second though as the character creation and interaction is more endearing. either way, koqs is top ten of the last 20 years. the only other sitcom worth mentioning now is two and a half men which really doesn't hold a candle to the other four but is all we have left."
+      },
+      {
+        "review_id": "test/neg/5006_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4997050166130066,
+        "predicted_confidence": 0.5002949237823486,
+        "review": "it is is very sad to see someone of the calibre of george c scott in a low budget thriller which would have been better if the original novel was written by graham greene and directed by someone somewhat more experienced in the genre. not to mention a better cinematographer. there are so many missed opportunities with the scenery and carnival merely glossed over, rather than captured to locate the movie solidly in the exotic setting of the novel. elsewhere in the viewer comments on this site, one very astute observer complained about the variety of diabolically bad accents in this film. ever since i saw george c scott as rochester in jane eyre, i have prayed for him never to ever accept again a role which required him to assume a british accent. just every now and then, he could just possibly pass for british or a very british sounding south african played obviously by an american actor. i can stomach meryl streep's extraordinarily laboured accents (both british and australian) - at least she gets it right even though with every utterance, she demands that we marvel at her skill. well, i am sorry that mr. scott is no meryl streep, and it just destroys the illusion - like having michele yeoh speak excruciating mandarin with a strong singaporean accent in crouching tiger etc. peterson acts no differently than what we see on csi. except he is still very handsome and more or less slim in this movie. he is the harrison ford of tv. same old expressions for every emotion, every situation. no on second thought, ford has two - perplexed/pained and happy. i have never seen a smile on mr. csi!"
+      }
+    ]
+  }
+}

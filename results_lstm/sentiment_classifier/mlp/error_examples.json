@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/11909_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9986555576324463,
+        "predicted_confidence": 0.9986555576324463,
+        "review": "this film's premise seems to be that the passing of the world war 2 generation in america, with its apple-pie phoniness and hypocritical morality, was a terrible tragedy. those awful hippies ruined everything apparently. what holds the film together are the excellent performances - particularly lemmon's which is truly remarkable. otherwise we have a boring slice-of-life drama (just over 24 hours of jack's life) with pretensions. i found it a chore to sit through."
+      },
+      {
+        "review_id": "test/neg/2815_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9985840320587158,
+        "predicted_confidence": 0.9985840320587158,
+        "review": "i really liked this quirky movie. the characters are not the bland beautiful people that show up in so many movies and on tv. it has a realistic edge, with a captivating story line. the main title sequence alone makes this movie fun to watch."
+      },
+      {
+        "review_id": "test/neg/11332_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9971555471420288,
+        "predicted_confidence": 0.9971555471420288,
+        "review": "nice movie and nicholle tom does a fantastic job playing the \"guy in the girl's body\", she really does it well. a sort of teen version of many other movies, but well done. well casted, from \"matt\" to \"matt2\"."
+      },
+      {
+        "review_id": "test/neg/12250_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.996674656867981,
+        "predicted_confidence": 0.996674656867981,
+        "review": "i chose to watch this film because i am a stephen nichols fan. unfortunately, i am unhappy with mr. nichols' choice to do this movie. the film was slow, badly acted, and included some very graphic sex scenes of mr. nichols' character with a very young woman. watch at your own peril!"
+      },
+      {
+        "review_id": "test/neg/12248_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.99648118019104,
+        "predicted_confidence": 0.99648118019104,
+        "review": "this is the worst hindi film i have ever seen. it conforms to all the stereotypes of bad hindi films. the plot is ridiculous, the acting over the top, and shah rukh manages to fit in a couple of song sequences even though he is playing the character of a dumb man."
+      },
+      {
+        "review_id": "test/neg/2694_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.996295154094696,
+        "predicted_confidence": 0.996295154094696,
+        "review": "i saw this film as a sneak preview before the venice opening at the telluride film festival. your reaction to it will largely depend on your attitude about respecting the text of shakespeare. on the plus side: pacino gives a very good performance indeed as shylock; lynn collins is a fine portia; and the film has a sumptuous look. the negatives are predictable. \"the merchant of venice\" is arguably the most difficult of all of shakespeare's plays to stage today, largely because we look at it through the distorting lens of 20th century history. the romantic plot with bassanio and portia presents no problem. the character of shylock does, because we lack the original frame of reference of the elizabethan audience. shylock is simultaneously a human character with human qualities and motivations, and an abstraction of the pitiless quality of the old law. when he says \"hath not a jew eyes?\" he is a character; when he proclaims \"i will have my bond!\" he is an abstraction. the long passage on music and cosmic harmony in the final scene (here moved and cut to ribbons) is the key to the play, in that it re-establishes universal harmony after the disruptive and evil (the shylock of the trial scene) forces are ejected. it is possible to make psychological sense of the character of shylock by showing his gradually going mad and turning into a monomaniac by the time the trial scene rolls around--the key is that at a point he must cease being sympathetic. pacino's performance almost does it, but not quite. the film can't quite make up its mind--on the one hand, there is the right movement in the character of shylock, and on the other there is a great deal of extraneous footage of jews being abused and venetian whores with rouged nipples (no doubt to show the decadence of antonio et al). shakespeare was not writing an ibsen-like social drama; he was writing a comedy following the classic pattern of disruption of social order and the restoration of social order, symbolized by marriage, with a theme of love versus law at the center of the shylock plot. in this sense, the film is a travesty--radford's surgery on the play and direction almost force us away from what the play really means. (taking the beginning of the final scene, cutting most of it, and moving it before the trial scene is the most extreme example.) there are some other significant difficulties. jeremy irons, a fine actor, plays antonio as if he were overdosed on sedatives. joseph fiennes is pretty but shallow as bassanio. most of the actors, with the exceptions of collins, pacino, and the actor playing the duke in the trial scene, mumble their dialogue. final verdict? a pretty film with a few decent performances. it's not shakespeare, it's poor interpretation. not really worth your time or money--although lynn collins as portia almost redeems it."
+      },
+      {
+        "review_id": "test/neg/9071_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.995978832244873,
+        "predicted_confidence": 0.995978832244873,
+        "review": "the cast of \"all that\" returns for good humor in the \"good burger\" a place similar to an old fashioned fast food restaurant. the comedy is terrific, the fun is non-stop, and though clich\u00e9, is a passer for kid and family comedy. a movie for all ages, this movie is meant to enjoy, laugh, and pretty much a lazy movie for a rainy day, as that's what i'd save this movie for, a rainy day. usa aired it today, and since i know that the cast of \"all that\" is in it, i thought that it might be a bit of a chuckle burner, but in good fun, as keenan thompson and kel mitchell (probably one of the best young duos of that time) were terrific together, the pieces came together, and everything worked out, and it made it into good family fun together with some lazy day work to get off the bad day. may i take your order?"
+      },
+      {
+        "review_id": "test/neg/5529_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9957643747329712,
+        "predicted_confidence": 0.9957643747329712,
+        "review": "victor jory never became a major star. he is better known for later character roles than for his early leads. but he was very handsome and an excellent actor. his love scenes with loretta young in this romantic adventure thriller are passionate. their kisses look very real. and very modern. vivienne osborne is a standout here also. she plays a woman with a reputation. but the character has a good heart. the print i saw was not clear. but what a joy that rare movies like this are turning up! and they are, in some sort of watchable condition, still intact. this is nothing truly special. but if one is willing to sift through movies of its era with similarly intriguing titles, one is likely to find some suprtb movies."
+      },
+      {
+        "review_id": "test/neg/12279_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.99420565366745,
+        "predicted_confidence": 0.99420565366745,
+        "review": "this movie is very violent, yet exciting with original dialog and cool characters. it has one of the most moving stories and is very true to life. the movie start off with action star leo fong as a down and out cop who is approaching the end of his career, when he stumbles on to a big case that involves corruption, black mail and murder. this is where the killings start. from start finish fong delivers in this must see action caper. this movie also co-stars richard roundtree. i really enjoyed this film as a child but as i got older i realized that this film is pretty cheesy and not very good. i would not recommend this film and the action is very, very bad."
+      },
+      {
+        "review_id": "test/neg/4017_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9941765069961548,
+        "predicted_confidence": 0.9941765069961548,
+        "review": "pretty dreadful movie about several unbalanced young people in a car starts off reasonably well but becomes more bizarre and hard to swallow as it progresses. rachel leigh cook is the sole highlight in a tender and sexy performance, but i would recommend this film only to die-hard fans of the actress."
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/1875_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0007420427864417434,
+        "predicted_confidence": 0.9992579817771912,
+        "review": "its really been a long time since the last time somebody created a movie such as like this on. a so called b movie. maybe it was not a great movie, but it is fun to watch, classic bruce cambell, it has its good parts, funny ones, disgusting ones, even artistic ones. ******spoiler ahead******* ----------------------- --------------------------------- --------------------------- ------------- the part where his wife as a dummy-robot-avenger is about to die, i don't know about you, but it made me feel so weird, so sad and disgusted in a good way. i compare this scene with the scene form the fly 2 where his dog as a monster dies. makes you think oh my god. ---------------- --------------------------------------------- ------------------------------ -------------------------- ********no more spoilers********* if you are a bruce cambell fan, you definitely wanna have this movie in your collection. if you are generally interested in movies, you might wanna. just think that the movies target is to make you smile, gross you out(don't worry not that bad though) and make you have a good time with your buddies. attention, i said buddies, not possible future girlfriend."
+      },
+      {
+        "review_id": "test/pos/12495_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.001787079032510519,
+        "predicted_confidence": 0.9982129335403442,
+        "review": "sex, drugs, racism and of course you abc's. what more could you want in a kid's show! ------------------------------------------- ------------------------------------------- \"user comment guidelines please note there is a 1,000 word limit on comments. the recommended length is 200 to 500 words. the minimum length for comments is 10 lines of text. comments which are too short or have been padded with junk text will be discarded. you may only post a single comment per title. what to include: your comments should focus on the title's content and context. the best reviews include not only whether you liked or disliked a movie or tv-series, but also why. feel free to mention other titles you consider similar and how this one rates in comparison to them. comments that are not specific to the title will not be posted on our site. please write in english only and note that we do not support html mark-up within the comments\""
+      },
+      {
+        "review_id": "test/pos/1227_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.002119404263794422,
+        "predicted_confidence": 0.9978805780410767,
+        "review": "good, boring or bad? it's good. worth your money? if you can spare it for a ticket, sure. better than the trailer makes it seem? yes, oddly. there isn't much to the script - guards working at armored truck company move vast amounts of cash. guards see opportunity to retire as millionaires, one of them is too honest to go along with it all, and a well-laid plan goes to hell. this could have been a poorly-executed reservoir dogs ripoff, but the skill of the cast and the director's ability to make just about anything tense pull it out of that realm and put it onto a solid footing."
+      },
+      {
+        "review_id": "test/pos/2108_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.002679256023839116,
+        "predicted_confidence": 0.9973207116127014,
+        "review": "ninja hunter (aka wu tang vs ninja) is pure entertainment from start to finish due to its outrageous characters, nonsensical plot and lack of any pretensions whatsoever. the makers of this film have given us a truly ott masterpiece which has to be seen to be believed. the plot centres around wu tang villain, abbot white, who wants to destroy the shaolin monks and become supreme martial artist. in order to do so, he teams up with a clan of ninjas, led by three masters \u0096 gold lam\u00e9 ninja, white mustachioed ninja and black ninja \u0096 and succeeds in destroying the shaolin temple and most of its inhabitants. however, there are some survivors. it is their job to pass on the knowledge of the shaolin finger jab to a new generation, who must defeat the ninjas and abbott white if peace and order is to be restored. unfortunately, abbott white is a difficult foe to beat, since he is able to make himself virtually indestructible by sucking the life force out of hot naked chicks (an excuse for some welcome gratuitous nudity!). other treats in store for viewers include loads of very impressive fighting (despite some of it being speeded up), some really amazing outfits (the aforementioned gold lam\u00e9 ninja, abbott white's yin yang suits, and even some assassins wearing swastika tunics), a ninja turning into a flying carpet, plus some cheesy gore for good measure. and i nearly forgot to mention the really impressive eyebrows on display in this movie \u0096 surely a good reason not to pass up on this gem."
+      },
+      {
+        "review_id": "test/pos/1510_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0030272335279732943,
+        "predicted_confidence": 0.9969727993011475,
+        "review": "un gatto nel cervello, or nightmare concert as it's more commonly know amongst english speaking audiences, starts as horror film director lucio fulci (played by the man himself lucio fulci) goes to lunch after filming a very gory & violent scene, however he orders steak & has a horrible vision relating to cannibalism. the grotesque visions, hallucinations & dreams continue & begin to affect his mental state, fulci decides to seek help & contacts professor egon schwarz (dvid l. thompson) for psychiatric help. schwarz claims that fulci cannot separate fantasy from reality & agrees to help him, however schwarz has a more sinister ulterior motive as a serial killer starts to brutally kill prostitutes & fulci thinks he might be responsible.... this italian production was co-written & directed by lucio fulci who also stars in the film as a horror film director named lucio fulci which doesn't really feel like a lot of effort went into it, anyway un gatto nel cervello is gory if nothing else & for that alone i rather liked it. the script by fulci, john fitzsimmons, giovanni simonelli & antonio tentori is nothing more than a threadbare excuse to edit together lots of gory footage from other italian films. it serves it's purpose well enough i suppose & to see fulci on screen has a certain fascination if your a fan of his or are familiar with his films, the ending is very rushed almost as if they ran out of money as it just has a policeman telling fulci they killed the killer & that's it. another thing about that ending when the two cops put the white sheet over the dead killer in the field & then they walk away leaving it there without any other police presence, i mean would the police in italy just leave a dead body in the middle of a field on it's own? it moves along at a good pace & if you like your gore then you have to see this although if you don't like gore then you'll hate it with a passion, it all depends on your disposition so the choice folks is yours. director fulci was never the most artistically adept filmmaker & it shows here as his footage is bland, flat & looks like it was shot for tv, the footage from the other films (7 in total) doesn't match the stuff fulci shot & it is obvious that this has been pieced together from different films. if your looking for gore you've hit the jackpot, people are dismembered with chainsaws, put through meat grinders, faces are melted, there are a few decapitations, there are some slit throats, someones body is gorily crushed under a car, a tongue is ripped out, someone has their throat crushed as a wheelchair runs over it, there are loads of stabbings, someone has their guts removed with a hook, there's a rotten corpse complete with maggots, someone hand is cut off, someone has their head bashed in & their eye falls out, a gory death by piano wire as it slices through someones throat, there are loads of severed limbs, gallons of blood splashed around & a scene of some cats eating brains & there's more as well. having said that some of the special effects are a bit fake & look cheesy. with a supposed budget of around $100,000 it shows, this is pretty cheap looking, it has no visual style or artistic merit but then again why would you want those when you can see a nazi orgy sequence & wall-to-wall gore? the acting in this is terrible including fulci. un gatto nel cervello is a top film if your a gore-hound like me, however if your looking for something with a little bit more substance or indeed any substance then this ones not for you. this is the sort of film which divides people straight down the middle, you'll either love what it does or hate it."
+      },
+      {
+        "review_id": "test/pos/904_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004055581986904144,
+        "predicted_confidence": 0.9959444403648376,
+        "review": "genius or utter madness? that depends on your interpretation of this film. i responded to it on the level of a self-aware \"cop-movie parody\", and i sincerely hope that was the intention as i don't see anyone taking it seriously! :-d paul rudd for one seems to be chewing up the scenery and really getting into the spirit of things! is this film supposed to mark a departure for rudd from his core background in the comedy genre? some kind of insane attempt to reinvent him as a hard-boiled action star? i think not! with the cheesy, almost awkward acting, low budget fx, and zany over-the-top action set pieces, it all kinda evoked that old tv show \"sledge hammer\" for me! hilarious!!! :-) of course, i may have totally interpreted the film wrong. if it was in fact an attempt at a 'straight' action movie, then it was certainly an amusing failure!! watch with lots of alcohol and some mates!!! ;-)"
+      },
+      {
+        "review_id": "test/pos/1376_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.005454831290990114,
+        "predicted_confidence": 0.9945452213287354,
+        "review": "i was having a horrid day but this movie grabbed me, and i couldn't put it down until the end... and i had forgotten about my horrid day. and the ending... by the way... where is the sequel!!! the budget is obviously extremely low... but ... look what they did with it! it reminds me of a play... they are basically working with a tent, a 'escape pod', a few guns, uniforms, camping gear, and a 'scanner' thing. that is it for props. maybe this is even a good thing, forcing the acting and writing to have to step up and take their rightful place in film, as the centers of the work, instead of as afterthoughts used to have an excuse to make cgi fights (starwars). the cgi is fine. it is not exactly 'seamless'... but imho it still works. why? because there isn't too much of it, and what there is, is not 'taking over' with an army of effects house people trying to cram everything they can into the shot. it prompts the imagination... it's some relatively simple stuff, with decent composition (especially the heavy freighter shot.. there is one long shot that must be at least ten seconds...that tracks the entire length of the ship... it must be a record for sci fi battle sequence film making in the past 10 years, to have an action sequence that lasts longer than 0.75 seconds), and some relation to the story. it might look old or not 'state of the art', but it doesn't look stupid and it doesn't take away from the story. the acting is good, except the characters die too fast to get to know them. the captain was great, but a few of his scenes could have used another take. i also got confused with his character losing his cool and stomping on a corpse, i like to think captains are calm cool and in control... what was going on in that scene? did the other crew worry about him losing it at that moment? did he feel himself losing control? now, as for the plot.... mostly it is good... why? because it doesn't try to explain itself. it just happens. it's called 'the planet', its a mystery, get it?? nobody knows why there is a statue, and they don't find out either. the mysterious cult? the weird scientist with the tattoo? what do you expect to find out in less than 90 minutes? this isn't war and peace. and, thank god, it's not star wars/trek either. no midichlorians, no 5 minutes of expository boring dialog that has no purpose in the story. the characters are stranded, and are only able to figure out a few basic things... it is not a star trek episode where they find out it's leonardo davinci or a child like space wanderer. it is mysterious, and i liked that. i don't know why, maybe i can identify with these guys more , since they don't know whats happening, and i don't either... they don't talk a lot of space gibberish or have magic boxes telling them what is happening. in fact, i would argue that one of the weakest moments is when the 'traitor' turns on the crew, and tries to 'explain' the reason for the planet, the cult, etc. this coincidentally has some of the weakest dialog, imho, in the whole movie, and it interrupts the flow and some of the characters look unnatural in that scene. ok, sometimes i felt it was a little too mysterious, though. like, why did the guy get fried through his eyes with lightning? that was odd. just weird. the 'hamlet' ending... again i would have liked to have known some of these characters better. and would it have been so hard to have a 30 second rescue scene at the end? this is not a serial show, it was a film, and we like closure in films, even if they can have a sequel. imagine hamlet with no 'flights of angels sing thee to thy rest' anyways. what can i say. this was well worth the dollar i payed at the 'red box' machine at the supermarket. it was also, imho, a better piece of storytelling than starwars parts 1 2 or 3. like i said, it sucked me in, wanting to know what was happening, and i couldn't stop watching until the end."
+      },
+      {
+        "review_id": "test/pos/4659_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.005627043545246124,
+        "predicted_confidence": 0.9943729639053345,
+        "review": "i have no idea what the budget on this movie was, but whatever it was they made it work! i have seen movies that spend 100x the amount (pearl harbor anyone?) and sucked 200x worse. this movie has everything. david \"makin' it\" naughton in the lead role as adam, an average college student who gets wrapped up in a game called the great allnighter\" run by leon! this guy rocks! a \"genius\" with nothing better to do than come up with an elaborate game for a bunch of people to play. but he doesn't just pick his friends. he has a team of jocks, nerds, fatties, average kids and of course, flounder's team who are the \"bad guys\". but this movie has no black and white. there are many shades of gray. adam is not the altruistic hero with no faults. he treats alex p. like crap. and flounder is the way he is because of pressures from his dad and a cranky stomach. the jocks play dirty, but so does everyone else! this movie rocks! the scene at the pbr factory? classic! \"johnny's obese male child?\" can you write a better clue? this stuff is gold jerry! gold! maybe i am from a different generation, but i love movies that seem far-fetched but still have roots in reality. this never happened...but it could. eeeee-gypt.... eeee....easter bunny....easter parade! oh and watch for a young paul rubens still working on that pee wee character. ps that devra clinger was/is hot! she must have been one bad actress not to work in hollywood anymore. see this movie!"
+      },
+      {
+        "review_id": "test/pos/4953_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006103436928242445,
+        "predicted_confidence": 0.9938965439796448,
+        "review": "in the 1980's patriotism, and in some cases flat out jingoism, was pretty high. \"do we get to win this time\" a line famous from rambo: first blood part ii, could almost sum up how many people felt at that time. a longing for the style of films they grew up with, flat out balls to the wall \"we're good, your bad...now let's blow something up, and go home\" while rambo, rocky, and for the most part top gun seemed more geared towards attracting an older crowd iron eagle went straight for the kids. canadian writer and director sidney j. furie brings out everything that you love and hate about that time period. the kick in the pants rock out 80's anthems (never say die, road of the gypsy, etc) to the over the top, and sometimes almost unbelievable action adventure. iron eagle succeeded for one reason...it was f.u.n - fun. it's the type of movie you can turn on and sit back and enjoy every ridiculous totally 80's moment. you don't have to think about if it could really happen, or if the acting is truly believable, it's just fun...and that's all you can really ask for in this type of movie..."
+      },
+      {
+        "review_id": "test/pos/11764_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006353138014674187,
+        "predicted_confidence": 0.9936468601226807,
+        "review": "after seeing the trailer it was an easy decision not to see this film. i mean, i don't care for stupid \"stoner comedies.\" i'm sure it was also an easy choice for a lot of people to get together, smoke a bowl and go check out this flick with the guy from the simpsons and some guy named \"billy bob.\" should have been a good time, but the film's just not that funny--too bad somebody had to go and bum their high. unfortunately, i found out that the trailer was misleading after it had already left the theaters, so i had to wait for the video. i really enjoyed it. nice locations, quality production and excellent performances from the entire cast. looking back at it, the plot twists weren't totally unexpected, but i didn't find it cumbersome because the premise was so engaging. so why was this absorbing drama marketed as a comedy? did something happen to the producer, leaving the associate producers to do the marketing by themselves?"
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/neg/91_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49996358156204224,
+        "predicted_confidence": 0.5000364780426025,
+        "review": "beware, my lovely (1952) dir: harry horner production: the filmmakers/rko radio pictures credulity-straining thriller from the pioneering producer team of collier young and ida lupino, aka the filmmakers (with lupino pitching in with some uncredited direction). robert ryan is the 'peril' and ida lupino is the 'woman' in this entry in the 'woman in peril' style film. ryan plays howard wilton, a tightly-wound psychotic handyman drifter (noooo, ryan? i know, hard to believe). lupino is the lonely war widow, helen gordon, who hires howard to do some work around her house. things go downhill from there as howard makes helen a prisoner in her own home. howard has a nasty secret, not that he could reveal it. you see, consciousness is a real challenge for him. maintaining it, that is. he has an unfortunate habit of coming to and finding his employers dead. this is part of the film's problem. the nature of howard's psychosis is so extreme that it is nearly impossible to believe that he's been free to roam from town to town unobstructed, even in the year 1918 (when the film is set). he can't remember anything that happened ten minutes ago. his violent, threatening, anti-social tendencies are set off by the smallest and most common of things (a young girl flirting, inadequacies involving the war, due to his being rejected for service). i don't know how he even made it past the interview with helen. there are other implausibilities. if you were locked in your house with a madman, but nonetheless left on your own for periods of time, couldn't you figure out a way to escape? ryan, i think, is defeated by the material. it feels like he's overplaying his hand. his series of tics and spasms and the tightly coiled bursts of dementia all have a been-there, done-that robotic feel to them. at this point in his career he'd probably played this character, to some degree, ten times and it shows. we are encouraged to empathize with howard (i didn't) through shown bits of humanity, like him being stopped in his tracks by a music box and his relating to a group of children who won't judge him. lupino just has to act frazzled and in distress, which she is more than capable of and does. the picture had one thing going for it; what would be the eventual resolution of the conflict? so naturally there was a disappointing ending that was abrupt and ineffective. of slight interest was a recurring motif where the camera would catch howard's reflection (in mirrors, water, christmas tree decorations). this indicated something going on, or about to go on, in his head. horner (1953's vicki), who made his reputation in production design, does a fine job of making the house feel like a prison. credit too, the always reliable rko art department for the work on the house. in the end, sub-standard work from the principals, who all have much better films to their credit. *\u00bd out of 4"
+      },
+      {
+        "review_id": "test/pos/6767_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4999602735042572,
+        "predicted_confidence": 0.5000397562980652,
+        "review": "ok, so i'm not usually one that runs out and rents foreign movies...especially foreign dark comedies. i think i can count on one hand the number of films that i found genuinely hilarious from beginning to end. this movie will be added to the short list. even dark comedies right out of hollywood sometimes turn me off because they require an incredibly dry sense of humor. but this one had my eyes welling up with tears. my sides hurt. i haven't laughed that hard in a long time. this movie was recommended by my mother and i don't think i would have even dreamed of watching it had she not raved about it. don't be afraid of having to read during your movie - you'll miss out on a hilariously well-acted flick."
+      },
+      {
+        "review_id": "test/neg/11336_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49992743134498596,
+        "predicted_confidence": 0.5000725388526917,
+        "review": "this series, made for televisi\u00f3n espa\u00f1ola (tve) is basically a series of chapters in the life of an ordinary family in 1968, primarily as seen through the eyes of the youngest son. based on a background of historical events, such as the may 1968 student uprising in france, the decaying franco regime, the war in viet-nam, the rise of imperialism, and others specifically related to spanish life at that particular moment, one might regard this series as a simple compilation of characteristic foibles which make themselves so apparent in this kind of entertainment. generally treated in a lightweight vein though not lacking in certain moments which might be called dramatic, the series would seem to be aimed at people of around fifty who can rember those times, as, it should be stated, anyone younger either chooses to ignore such happenings or is busily occupied in other things. the best thing that can be said of this series is ana duato's r\u00f4le as mother of three children: she plays the part of the total housewife of the times really well, manifesting that peculiar spanish penchant, especially noticeable among women, of letting all her thinking and her doings be carried forward by the impetus of her heart, without any resorting to the use of the brain. as we say in spain, common sense is one of the least common senses. imanol arias offers very little, apart from not being his usual stereotyped hard policeman as in other television series. indeed, as an actor, he should not be trusted in anything which is not a tv series. his resources are too limited; however, his part as father of the working-class household is not at all bad. not really recommendable for other audiences, even spanish-speakers in latin america: the themes are all too parochially related to a specific spot in contemporary spanish history, such that if the viewer was not living here at that time he will miss most of the references. it is even probable that certain situations which cause a few spanish smiles would not mean anything to other viewers."
+      },
+      {
+        "review_id": "test/neg/8120_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49981796741485596,
+        "predicted_confidence": 0.5001820921897888,
+        "review": "dreadful film about a doctor who goes fishing and winds up catching a mermaid when he is thrown overboard. she traps him into bringing her back with him. glynis johns, in the title role, is really a silly individual with a tail hanging out. margaret rutherford is the nurse who is supposed to be so eccentric but we see no eccentricity here. in fact, miss rutherford was not allowed to use her true comedic gifts. nice to see david tomlinson in the film. he would get together with johns in the far superior \"mary poppins,\" 16 years later. miranda causes mischief in that two guys, a neighbor's fianc\u00e9e and chauffeur (tomlinson) fall for her. ask any mermaid you happen to see, what's the best tuna, chicken of the sea! as for this film, forget it."
+      },
+      {
+        "review_id": "test/pos/8562_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5002562403678894,
+        "predicted_confidence": 0.5002562403678894,
+        "review": "i watched this film with my family over a long thanksgiving holiday weekend. i am thankful that someone insisted that we watch it, though i didn't pay much attention until the end of the film when a head shearing seems promised, but, alas, doesn't happen. on the other hand, i watched this movie some years later and loved its liveliness, absurdity, sparkle, and just plain fun. i think that the film has a female tone. women are not exploited in it even though i am sure that someone might think that the movie is pure exploitation. i think the movie plays with tropes of the period. i keep thinking someone ought to remake it. and flesh out some of the implications in the original."
+      },
+      {
+        "review_id": "test/neg/956_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5002967119216919,
+        "predicted_confidence": 0.5002967119216919,
+        "review": "\"d.o.a.\" is a non-thrilling thriller from directors rocky morton and annabel jankel. the acting is okay and the screenplay is pretty bad. this movie also has some moments which will make you laugh at how stupid the scenes of violence are. for example, someone is shot near a window. we then see from outside the building what looks like that person jumped. i laughed my head off when this happened. this movie tries hard, but ultimately fails. only watch this movie when you have no other choice. my critique: ** rating: [r] rating reasons: violence and language.* *there was no rating reason available due to its age."
+      },
+      {
+        "review_id": "test/neg/3547_4.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49966803193092346,
+        "predicted_confidence": 0.5003319382667542,
+        "review": "tom cutler (jackson) is a retired policeman who now works as a crime scene cleaner-upper. in his latest job, he cleans a new crime scene and destroys evidence and isn't aware the crime hasn't been officially reported. uh oh, this can't be good. you hear about cleaners all the time, but usually when a mob or gangland hit is involved when bodies etc need to be removed and the area cleaned up. this one is different in that tom cutler works with the police to clean up after the police have done their investigation of a crime scene. hey, someone has to do it. you know the police won't. the movie makes that quite clear and it is up to the family to get the area cleaned up. this is almost a good thriller, but a side plot involving tom's daughter (palmer) makes this story somewhat awkward. i guess they had to fill in some time. oh, they brought this side plot around to connect with the another side plot, but it was still a reach and awkward. see? this was almost a good thriller because there was a noticeable lack of tension, suspense and the pace was somewhat draggy. the music didn't help either as i noticed the music was more appropriate for watching people take a long journey. you know, journey music. get it? ha! the acting by all was excellent in this almost a good thriller. violence: yes, sex: no, nudity: no, language: no"
+      },
+      {
+        "review_id": "test/pos/2525_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4996378719806671,
+        "predicted_confidence": 0.5003620982170105,
+        "review": "to speak relatively, if one were only to see now hector babenco's \"pixote\" (1981, brazil;pronounced as \"pi-shot\"), after having seen quite a number of films that deal with street children, juvenile delinquents, kids in trouble (truffaut's \"the 400 blows\", bunuel's \"los olvidados\", de sica's \"shoeshine\", nair's \"salaam, bombay!\", bresson's \"mouchette\", nugroho's \"leaf on a pillow\", etc.), one might be afraid that the plight of the kid portrayed in the film might not affect one anymore, having been \"de-synthesized\" already after going through the emotional roller-coaster ride put in motion by the previously quoted films. thankfully, that won't be the case. for babenco narrates his film in such a matter-of-fact manner (\"artlessly\", as one film reviewer put it, in a positive light) and that his central child performer, fernando ramos da silva (13 years old at that time and a street kid himself), gives such a no-frills, wounded performance, raw in its simplicity (that hardened face, those lonely and longing eyes) that one is hard put not to be pierced in any way. (such a feeling may achieve such a heightened realism when one learns that the child had only lived but a short life, having been involved in street crimes after the film and subsequently murdered.) in about first half of the film, pixote and his fellow street kids and delinquents spend their time in a repressive state-run reformatory school, where brutalization and humiliation, rape and murder, are the norm and culture;where they are forced to confess to their \"crimes\", on the flimsy notion that under the brazilian law, underage felons are not \"punishable\" for their offenses. for these kids, the dubious freedom offered by the streets is more preferable than the harsh rehabilitation provided by these supposed well-meaning authorities. within the walls of this supposed protective establishment, these young souls are soon to discover that love and care from parental figures are likewise nowhere to be found, if not to a degree worser. (for pixote, the only form of escape comes from puffing grass and sniffing glue, secretly smuggled inside the reformatory.) when the kids burst themselves into a small-scale \"revolt\" to finally express and then fulfill their collective desire to get back to the outside world--their \"home\"--the intensity and form are of such a kind that one can't avoid thinking of the schoolboys' revolt in jean vigo's influential \"zero for conduct\". it's only that in \"pixote\", the \"uprising\" is made to appear on a gutter level. once pixote and his small group are back on the streets (the film's second half), they engage in robbery, pimping and drug-dealing to fend for themselves, along which they get to meet sueli, a battered but kindly prostitute. sueli willingly accomodates the four lost souls, in such a way that she allows her customers to be robbed by them and that she provides more than motherly care (at least to one of the children). one would have thought that the street kids have at long last found the one person who can provide them the love and warmth that have been sorely lacking in their lives. but as dubious as the freedom that these kids believe the streets are providing, this new-found \"maternal figure\" cannot but stay forever. jealousy, squabbles, differences, and murder have only set the kids apart--and for good. and during that defining scene where pixote, prompted by the circumstance, gets to shoot not just sueli's arrogant american customer but also his fellow street urchin ditto (more than a son to sueli), he thereafter literally goes back to \"infancy\", as he sucks from the right breast of the disoriented woman, right there and then materializing his lingering desire for parental affection, the image itself both sad and unsettling. it is so that sueli, in a probable coming back to her \"senses\", lamentably pushes back pixote from his \"nourishing\" position and rejects him, for good. thus, in a quietly wrenching moment, pixote, with that young-old face and those sullen eyes (not entirely dissimilar, though in a different context, to the young boy's mien in elem klimov's harrowing \"come and see\"), gets himself up, puts on his coat and takes his gun (yes, a gun!), and sets off to nowhere, walking along the train tracks and with the morning light just beginning to show up. with that scene, babenco may just be doing an homage (amongst many other homages found in different films!) to the iconoclastic final scene in truffaut's \"the 400 blows\". but whereas we got to know what has become of antoine doinel three years later in the short film \"antoine et colette\" (as well as in three other feature films in the years thereafter), we are left grappling in the dark as to what lies ahead for pixote after he finally disappears from the last frame, that being the last time that we'll get to see this real-life street child (notwithstanding the fate that eventually befell him in actuality). \"pixote\" may not be as nearly as whimsical as \"the 400 blows\" or as hallucinatory as \"los olvidados\", but it still stands out among films of similar theme and texture because of its simple, raw power."
+      },
+      {
+        "review_id": "test/pos/6232_9.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5003719925880432,
+        "predicted_confidence": 0.5003719925880432,
+        "review": "perhaps one of the first slasher film that came out after halloween (although made from irwin yabalans from halloween), i must say i honestly found \"tourist trap\" to be scarier and funner. \"tourist trap\" is one of those remarkable treats you find every now and then, and are left with the most enjoyable feeling of surprise. it was destiny i tell you, but one night i was at my local blockbuster (one or two months before it went out of business), and had nothing to get. then i stumble upon this movie, i think huh seems like a laughable b-movie, i rent it and took it home, boy was i in for a good scare. \"tourist trap\" comes off as a bad movie, it definitely has it's cheesy moments,but in the end you're having to much fun with it to really care. the things that impressed me the absolute most, and the things that made this movie one of the scariest ones i've seen, is number one the setting. a horror movie without a good setting isn't very fun, not here. i just love love love the location, it feels like we can relate to it, it almost feels like we've been there before. which makes it creepier. next is the characters, non of them are really stereotypical, and they all have a real personality. for example they're not stoners, alcoholics, or even sex obsessed people, they feel like normal young adults. plus they look realistic enough, and then their is chuck connors. who gives a great performance as mr. slausen who we all take an instant liking too because again he's so real, he feels like that nice guy grandfatherly figure we adore. the last, and probably most important thing that makes this movie scary is how they make us (the audience) jump half way out of our seats, and turn on the rights, for the right reasons. for example most of the time in horror films we mainly just jump because of a sudden change in the music pitch, but in \"tourist trap\" prepare yourself, that's not the case. with it's perfect use of lighting, mannequins, and weirdness you feel utterly creeped out. plus i love because although they may go a bit over-the-top with some things you still feel like this could happen. which is exactly what a horror movie who takes such a ridicules premise should do, and that is make us (the audience) feel unsafe and terrified. overall as far as any major problems go, i have none, only that it's weirdness may get a little too weird at times. however in the end \"tourist trap\" holds a place near and dear to my heart, for being one of the few horror films to make me turn on the lights and feel unsafe about traveling."
+      },
+      {
+        "review_id": "test/pos/9172_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49961230158805847,
+        "predicted_confidence": 0.5003877282142639,
+        "review": "while the \"date doctor\" concept is the one thing that saves this film from being an otherwise average romantic comedy with a standard plot for the genre, i found it enjoyable enough to elevate my opinion of it so i ended up liking it a lot more than if it'd had just a mediocre plot without many twists. will smith does a great job, as always, acting as hitch, the man who devotes his life to advising men how and how not to win over women...ever since his failed attempt to keep his college girlfriend. there're plenty of laughs as he tries to help his latest patient, overweight, gawky asthmatic albert brennman (kevin james) successfully court beautiful co-worker allegra cole (amber valetta). also, when he decides to rid a woman he meets in a bar of the turkey who just doesn't seem to get she doesn't want him around, he finds himself attracted to sara (eva mendes) - it appears to be a big deal for him, so i guess since college he never actually practiced his own rules on himself. unfortunately, sara is a gossip columnist who is interested in \"the date doctor\" who got a seemingly dorky guy like albert together with allegra - especially after player/jerk vance munson (jeffrey donovan) breaks her best friend's (julie ann emery) heart and hints the date doctor he saw disgusted him, when she doesn't realize that he refused to see him. still, trouble follows and hitch is stuck left wondering about what to do with his own relationship, while not being any great help to albert when he tries to figure out what more to do in his. the acting is good, there's a great deal of humor and some other fine points with meaning. hitch's character is witty and wise, sometimes managing to be both at once. true, the misunderstanding where the woman is affronted at something the man hasn't truly done (why do they always show that?) as common and irritating - guess it wouldn't have been if it was the 1st, not 5th, time i've seen it - but the rest of them were completely new. i only wish this movie was longer - i remember being able to watch 3/5 of it while it was playing on a restaurant's tv once - but i still approve. it's definitely worth the money to pay for its brevity."
+      }
+    ]
+  }
+}

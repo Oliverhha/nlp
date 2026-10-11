@@ -1,0 +1,11 @@
+Input: /home/plj/DSA4213/assignment/lm_tokenized
+Vocabulary: /home/plj/DSA4213/assignment/lm_vocab/vocab.txt
+Vocabulary size: 15000
+Vocabulary SHA256: 5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603
+Special IDs: PAD=0, UNK=1, BOS=2, EOS=3
+One TXT per review; first ID is BOS, last ID is EOS.
+UNK rate is computed on original text tokens, excluding BOS/EOS.
+No padding, truncation, chunking, or changes to vocabulary.
+train: documents=25000, text_tokens=6777306, unknown_tokens=224794, UNK_rate=3.3169%, IDs_including_BOS_EOS=6827306
+validation: documents=5000, text_tokens=1359330, unknown_tokens=47959, UNK_rate=3.5281%, IDs_including_BOS_EOS=1369330
+test: documents=5000, text_tokens=1340804, unknown_tokens=46390, UNK_rate=3.4599%, IDs_including_BOS_EOS=1350804

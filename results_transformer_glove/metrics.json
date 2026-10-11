@@ -1,0 +1,500 @@
+{
+  "model": "causal Transformer with frozen input embeddings",
+  "embedding_info": {
+    "method": "GloVe 6B 100d",
+    "file": "/home/plj/DSA4213/assignment/results_glove/embedding.pt",
+    "file_sha256": "00eb5f0405a04fbccd32038236dcf76b859eb08a28c0c6bf79454ecbf70c4126",
+    "coverage": {
+      "lexical_vocabulary_size": 14996,
+      "matched_lexical_tokens": 14641,
+      "missing_lexical_tokens": 355,
+      "vocabulary_coverage_percent": 97.63270205388103,
+      "splits": {
+        "train": {
+          "documents": 25000,
+          "text_tokens": 6777306,
+          "tokens_with_glove_vectors": 6453907,
+          "token_coverage_percent": 95.2282071961927,
+          "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+        },
+        "validation": {
+          "documents": 5000,
+          "text_tokens": 1359330,
+          "tokens_with_glove_vectors": 1292050,
+          "token_coverage_percent": 95.05050282124282,
+          "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+        },
+        "test": {
+          "documents": 5000,
+          "text_tokens": 1340804,
+          "tokens_with_glove_vectors": 1275226,
+          "token_coverage_percent": 95.10905397060272,
+          "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+        }
+      }
+    },
+    "initialization": {
+      "missing_words": "Normal(mean=0, std=0.1); seed=42",
+      "special_tokens": "PAD is zero; UNK/BOS/EOS use the same seeded random initialization.",
+      "freezing": "The entire aligned input table will be frozen in the language model.",
+      "normalization": "Public vectors are copied without scaling or normalization."
+    },
+    "entire_input_table_frozen": true,
+    "remaining_parameters": "randomly initialized and trained from scratch"
+  },
+  "config": {
+    "data_dir": "/home/plj/DSA4213/assignment/lm_encoded",
+    "output_dir": "results_transformer_glove",
+    "embedding_file": "results_glove/embedding.pt",
+    "device": "cuda",
+    "embedding_dim": 100,
+    "d_model": 128,
+    "num_heads": 4,
+    "feedforward_dim": 512,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "context_length": 128,
+    "batch_size": 16,
+    "epochs": 60,
+    "patience": 5,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "model_config": {
+      "vocab_size": 15000,
+      "embedding_dim": 100,
+      "d_model": 128,
+      "num_heads": 4,
+      "feedforward_dim": 512,
+      "context_length": 128,
+      "num_layers": 2,
+      "dropout": 0.2
+    },
+    "precision": "float32",
+    "optimizer": "AdamW",
+    "num_workers": 0,
+    "embedding_initialization": "external word vectors; entire input table frozen",
+    "embedding_info": {
+      "method": "GloVe 6B 100d",
+      "file": "/home/plj/DSA4213/assignment/results_glove/embedding.pt",
+      "file_sha256": "00eb5f0405a04fbccd32038236dcf76b859eb08a28c0c6bf79454ecbf70c4126",
+      "coverage": {
+        "lexical_vocabulary_size": 14996,
+        "matched_lexical_tokens": 14641,
+        "missing_lexical_tokens": 355,
+        "vocabulary_coverage_percent": 97.63270205388103,
+        "splits": {
+          "train": {
+            "documents": 25000,
+            "text_tokens": 6777306,
+            "tokens_with_glove_vectors": 6453907,
+            "token_coverage_percent": 95.2282071961927,
+            "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+          },
+          "validation": {
+            "documents": 5000,
+            "text_tokens": 1359330,
+            "tokens_with_glove_vectors": 1292050,
+            "token_coverage_percent": 95.05050282124282,
+            "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+          },
+          "test": {
+            "documents": 5000,
+            "text_tokens": 1340804,
+            "tokens_with_glove_vectors": 1275226,
+            "token_coverage_percent": 95.10905397060272,
+            "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+          }
+        }
+      },
+      "initialization": {
+        "missing_words": "Normal(mean=0, std=0.1); seed=42",
+        "special_tokens": "PAD is zero; UNK/BOS/EOS use the same seeded random initialization.",
+        "freezing": "The entire aligned input table will be frozen in the language model.",
+        "normalization": "Public vectors are copied without scaling or normalization."
+      },
+      "entire_input_table_frozen": true,
+      "remaining_parameters": "randomly initialized and trained from scratch"
+    },
+    "output_weights_tied": false,
+    "loss": "summed NLL / non-PAD targets",
+    "checkpoint_selection": "minimum validation CE; strict improvement; patience epochs",
+    "determinism_note": "Seeds and cuDNN deterministic settings fixed; exact cross-platform reproduction not guaranteed."
+  },
+  "hardware": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "cpu_model": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "logical_cpus": 32,
+    "system_ram_bytes": 16488157184,
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "available_logical_cpus": 32,
+    "numpy_threadpools": [
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 4,
+        "prefix": "libgomp",
+        "filepath": "/home/plj/miniconda3/envs/dsa4213/lib/python3.11/site-packages/torch/lib/libgomp.so.1",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 32,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/plj/miniconda3/envs/dsa4213/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+        "version": "0.3.31.188.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ],
+    "thread_note": "DataLoader uses num_workers=0; PyTorch CPU thread settings recorded separately.",
+    "python_version": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+    "device": "cuda",
+    "torch_version": "2.11.0+cu128",
+    "torch_cuda_runtime": "12.8",
+    "torch_cpu_threads": 4,
+    "torch_interop_threads": 1,
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_total_memory_bytes": 8184725504,
+    "cudnn_version": 91900
+  },
+  "datasets": {
+    "train": {
+      "documents": 25000,
+      "chunks": 66375,
+      "target_tokens": 6802306
+    },
+    "validation": {
+      "documents": 5000,
+      "chunks": 13330,
+      "target_tokens": 1364330
+    },
+    "test": {
+      "documents": 5000,
+      "chunks": 13161,
+      "target_tokens": 1345804
+    }
+  },
+  "best_epoch": 56,
+  "validation": {
+    "cross_entropy": 4.704579218104294,
+    "perplexity": 110.45179905055723
+  },
+  "test": {
+    "cross_entropy": 4.689954978527241,
+    "perplexity": 108.84827918726391,
+    "target_tokens": 1345804,
+    "steps": 823,
+    "seconds": 4.8238030150005216,
+    "target_tokens_per_second": 278992.3211654725
+  },
+  "model_size": {
+    "total_parameters": 3860856,
+    "trainable_parameters": 2360856,
+    "parameter_tensor_bytes": 15443424,
+    "checkpoint_bytes": 34619014,
+    "checkpoint_note": "Includes optimizer state, vocabulary and configuration; tensor bytes are a separate model-only measure."
+  },
+  "training_budget": {
+    "max_epochs": 60,
+    "actual_epochs": 60,
+    "patience": 5,
+    "optimizer_steps": 248940,
+    "processed_training_targets": 408138360
+  },
+  "timing": {
+    "clock": "time.perf_counter; CUDA synchronized at phase boundaries",
+    "dataset_loading_seconds": 2.113013429999995,
+    "training_epochs_seconds": 3898.367127807001,
+    "validation_epochs_seconds": 289.83106084699773,
+    "checkpoint_save_seconds": 1.348932324999339,
+    "fit_and_selection_wall_seconds": 4190.696366875,
+    "best_checkpoint_reload_seconds": 0.040044606999799726,
+    "test_seconds": 4.8238030150005216,
+    "plot_seconds": 0.8989632769998934,
+    "pipeline_elapsed_before_metrics_write_seconds": 4199.253566234,
+    "epoch_timing_note": "Includes batch collation/transfer and optimization or evaluation; excludes initial dataset loading and checkpoint writes.",
+    "fit_wall_note": "Includes train/validation, checkpoint saves, CSV writes and epoch telemetry."
+  },
+  "gpu_training_peak_memory": {
+    "allocated_bytes": 597684736,
+    "reserved_bytes": 708837376
+  },
+  "gpu_telemetry_snapshots": [
+    {
+      "phase": "before_training",
+      "nvidia_smi": "0, 39, 9.81, 139, 0"
+    },
+    {
+      "phase": "after_epoch_1",
+      "nvidia_smi": "0, 53, 55.01, 823, 92"
+    },
+    {
+      "phase": "after_epoch_2",
+      "nvidia_smi": "0, 54, 54.89, 823, 92"
+    },
+    {
+      "phase": "after_epoch_3",
+      "nvidia_smi": "0, 55, 54.90, 823, 92"
+    },
+    {
+      "phase": "after_epoch_4",
+      "nvidia_smi": "0, 55, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_5",
+      "nvidia_smi": "0, 56, 54.98, 823, 92"
+    },
+    {
+      "phase": "after_epoch_6",
+      "nvidia_smi": "0, 56, 54.92, 823, 92"
+    },
+    {
+      "phase": "after_epoch_7",
+      "nvidia_smi": "0, 56, 54.90, 823, 93"
+    },
+    {
+      "phase": "after_epoch_8",
+      "nvidia_smi": "0, 56, 54.93, 823, 92"
+    },
+    {
+      "phase": "after_epoch_9",
+      "nvidia_smi": "0, 56, 54.35, 823, 92"
+    },
+    {
+      "phase": "after_epoch_10",
+      "nvidia_smi": "0, 56, 54.98, 823, 92"
+    },
+    {
+      "phase": "after_epoch_11",
+      "nvidia_smi": "0, 56, 54.91, 823, 92"
+    },
+    {
+      "phase": "after_epoch_12",
+      "nvidia_smi": "0, 56, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_13",
+      "nvidia_smi": "0, 57, 54.87, 823, 92"
+    },
+    {
+      "phase": "after_epoch_14",
+      "nvidia_smi": "0, 56, 54.88, 823, 92"
+    },
+    {
+      "phase": "after_epoch_15",
+      "nvidia_smi": "0, 56, 54.91, 823, 92"
+    },
+    {
+      "phase": "after_epoch_16",
+      "nvidia_smi": "0, 56, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_17",
+      "nvidia_smi": "0, 57, 54.98, 823, 92"
+    },
+    {
+      "phase": "after_epoch_18",
+      "nvidia_smi": "0, 57, 54.97, 823, 92"
+    },
+    {
+      "phase": "after_epoch_19",
+      "nvidia_smi": "0, 56, 54.33, 823, 92"
+    },
+    {
+      "phase": "after_epoch_20",
+      "nvidia_smi": "0, 56, 54.90, 823, 92"
+    },
+    {
+      "phase": "after_epoch_21",
+      "nvidia_smi": "0, 56, 54.84, 823, 92"
+    },
+    {
+      "phase": "after_epoch_22",
+      "nvidia_smi": "0, 56, 54.60, 823, 92"
+    },
+    {
+      "phase": "after_epoch_23",
+      "nvidia_smi": "0, 56, 54.97, 823, 92"
+    },
+    {
+      "phase": "after_epoch_24",
+      "nvidia_smi": "0, 56, 54.88, 823, 92"
+    },
+    {
+      "phase": "after_epoch_25",
+      "nvidia_smi": "0, 56, 54.92, 823, 92"
+    },
+    {
+      "phase": "after_epoch_26",
+      "nvidia_smi": "0, 56, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_27",
+      "nvidia_smi": "0, 57, 54.96, 823, 92"
+    },
+    {
+      "phase": "after_epoch_28",
+      "nvidia_smi": "0, 56, 54.89, 823, 92"
+    },
+    {
+      "phase": "after_epoch_29",
+      "nvidia_smi": "0, 56, 54.92, 823, 93"
+    },
+    {
+      "phase": "after_epoch_30",
+      "nvidia_smi": "0, 56, 54.80, 823, 92"
+    },
+    {
+      "phase": "after_epoch_31",
+      "nvidia_smi": "0, 56, 55.00, 823, 92"
+    },
+    {
+      "phase": "after_epoch_32",
+      "nvidia_smi": "0, 56, 54.42, 823, 92"
+    },
+    {
+      "phase": "after_epoch_33",
+      "nvidia_smi": "0, 57, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_34",
+      "nvidia_smi": "0, 56, 54.92, 823, 92"
+    },
+    {
+      "phase": "after_epoch_35",
+      "nvidia_smi": "0, 56, 54.95, 823, 92"
+    },
+    {
+      "phase": "after_epoch_36",
+      "nvidia_smi": "0, 56, 54.55, 823, 92"
+    },
+    {
+      "phase": "after_epoch_37",
+      "nvidia_smi": "0, 57, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_38",
+      "nvidia_smi": "0, 56, 54.90, 823, 92"
+    },
+    {
+      "phase": "after_epoch_39",
+      "nvidia_smi": "0, 56, 54.83, 823, 92"
+    },
+    {
+      "phase": "after_epoch_40",
+      "nvidia_smi": "0, 56, 54.97, 823, 92"
+    },
+    {
+      "phase": "after_epoch_41",
+      "nvidia_smi": "0, 56, 54.89, 823, 92"
+    },
+    {
+      "phase": "after_epoch_42",
+      "nvidia_smi": "0, 56, 54.89, 823, 92"
+    },
+    {
+      "phase": "after_epoch_43",
+      "nvidia_smi": "0, 56, 55.03, 823, 92"
+    },
+    {
+      "phase": "after_epoch_44",
+      "nvidia_smi": "0, 56, 54.86, 823, 92"
+    },
+    {
+      "phase": "after_epoch_45",
+      "nvidia_smi": "0, 57, 54.95, 823, 92"
+    },
+    {
+      "phase": "after_epoch_46",
+      "nvidia_smi": "0, 57, 54.96, 823, 92"
+    },
+    {
+      "phase": "after_epoch_47",
+      "nvidia_smi": "0, 56, 54.90, 823, 92"
+    },
+    {
+      "phase": "after_epoch_48",
+      "nvidia_smi": "0, 56, 54.90, 823, 92"
+    },
+    {
+      "phase": "after_epoch_49",
+      "nvidia_smi": "0, 56, 54.93, 823, 92"
+    },
+    {
+      "phase": "after_epoch_50",
+      "nvidia_smi": "0, 57, 54.89, 823, 91"
+    },
+    {
+      "phase": "after_epoch_51",
+      "nvidia_smi": "0, 56, 54.89, 823, 92"
+    },
+    {
+      "phase": "after_epoch_52",
+      "nvidia_smi": "0, 56, 54.93, 823, 92"
+    },
+    {
+      "phase": "after_epoch_53",
+      "nvidia_smi": "0, 57, 54.69, 823, 93"
+    },
+    {
+      "phase": "after_epoch_54",
+      "nvidia_smi": "0, 56, 54.94, 823, 92"
+    },
+    {
+      "phase": "after_epoch_55",
+      "nvidia_smi": "0, 57, 54.95, 823, 92"
+    },
+    {
+      "phase": "after_epoch_56",
+      "nvidia_smi": "0, 56, 54.87, 823, 92"
+    },
+    {
+      "phase": "after_epoch_57",
+      "nvidia_smi": "0, 56, 54.93, 823, 92"
+    },
+    {
+      "phase": "after_epoch_58",
+      "nvidia_smi": "0, 57, 54.88, 823, 92"
+    },
+    {
+      "phase": "after_epoch_59",
+      "nvidia_smi": "0, 56, 54.90, 823, 92"
+    },
+    {
+      "phase": "after_epoch_60",
+      "nvidia_smi": "0, 56, 54.91, 823, 92"
+    },
+    {
+      "phase": "after_test",
+      "nvidia_smi": "0, 51, 24.93, 823, 0"
+    }
+  ],
+  "telemetry_note": "Boundary snapshots only; these do not establish peak temperature or thermal safety.",
+  "inference_config": {
+    "task": "teacher-forced next-token scoring on the full test split",
+    "device": "cuda",
+    "batch_size": 16,
+    "context_length": 128,
+    "target_tokens": 1345804,
+    "repetitions": 1,
+    "included": "batch collation/transfer, forward pass and token-average cross-entropy calculation",
+    "excluded": "initial dataset loading, checkpoint loading and disk writes",
+    "note": "Test evaluation timing; not autoregressive text generation. No separate timing warmup."
+  },
+  "inference_seconds": 4.8238030150005216,
+  "inference_tokens_per_second": 278992.3211654725,
+  "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+  "source_sha256": {
+    "train_transformer_fixed.py": "33bc3627710019ad0faee1326c45d639127551b39b6f1dd3f15e49c7599ded3f",
+    "transformer_model.py": "e1ab3148ce58bd66c3b3c9c1b2ceeae2e9dea317e75c8107bb9e387d71089b7e",
+    "lm_data.py": "43ef09608960becd4cef277dbe579b2630a847f001569385ccf45da4264a98ca"
+  }
+}

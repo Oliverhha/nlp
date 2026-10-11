@@ -1,0 +1,277 @@
+{
+  "protocol": "fixed_hyperparameters_single_seed",
+  "representation": "results_transformer_skipgram",
+  "features_metadata": {
+    "feature_schema_version": 2,
+    "representation": "results_transformer_skipgram",
+    "model": "transformer",
+    "checkpoint": "/home/plj/DSA4213/assignment/results_transformer_skipgram/best_model.pt",
+    "checkpoint_sha256": "671ea543c84291dade180f6c5c476dbbd99a849336a426ccea62f80396d4d0d3",
+    "model_config": {
+      "vocab_size": 15000,
+      "embedding_dim": 100,
+      "d_model": 128,
+      "num_heads": 4,
+      "feedforward_dim": 512,
+      "context_length": 128,
+      "num_layers": 2,
+      "dropout": 0.2
+    },
+    "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+    "manifest": "/home/plj/DSA4213/assignment/sentiment_splits/manifest.json",
+    "manifest_sha256": "e2262fa5710297af7577d5c7ebe0074f55bab22a983ad4541bee4a8d3d27b692",
+    "data_dir": "/home/plj/DSA4213/assignment/sentiment_splits",
+    "dataset_split_seed": 42,
+    "pooling_exclusions": [
+      "PAD",
+      "BOS",
+      "EOS"
+    ],
+    "chunk_length": 128,
+    "context_policy": "overlapping windows; reset positions; pool each token once from its first covering window",
+    "stride": 64,
+    "pooling": "mean_max",
+    "feature_dimension": 256,
+    "truncation": "none; use every review token",
+    "language_model_frozen": true,
+    "device": "cuda",
+    "batch_size": 32,
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.4.6"
+    },
+    "timing_scope": "extraction includes batching, transfers, hidden states, pooling and CPU accumulation; excludes tokenization, model loading and saving",
+    "source_sha256": {
+      "extract_sentiment_features.py": "22f447c66aa0776ff4483f25099271212ab7226453d06a1acf49b6785c285d03",
+      "tokenize_imdb.py": "9c67d7636ae48759c665aaaed6c3c5769be6d5f03c034e1c82f867773126fd13"
+    },
+    "splits": {
+      "train": {
+        "documents": 20000,
+        "tokens": 5396049,
+        "unknown_tokens": 201993,
+        "unk_rate": 0.03743349995524503,
+        "preparation_seconds": 1.782374936999986,
+        "chunks_or_windows": 75360,
+        "extraction_seconds": 4.9512616709999975,
+        "extraction_documents_per_second": 4039.374472397989
+      },
+      "validation": {
+        "documents": 5000,
+        "tokens": 1348223,
+        "unknown_tokens": 51018,
+        "unk_rate": 0.03784092097523926,
+        "preparation_seconds": 0.4477263329999914,
+        "chunks_or_windows": 18819,
+        "extraction_seconds": 1.2013578160000407,
+        "extraction_documents_per_second": 4161.957356424966
+      },
+      "test": {
+        "documents": 25000,
+        "tokens": 6594814,
+        "unknown_tokens": 244329,
+        "unk_rate": 0.03704865671723266,
+        "preparation_seconds": 2.1913052209999933,
+        "chunks_or_windows": 91832,
+        "extraction_seconds": 5.990619001000027,
+        "extraction_documents_per_second": 4173.191450804448
+      }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "seed": 42,
+  "logistic": {
+    "C": 1.0,
+    "seed": 42,
+    "validation": {
+      "accuracy": 0.8444,
+      "macro_f1": 0.8444,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8444,
+          "recall": 0.8444,
+          "f1-score": 0.8444,
+          "support": 2500.0
+        },
+        "positive": {
+          "precision": 0.8444,
+          "recall": 0.8444,
+          "f1-score": 0.8444,
+          "support": 2500.0
+        },
+        "accuracy": 0.8444,
+        "macro avg": {
+          "precision": 0.8444,
+          "recall": 0.8444,
+          "f1-score": 0.8444,
+          "support": 5000.0
+        },
+        "weighted avg": {
+          "precision": 0.8444,
+          "recall": 0.8444,
+          "f1-score": 0.8444,
+          "support": 5000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2111,
+          389
+        ],
+        [
+          389,
+          2111
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 0.84404,
+      "macro_f1": 0.8440347533291019,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8400948991696323,
+          "recall": 0.84984,
+          "f1-score": 0.8449393517597932,
+          "support": 12500.0
+        },
+        "positive": {
+          "precision": 0.8480777013354917,
+          "recall": 0.83824,
+          "f1-score": 0.8431301548984108,
+          "support": 12500.0
+        },
+        "accuracy": 0.84404,
+        "macro avg": {
+          "precision": 0.844086300252562,
+          "recall": 0.84404,
+          "f1-score": 0.8440347533291019,
+          "support": 25000.0
+        },
+        "weighted avg": {
+          "precision": 0.8440863002525619,
+          "recall": 0.84404,
+          "f1-score": 0.8440347533291019,
+          "support": 25000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          10623,
+          1877
+        ],
+        [
+          2022,
+          10478
+        ]
+      ]
+    },
+    "fit_seconds": 0.11280947000000197,
+    "test_classifier_seconds": 0.002529288000005181,
+    "test_documents_per_second": 9884204.56664041,
+    "saved_model_bytes": 8449
+  },
+  "mlp": {
+    "settings": {
+      "learning_rate": 0.001,
+      "dropout": 0.2
+    },
+    "seed": 42,
+    "best_epoch": 8,
+    "actual_epochs": 13,
+    "best_validation_macro_f1": 0.8463997788156814,
+    "best_validation_ce": 0.36893096566200256,
+    "fit_seconds_including_validation": 1.0187076700000262,
+    "stop_reason": "early_stopping",
+    "validation": {
+      "accuracy": 0.8464,
+      "macro_f1": 0.8463997788156814,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8455706304868316,
+          "recall": 0.8476,
+          "f1-score": 0.8465840990811027,
+          "support": 2500.0
+        },
+        "positive": {
+          "precision": 0.847233360064154,
+          "recall": 0.8452,
+          "f1-score": 0.8462154585502603,
+          "support": 2500.0
+        },
+        "accuracy": 0.8464,
+        "macro avg": {
+          "precision": 0.8464019952754928,
+          "recall": 0.8464,
+          "f1-score": 0.8463997788156814,
+          "support": 5000.0
+        },
+        "weighted avg": {
+          "precision": 0.8464019952754926,
+          "recall": 0.8464,
+          "f1-score": 0.8463997788156815,
+          "support": 5000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2119,
+          381
+        ],
+        [
+          387,
+          2113
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 0.8472,
+      "macro_f1": 0.8471986612157901,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8451566724988071,
+          "recall": 0.85016,
+          "f1-score": 0.8476509531785914,
+          "support": 12500.0
+        },
+        "positive": {
+          "precision": 0.8492676645742797,
+          "recall": 0.84424,
+          "f1-score": 0.8467463692529889,
+          "support": 12500.0
+        },
+        "accuracy": 0.8472,
+        "macro avg": {
+          "precision": 0.8472121685365435,
+          "recall": 0.8472,
+          "f1-score": 0.8471986612157901,
+          "support": 25000.0
+        },
+        "weighted avg": {
+          "precision": 0.8472121685365435,
+          "recall": 0.8472,
+          "f1-score": 0.8471986612157902,
+          "support": 25000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          10627,
+          1873
+        ],
+        [
+          1947,
+          10553
+        ]
+      ]
+    },
+    "test_classifier_seconds": 0.016006500000003143,
+    "test_documents_per_second": 1561865.49214351,
+    "parameter_count": 33154,
+    "saved_model_bytes": 142133
+  },
+  "timing": {
+    "logistic_fit_seconds": 0.11280947000000197,
+    "mlp_fit_seconds_including_validation": 1.0187076700000262,
+    "whole_script_seconds": 1.9691195270000321
+  }
+}

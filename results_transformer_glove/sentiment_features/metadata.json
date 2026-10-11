@@ -1,0 +1,78 @@
+{
+  "feature_schema_version": 2,
+  "representation": "results_transformer_glove",
+  "model": "transformer",
+  "checkpoint": "/home/plj/DSA4213/assignment/results_transformer_glove/best_model.pt",
+  "checkpoint_sha256": "452e19e604649bf73fed777f1015d15835bff8161b3b4134a0c69b5b7bbdbd4d",
+  "model_config": {
+    "vocab_size": 15000,
+    "embedding_dim": 100,
+    "d_model": 128,
+    "num_heads": 4,
+    "feedforward_dim": 512,
+    "context_length": 128,
+    "num_layers": 2,
+    "dropout": 0.2
+  },
+  "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+  "manifest": "/home/plj/DSA4213/assignment/sentiment_splits/manifest.json",
+  "manifest_sha256": "e2262fa5710297af7577d5c7ebe0074f55bab22a983ad4541bee4a8d3d27b692",
+  "data_dir": "/home/plj/DSA4213/assignment/sentiment_splits",
+  "dataset_split_seed": 42,
+  "pooling_exclusions": [
+    "PAD",
+    "BOS",
+    "EOS"
+  ],
+  "chunk_length": 128,
+  "context_policy": "overlapping windows; reset positions; pool each token once from its first covering window",
+  "stride": 64,
+  "pooling": "mean_max",
+  "feature_dimension": 256,
+  "truncation": "none; use every review token",
+  "language_model_frozen": true,
+  "device": "cuda",
+  "batch_size": 32,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6"
+  },
+  "timing_scope": "extraction includes batching, transfers, hidden states, pooling and CPU accumulation; excludes tokenization, model loading and saving",
+  "source_sha256": {
+    "extract_sentiment_features.py": "22f447c66aa0776ff4483f25099271212ab7226453d06a1acf49b6785c285d03",
+    "tokenize_imdb.py": "9c67d7636ae48759c665aaaed6c3c5769be6d5f03c034e1c82f867773126fd13"
+  },
+  "splits": {
+    "train": {
+      "documents": 20000,
+      "tokens": 5396049,
+      "unknown_tokens": 201993,
+      "unk_rate": 0.03743349995524503,
+      "preparation_seconds": 1.9521977199999583,
+      "chunks_or_windows": 75360,
+      "extraction_seconds": 5.069153854999968,
+      "extraction_documents_per_second": 3945.4316385116167
+    },
+    "validation": {
+      "documents": 5000,
+      "tokens": 1348223,
+      "unknown_tokens": 51018,
+      "unk_rate": 0.03784092097523926,
+      "preparation_seconds": 0.48153908599999795,
+      "chunks_or_windows": 18819,
+      "extraction_seconds": 1.2072431110000252,
+      "extraction_documents_per_second": 4141.667866597497
+    },
+    "test": {
+      "documents": 25000,
+      "tokens": 6594814,
+      "unknown_tokens": 244329,
+      "unk_rate": 0.03704865671723266,
+      "preparation_seconds": 2.396211109000035,
+      "chunks_or_windows": 91832,
+      "extraction_seconds": 6.12297791200001,
+      "extraction_documents_per_second": 4082.9805952760653
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

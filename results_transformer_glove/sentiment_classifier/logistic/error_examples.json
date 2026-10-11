@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/3486_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9993589520454407,
+        "predicted_confidence": 0.9993589520454407,
+        "review": "this film has the language, the style and the attitude down ... plus greats rides from occy (a world champ) and the great jerry lopez. john philbin as turtle has the surf pidgin down, and the surfing scenes are still the best ever. a true classic that can be seen many times. nia peeples is a babe, and laird hamilton shows the early stuff that has made him the world's number one extreme surfer."
+      },
+      {
+        "review_id": "test/neg/11502_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.99825519323349,
+        "predicted_confidence": 0.99825519323349,
+        "review": "this show is pretty alright and fun to watch, its a great disney channel shows and sometimes entertaining. i really enjoyed the first season but i hated the second and third seasons. this show has completely changed around. in the first season it was more about science and animals, all that is gone now in the season and third season. its more about her life and dating. ever since that gay kid (ben) came along, this show has sucked. the writers took a perfectly good kid show and changed it to a crappy teen comedy. disney took a turn for the worse. i cant stand to watch the newest episodes anymore, they're all garbage."
+      },
+      {
+        "review_id": "test/neg/2953_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9979559183120728,
+        "predicted_confidence": 0.9979559183120728,
+        "review": "this could have been a very good film, a very interesting look at ancient tradition and oral history, but it should have been a short subject. as it is , it moves at a snail's pace; sure that's part of the life being portrayed, but this was unbearable. i fell asleep watching them make soup and that was a highlight."
+      },
+      {
+        "review_id": "test/neg/1420_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9972353577613831,
+        "predicted_confidence": 0.9972353577613831,
+        "review": "interesting and short television movie describes some of the machinations surrounding jay leno's replacing carson as host of the tonight show. film is currently very topical given the public drama surrounding conan o'brien and jay leno. the film does a good job of sparking viewers' interest in the events and showing some of the concerns of the stakeholders, particularly of the nbc executives. the portrayal of ovitz was particularly compelling and interesting, i thought. still, many of the characters were only very briefly limned or touched upon, and some of the acting seemed perfunctory. nevertheless, an interesting story."
+      },
+      {
+        "review_id": "test/neg/9133_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9969647526741028,
+        "predicted_confidence": 0.9969647526741028,
+        "review": "the peace and beauty of koyaanisqatsi was a powerful affirmation of the natural world. in naqoyqatsi, we are assaulted by images of the synthetic, the competitive, the violent, and the digital -- the destructive constructs of our culture. some liberties are taken with the images, with posterization, distressing, and much slow motion. the connections between the sequences are inscrutable, if there are any. naqoyqatsi is defined at the film's end, a missed opportunity to place the images in context. the film is difficult to watch, the quality of the archival footage uneven, and it's most redeeming qualities are its theme and the hypnotic score of philip glass."
+      },
+      {
+        "review_id": "test/neg/8621_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9968084692955017,
+        "predicted_confidence": 0.9968084692955017,
+        "review": "more suspenseful, more subtle, much, much more disturbing...."
+      },
+      {
+        "review_id": "test/neg/3824_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9965129494667053,
+        "predicted_confidence": 0.9965129494667053,
+        "review": "this was the typical women prison movie. i thought the women were very sexy and the outfits were great. all the camera did was focus on the women and the women were always in provocative poses for the camera and they were always scantily dressed(which i loved). this is your basic prison/breakout movie of the 70's. all i can say about this film is that it's extremely cheesy, but the women are gorgeous and their butts are great!"
+      },
+      {
+        "review_id": "test/neg/5529_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9964240193367004,
+        "predicted_confidence": 0.9964240193367004,
+        "review": "victor jory never became a major star. he is better known for later character roles than for his early leads. but he was very handsome and an excellent actor. his love scenes with loretta young in this romantic adventure thriller are passionate. their kisses look very real. and very modern. vivienne osborne is a standout here also. she plays a woman with a reputation. but the character has a good heart. the print i saw was not clear. but what a joy that rare movies like this are turning up! and they are, in some sort of watchable condition, still intact. this is nothing truly special. but if one is willing to sift through movies of its era with similarly intriguing titles, one is likely to find some suprtb movies."
+      },
+      {
+        "review_id": "test/neg/12130_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9960675239562988,
+        "predicted_confidence": 0.9960675239562988,
+        "review": "this movie was pure genius. john waters is brilliant. it is hilarious and i am not sick of it even after seeing it about 20 times since i bought it a few months ago. the acting is great, although ricki lake could have been better. and johnny depp is magnificent. he is such a beautiful man and a very talented actor. and seeing most of johnny's movies, this is probably my favorite. i give it 9.5/10. rent it today!"
+      },
+      {
+        "review_id": "test/neg/8591_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9959986209869385,
+        "predicted_confidence": 0.9959986209869385,
+        "review": "beautiful images, propaganda and history as toy. the ingredients of this film, good, interesting but with many shadows. politicall shadows. jefferson is more than the hero of a mythical america. he is silhouette of a vision about life and society, an extraordinary thinker, teacher of large part of north america. in film is only superman. the delicate contour of ideas are crushed. the subtle birth of essential truth is forgotten. and jefferson is basic instrument for create a good image of american realities. the end,triumphal and fake, romance and heroic, is gun suicide of a story who may be tall with more wisdom. and the war against \"avatar\" is another gray stain. for one who heard nothing about jefferson, movie is a good beginning. for the others - disillusion. it is like the precious silk of a tailor. but the tailor is fascinating about silk and the clothes are only ordinary cloth. so, a sad experience. slices of beauty and boring lakes, patriotic lesson and the crush of expectation. a film who must impressive. and the ash of a story who could be magnificent."
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/5744_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.002913416363298893,
+        "predicted_confidence": 0.9970865845680237,
+        "review": "right, here we go, you have probably read in previous reviews on this film that it is awful, badly acted, avoid at all costs. well i suppose in some ways this is true, it is fair to say that you couldn't write a spoiler in this comment as there is no plot to spoil. however, there is a fine line between plain awful and absolutely hilarious and believe me this film is the latter. the acting is so bad, the plot so non existent and the ending so completely baffling it will have you laughing the whole way through. there are scenes in this film that take comedy to a new level. do not expect an oscar winner but believe me for the small price you will pay for this disaster, it is worth every penny."
+      },
+      {
+        "review_id": "test/pos/9049_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0042648715898394585,
+        "predicted_confidence": 0.9957351088523865,
+        "review": "if a joke doesn't offend anybody, it isn't funny. the inki cartoons are offensive, no doubt about it. so is rap music. get over it. i suspect that any sane black person will find the inki cartoons hilarious, and that the people who are offended by them white people who still think black's need their patronizing protection against racist humor. seriously, the inki cartoons are funny. it saddens me that, not because anybody is really offended, but because somebody might, just might, be offended, i can't buy inki cartoons or the african queen or song of the south on dvd."
+      },
+      {
+        "review_id": "test/pos/6938_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004909410607069731,
+        "predicted_confidence": 0.9950906038284302,
+        "review": "do-it-yourself indie horror auteur todd sheets returns with another entertainingly atrocious nickel'n'dime shot-on-video clunker that's basically just a feeble excuse to sling around a lot of watery blood and gleaming guts as often as possible. an evil demonic scarecrow resurrects the dead as ravenous rot-faced zombies so they can feast on the living. a bunch of bickering college kids, a trio of dangerous escaped convicts led by the vicious slade (byron nichodemus hamming it up to an outrageous degree), two equally savage sleazeball hoodlums, and a trio of hottie sisters all have to do their best to survive this harrowing ordeal. that's it for the needlessly muddled and convoluted plot, but fortunately what this hilariously horrendous hoot lacks in narrative coherence (plenty) it more than compensates for with a pleasing plethora of gloriously gross'n'graphic gore. disgusting highlights include a woman having her fingers chopped off, a fatal gunshot to a young gal's groin, attempted necrophiliac rape, evisceration, and, of course, more repulsive entrail eating than you can shake a pile of moist intestines at. moreover, we've also got rough, grainy cinematography that constantly alternates between washed-out color and grimy black and white, ineptly staged fight scenes, lousy acting from a uniformly pathetic no-name cast (jerry angell in particular cops the top crummy thespic dishonors for his laughably abysmal histrionics as slimy no-count psycho criminal joe bob), a grating head-banging thrash metal soundtrack, and a generic shivery'n'ominous synthesizer score. let's not forget the ridiculous ending in which several of our survivors stumble across a few vials of flesh-eating bacteria to use on the shambling undead hordes. sure, this flick is pure dreck, but it has a certain endearingly abominable quality to it that in turn makes it a great deal of so-awful-it's-awesome grade z fun for hardcore aficionados of bad fright fare."
+      },
+      {
+        "review_id": "test/pos/5437_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004955703858286142,
+        "predicted_confidence": 0.9950442910194397,
+        "review": "actually i'll admit i'm a political junkie, so this resonated with me, but the erratic nature of ms. green (yes i know what they did to her), but the ending was such a copout and totally inconsistent with the film itself. why can't barry l and crew just left us wondering what he was going to do? let us debate it. instead they have this \"oh i'm not worthy\" bullshit ending and it just shows that when the chips were down it's better to leave the table instead of doubling down. stop the disney ending and putting a bow on it. life isn't easy, they should have had the courage to give the main character some backbone. we had to listen to the rhetoric the entire movie... and then it turned sniveling and the stupid, inane behavior by ms. green (when the crap was out of her system) just made for a ridiculous near end of the movie that was icing on the cake."
+      },
+      {
+        "review_id": "test/pos/11252_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.00563021982088685,
+        "predicted_confidence": 0.9943698048591614,
+        "review": "black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal. black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal. black tar can't be snorted there's a documentary: dark end of the street about s.f. street punks and b.t. abuse - not bad - quite heavy. in wasted there's this stuff that looks like coke but should be something else... no big deal."
+      },
+      {
+        "review_id": "test/pos/12386_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006909355986863375,
+        "predicted_confidence": 0.9930906295776367,
+        "review": "okay, i'll say it. this movie made me laugh so hard that it hurt. this statement may offend some of you who may think that this movie is nothing more than a waste of film. but the thing that most people don't get is that this movie was intended to be bad and cheezy. i mean, did people actually think that a movie about a killer snowman was intended to be a masterpiece? just look at the \"scary\" hologram on the jacket of the movie and you'll find your answer. instead, like the original jack frost (which i thought was just as funny), this movie turned out to be a side-splitting journey into the depths of corny dialogue, bad one liners and horrible special effects. and it's all made to deliver laughter to us viewers. it certainly worked for me. for example: anne tiler (to her troubled husband): what makes you frown so heavily darling? if that chunk of dialogue doesn't make you laugh, then you have serious issues. who in their right mind would utter those words in real life? of course, no one because it was meant to sound ridiculous! just take one viewing of this movie with an open mind and low expectations, and hopefully you'll see what's so damn funny about jack frost 2."
+      },
+      {
+        "review_id": "test/pos/7403_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006909355986863375,
+        "predicted_confidence": 0.9930906295776367,
+        "review": "okay, i'll say it. this movie made me laugh so hard that it hurt. this statement may offend some of you who may think that this movie is nothing more than a waste of film. but the thing that most people don't get is that this movie was intended to be bad and cheezy. i mean, did people actually think that a movie about a killer snowman was intended to be a masterpiece? just look at the \"scary\" hologram on the jacket of the movie and you'll find your answer. instead, like the original jack frost (which i thought was just as funny), this movie turned out to be a side-splitting journey into the depths of corny dialogue, bad one liners and horrible special effects. and it's all made to deliver laughter to us viewers. it certainly worked for me. for example: anne tiler (to her troubled husband): what makes you frown so heavily darling? if that chunk of dialogue doesn't make you laugh, then you have serious issues. who in their right mind would utter those words in real life? of course, no one because it was meant to sound ridiculous! just take one viewing of this movie with an open mind and low expectations, and hopefully you'll see what's so damn funny about jack frost 2."
+      },
+      {
+        "review_id": "test/pos/9235_9.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.007475817576050758,
+        "predicted_confidence": 0.9925242066383362,
+        "review": "this film proves you don't need a hollywood budget to make something fun to watch. what stuck with me is how the crew from different locations was able to pull together with no promises of riches to make something just because they believed in it. i think anybody who makes low budget movies can relate to certain scenes such as actors who just can't get that one line, being bothered by the police, and having most of the crew disappear after the first week. nobody got paid for this which says a lot for the people who had to travel cross country and for the long hours spent editing. after watching stuie sell his personal property, use his own money, and trash his house to make the movie i am a bit curious how close his wife may have come to leaving. good job to all."
+      },
+      {
+        "review_id": "test/pos/4134_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.008683403953909874,
+        "predicted_confidence": 0.9913166165351868,
+        "review": "i've got to say it. gary busey saved this film. if it were not for his fine acting talents this film would have been sub par. i recommend the film but just barely. the biggest difficulty with the film is its broad disregard for historical, geographical and physical accuracy. for example, why is lubbock green and hilly? how come buddy's producer petty ignored? where are the daily trips to the clovis, new mexico studio? why is nashville treated as a racist hate camp out to destroy the holly sound? why was buddy's two week courtship to maria treated as a complex, taboo, race mixing stereotype? why are buddy's tile boxes as light as feathers? finally, why are the crickets portrayed as trouble making roadblocks to holly's talent? taken on their face these inaccuracies should spell doom for any film proclaiming itself, \"the buddy holly story.\" however, busey does deliver a stirring portrayal as the man whose death eventually led to the day the music died."
+      },
+      {
+        "review_id": "test/pos/9877_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.008980792947113514,
+        "predicted_confidence": 0.9910191893577576,
+        "review": "halloween 666 (1995) the producer's cut review! halloween 666 starts of with a recap of the horrific ending to part five. if you thought the last chapter was dark, this one will really blow your mind. a mysterious \"man in black\" has raided the haddonfield police department freeing micheal myers. in the process poor jamie lloyd was abducted by strange cultists. what they want with her? who knows, but let's just say her long suffering will end soon. doctor loomis is back spending the rest of his twilight years trying to stop michael myers from killing any more innocents (good luck). a friend of loomis, doctor wynn comes back after a four sequel hiatus to help the good doctor. another old face from part one guest stars as well. this dark and dreary sequel was dismantled during the post production editing. for some reason the distributors felt that the final product wasn't worth the average horror film watcher's time. so they decide to dumb it down. then after having the film sit on the shelf for several months it laid an egg at the box office. no matter what they did to the film, they made it worse. they should have left well enough alone. hey, the film company knows better than the filmmakers now....don't they? producer's cut :highly recommended released version: not recommended"
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/pos/10445_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4999169111251831,
+        "predicted_confidence": 0.5000830888748169,
+        "review": "it plays like your usual teenage-audience t&a movie, but the sentiment is incredibly bleak. if it was made today, it'd be considered an art house movie. it goes through the usual routine of a guy trying to get laid, but the results of his efforts are harsh and cruel and unsatisfying. the whole teen flick formula is adhered to, but nothing turns out the way you'd expect. imagine a director's cut of 'it's a wonderful life' where, at the end, james stewart wasn't allowed to return to the real world. an incredible film that subverts all of the expectations of the genre. it makes you feel dirty afterwards: there is no redemption for the characters. i'm amazed it ever got made. the eighties version of detective story."
+      },
+      {
+        "review_id": "test/neg/10850_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.50013667345047,
+        "predicted_confidence": 0.50013667345047,
+        "review": "rigoletto is verdi's masterpiece, full of drama, emotion and powerful, memorable music. the maestro must have rolled in his grave when this bawdy travesty of his work was released with its needless frontal nudity and cheap copulating and its portrayal of the naive but principalled gilda as a horny ditz. opera certainly can be adapted to cinema --- look at zeferelli's magnificent la traviata --- but when a work is as superb as rigoletto, it doesn't need cheap gimmicks. it might even have been acceptable if the dubbed in music had been good but it is a mediocre rendering of the libretto with second rate sound quality at that."
+      },
+      {
+        "review_id": "test/neg/5221_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5001397728919983,
+        "predicted_confidence": 0.5001397728919983,
+        "review": "normally, i don't like chuck norris films. i appreciate his work as a martial artist, and his fight scenes are usually fairly well-choreographed. chuck is undeniably one of the martial arts greats. so, in my local used bookstore, i found a film i hadn't seen before and took it home. while the acting in this movie was worse than most chuch norris films, i was hoping to see at least one fight scene. i quickly began to realize that this wasn't a typical chuch norris film; rather it was a christian film, destined to illustrate the \"good will win out\" paradigm. there is really nothing on the packaging to indicate that this is a christian film, with the exception of the label ... goodtimes entertainment, which i had never heard of before. i'll certainly keep that in mind the next time i see a film from that company. i don't have a problem with christianity ... i do have a problem with sneaky proselytizing. if someone is going to make a religious film, at least have the good sense to indicate to the viewer that such is what they will get. the only redeeming part about the exercise is that i spent only $3.25 to spend 97 minutes to watch a great martial artist not fight. at least it was during supper-time, and i spent some of that cooking and eating. in short, if you're looking for a mediocre martial arts film, and not hoping for much, don't bother with this film because it doesn't even offer that."
+      },
+      {
+        "review_id": "test/neg/8799_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5001427531242371,
+        "predicted_confidence": 0.5001427531242371,
+        "review": "too much stock footage (almost one third of this 53 minute film) really slows this one down. granted that the plot is that john weston (john wayne) is sent by marshall george higgins (george hayes) to participate in a fixed rodeo (say \"ro-day-oh\"), but character development and interaction are sacrificed. the relationship between the bad girl (usually a latina-- even in the great \"duck soup\" [1933]) and the 'heroine' polly ann young, a loretta young look-alike (hey! it's her sister!) could have benefited from more screen time. the happy ending is too abrupt-- although this time john wayne actually kisses the girl. the most interesting stock footage was the lengthy rodeo parade of real indians, squaws, and papooses. but when the best part of the movie is the stunt work by the mighty yak, yakima canutt, who gives us jumping from one horse to another and several different running leaps onto a horse, you know we're in trouble. as noted by others, the final fight with the villain is very poorly done. my copy, from 'platinum disc corporation' featured an added,sparse, ill-fitting (pseudo-classical) stereo music track that ruins the authenticity of the original film.(the dvd box had 'enhanced audio 5.1' on it.) if you're going to modernize and colorize it you should add a 'western' sounding score with acoustic guitars, 'klip-klopping' hoofbeats, harmonicas, and an accordion. finally, we have to say this is one of the weakest lone star efforts."
+      },
+      {
+        "review_id": "test/neg/8130_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5001590847969055,
+        "predicted_confidence": 0.5001590847969055,
+        "review": "greedy land baron in the tiny western town of prairie city wants all the ranchers off their land, using intimidation tactics and arson to get them to vacate; seems the town is swimming atop oil, and when a swedish farmer refuses to leave, he's mowed down by the baron's hired gun. the farmer's seafaring son soon arrives, slowly realizing what he's up against and attempting to rally the rest of the residents to fight. another lawlessness-in-the-west story, with everybody under the thumb of the villain (who naturally holds all the cards). derivative and uncomfortable at times to watch, with a long wait before our stoic hero finally gets his dander up. sterling hayden's half-hearted swedish accent is a big problem, though he cuts a sturdy, sympathetic presence on the screen and almost makes the picture worth-watching. director joseph h. lewis stages most of the scenes stiffly, like a tv western, and gerald fried's bugle-heavy score is no help, though the rich black-and-white cinematography by ray rennahan is excellent. an independent production released via united artists, the film has a bizarre start (beginning with shots from the finale, followed by shots from the movie's midsection), yet it does have a certain needling power which most assuredly gets the viewer on hayden's side. ** from ****"
+      },
+      {
+        "review_id": "test/pos/10519_8.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5002245306968689,
+        "predicted_confidence": 0.5002245306968689,
+        "review": "i've tried to remember the name of this movie for years and years. finally, read something today, 03/09/2005, that mentioned stacy keach's name, and it reminded me that i had seen a movie that he was in in 1974 at the atlanta film festival, so, i did a google search for keach's movies and found the gravy train. we were supposed to see duddy kravitz at the film festival, but for some reason they were unable to show it, and instead substituted the gravy train. we were terribly disappointed that we weren't going to be able to see the much hyped duddy kravitz, and had heard nothing of the gravy train, and have heard nothing of it since. however, i recall we were pleasantly surprised at how good the movie was, and as i recall, it was quite humorous. would love to find it on tape."
+      },
+      {
+        "review_id": "test/pos/1407_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997594356536865,
+        "predicted_confidence": 0.5002405643463135,
+        "review": "i found west point to be an agreeable film, although i doubt that i would watch it again. the performances were convincing, with william haines as yet another obnoxiously amusing young man that has his come-uppance by film's end. it's hard to believe that stardom beckoned joan crawford less than a year after this film was made, as she looks rather awkward at times. i would apply the comment made by another concerning ramon novarro's \"huddle\" (1932) to this film as well. there is a great film waiting to be made here, but there is something lacking. the backdrop and integration of the corps was well utilized, but i was less involved than i thought that i would be. perhaps haines' character went too far, or got away with too much. his \"repentance\" did not seem genuine enough; and what kind of message did it send for him to run every play in the last minutes of the army-navy game? where's \"the corps\" in that? might as well have taken out the other ten men and let him do it all himself. also, i doubt very much that william bakewell's weak, puny character would ever have a real-life counterpart at west point. all this aside, the film is sometimes very moving and inspiring. it is a fine look into the daily practices of an honorable institution. thank goodness that tradition still means something at west point too, unlike the vapid \"traditions\" of ivy league schools, only half-heartedly engaged in these days. as to the score: it was appropriately martial. but, there was a distinct over-use of snare drums. using them for knocks on the door, scene transitions, et alu as well as in well over half the scenes got to be rather tedious. it rather lessened the viewing experience. i was ready to say \"i get the point already.\" with that, enjoy the film, but don't expect too much emotional involvement."
+      },
+      {
+        "review_id": "test/pos/11204_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997577667236328,
+        "predicted_confidence": 0.5002422332763672,
+        "review": "the first time i saw the poster, i was stunned by its tranquility and beauty. then the city of istanbul has been haunting in my mind ever since. not much dialogue, not much music, the whole film was shot as elaborately and aesthetically like a sculpture. it itself is a landscape. actually there are a lot of things going on in the film, but the director deliberately omitted most dramatic parts and leave them to our imagination, thus creating a really flat life. **(mild spoiler)one can see mahmut's ladylove crying in the toilet and then going out without a word but not their fight; one can see mahmut accompanying his mother in the hospital but not her struggle from illness. the most dramatic scene in the film to me is yusuf laughing out loud for the toy soldier he bought for his niece,** and that's when it almost broke my heart to see this boring, lonely life bursting out in such a way. with all the trivialities in life weeded, the story presents us with pure inner world of all the characters, their sadness, anxiety, loneliness, regrets...and as the story unfolded, i sort of finally grasped their desperate situation where their emotions were really no way out if no outer things intervened, which is exactly every loner tries to keep at all cost, especially for an irresponsible artist like mahmut. i've just finished my second watching. last night, i crouched into my quilt, had some vodka beside my bed and went through the whole film in a trance. i felt two real lives going on, one outside the screen, one inside the screen. i felt free from all those loneliness and anxiety 'cause the people inside were experiencing it. i just had myself removed from all those things. we cannot deny the universal problem of communication, and loneliness even puts us far towards it, and it becomes a vicious spiral. i bet mahmut still didn't figure out a way of living in the end. that's why he stepped out of his room to try to find the answers from the outer world, the coldness and landscape."
+      },
+      {
+        "review_id": "test/pos/8571_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997374713420868,
+        "predicted_confidence": 0.5002624988555908,
+        "review": "topless touch football!! a wet t-shirt contest!! a jockstrap raid!! this \"sheanimal house\" has it all. except a plot and good actors. the film consists of several pranks and catfights between the h.o.t.s. girls and the bitchy pi house. the dialouge is a scream and the soundtrack is sublimely brilliant. over the past couple of months it's been popping up all over cable, so do yourself a favor and watch out for it. h.o.t.s. is so bad it's good!"
+      },
+      {
+        "review_id": "test/neg/11793_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5003196001052856,
+        "predicted_confidence": 0.5003196001052856,
+        "review": "i realize why people hate this film. and, i hated blair witch project,so go figure? this is about as staged as it gets & yes they do insult your intelligence by trying to make it seem real.i really liked the madame lalaurie storyline though it's more than likely made up. but, the main reason i like this film, is fake or not when the ghosts start attacking & kidnapping them,i get chill-bumps every time & have to look behind me as it feels like something's there with me.i know it's my imagination, but hey more than half of the drivel that is horror in today's cinemas & dvd's doesn't give me goosebumps,so that makes this a creepy delight.not for everyone, as skeptics will hate it & not for gorehounds as with a pg-13 rating there is no gore. and, the females are very annoying!you'll wish the ghosts would take them off & experiment on them before it's all said & done. ** out of *****."
+      }
+    ]
+  }
+}

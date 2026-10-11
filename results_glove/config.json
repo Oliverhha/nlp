@@ -1,0 +1,12 @@
+{
+  "glove_file": "/home/plj/DSA4213/assignment/glove/glove.6B.100d.txt",
+  "data_dir": "/home/plj/DSA4213/assignment/lm_encoded",
+  "output_dir": "/home/plj/DSA4213/assignment/results_glove",
+  "seed": 42,
+  "missing_std": 0.1,
+  "embedding_dim": 100,
+  "method": "GloVe 6B 100d",
+  "source_url": "https://nlp.stanford.edu/projects/glove/",
+  "source_file_sha256": "95dde4dfd627ab26608d33e76d1195ec059734bd29089ea52cadb08d07c64544",
+  "external_corpus": "Wikipedia 2014 + Gigaword 5, 6 billion tokens, uncased"
+}

@@ -1,0 +1,344 @@
+{
+  "shared_setup": {
+    "manifest_sha256": "e2262fa5710297af7577d5c7ebe0074f55bab22a983ad4541bee4a8d3d27b692",
+    "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+    "pooling": "mean_max",
+    "pooling_exclusions": [
+      "PAD",
+      "BOS",
+      "EOS"
+    ],
+    "feature_dimension": 256,
+    "chunk_length": 128,
+    "truncation": "none; use every review token",
+    "language_model_frozen": true,
+    "seed": 42,
+    "hidden_size": 128,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "epochs": 50,
+    "patience": 5,
+    "batch_size": 128,
+    "logistic_c": 1.0,
+    "device": "cpu"
+  },
+  "checkpoint_sha256_by_representation": {
+    "results_lstm": "c5e27fad026dadfa75e7404e0382a7bf77c9c6a91eaa50074cda265f8df7078a",
+    "results_transformer": "f7152ec43d37841fdbfe0833ed804803e2473d67857a16f3a05275d6ec098cfb",
+    "results_transformer_skipgram": "671ea543c84291dade180f6c5c476dbbd99a849336a426ccea62f80396d4d0d3",
+    "results_transformer_glove": "452e19e604649bf73fed777f1015d15835bff8161b3b4134a0c69b5b7bbdbd4d"
+  },
+  "context_by_model_type": {
+    "lstm": {
+      "policy": "carry hidden and cell states within each review; reset between reviews",
+      "stride": null,
+      "chunk_length": 128
+    },
+    "transformer": {
+      "policy": "overlapping windows; reset positions; pool each token once from its first covering window",
+      "stride": 64,
+      "chunk_length": 128
+    }
+  },
+  "results": [
+    {
+      "representation": "results_lstm",
+      "pooling": "mean_max",
+      "classifier": "logistic",
+      "feature_dimension": 256,
+      "mlp_parameter_count": "",
+      "lm_test_ppl": 91.43436357601061,
+      "test_accuracy": 0.80928,
+      "test_macro_f1": 0.8092760341621439,
+      "seed": 42
+    },
+    {
+      "representation": "results_lstm",
+      "pooling": "mean_max",
+      "classifier": "mlp",
+      "feature_dimension": 256,
+      "mlp_parameter_count": 33154,
+      "lm_test_ppl": 91.43436357601061,
+      "test_accuracy": 0.8094,
+      "test_macro_f1": 0.8093032880862743,
+      "seed": 42
+    },
+    {
+      "representation": "results_transformer",
+      "pooling": "mean_max",
+      "classifier": "logistic",
+      "feature_dimension": 256,
+      "mlp_parameter_count": "",
+      "lm_test_ppl": 92.34222103258745,
+      "test_accuracy": 0.84392,
+      "test_macro_f1": 0.8439151051776983,
+      "seed": 42
+    },
+    {
+      "representation": "results_transformer",
+      "pooling": "mean_max",
+      "classifier": "mlp",
+      "feature_dimension": 256,
+      "mlp_parameter_count": 33154,
+      "lm_test_ppl": 92.34222103258745,
+      "test_accuracy": 0.84028,
+      "test_macro_f1": 0.8402797544141504,
+      "seed": 42
+    },
+    {
+      "representation": "results_transformer_skipgram",
+      "pooling": "mean_max",
+      "classifier": "logistic",
+      "feature_dimension": 256,
+      "mlp_parameter_count": "",
+      "lm_test_ppl": 100.87295236717135,
+      "test_accuracy": 0.84404,
+      "test_macro_f1": 0.8440347533291019,
+      "seed": 42
+    },
+    {
+      "representation": "results_transformer_skipgram",
+      "pooling": "mean_max",
+      "classifier": "mlp",
+      "feature_dimension": 256,
+      "mlp_parameter_count": 33154,
+      "lm_test_ppl": 100.87295236717135,
+      "test_accuracy": 0.8472,
+      "test_macro_f1": 0.8471986612157901,
+      "seed": 42
+    },
+    {
+      "representation": "results_transformer_glove",
+      "pooling": "mean_max",
+      "classifier": "logistic",
+      "feature_dimension": 256,
+      "mlp_parameter_count": "",
+      "lm_test_ppl": 108.84827918726391,
+      "test_accuracy": 0.832,
+      "test_macro_f1": 0.8319924130461853,
+      "seed": 42
+    },
+    {
+      "representation": "results_transformer_glove",
+      "pooling": "mean_max",
+      "classifier": "mlp",
+      "feature_dimension": 256,
+      "mlp_parameter_count": 33154,
+      "lm_test_ppl": 108.84827918726391,
+      "test_accuracy": 0.82996,
+      "test_macro_f1": 0.8299369582264953,
+      "seed": 42
+    }
+  ],
+  "details": [
+    {
+      "representation": "results_lstm",
+      "context": {
+        "policy": "carry hidden and cell states within each review; reset between reviews",
+        "stride": null,
+        "chunk_length": 128
+      },
+      "logistic_C": 1.0,
+      "mlp_settings": {
+        "learning_rate": 0.001,
+        "dropout": 0.2
+      },
+      "feature_extraction": {
+        "train": {
+          "documents": 20000,
+          "tokens": 5396049,
+          "unknown_tokens": 201993,
+          "unk_rate": 0.03743349995524503,
+          "preparation_seconds": 1.8914194919998408,
+          "chunks_or_windows": 52956,
+          "extraction_seconds": 2.202742389999912,
+          "extraction_documents_per_second": 9079.591009278574
+        },
+        "validation": {
+          "documents": 5000,
+          "tokens": 1348223,
+          "unknown_tokens": 51018,
+          "unk_rate": 0.03784092097523926,
+          "preparation_seconds": 0.47334720700018806,
+          "chunks_or_windows": 13205,
+          "extraction_seconds": 0.5184311729999536,
+          "extraction_documents_per_second": 9644.481775790993
+        },
+        "test": {
+          "documents": 25000,
+          "tokens": 6594814,
+          "unknown_tokens": 244329,
+          "unk_rate": 0.03704865671723266,
+          "preparation_seconds": 2.3667609279996213,
+          "chunks_or_windows": 64885,
+          "extraction_seconds": 2.560006272999999,
+          "extraction_documents_per_second": 9765.601070462693
+        }
+      },
+      "classifier_timing": {
+        "logistic_fit_seconds": 0.06015861300056713,
+        "mlp_fit_seconds_including_validation": 0.9249627969993526,
+        "whole_script_seconds": 3.665893631000472
+      }
+    },
+    {
+      "representation": "results_transformer",
+      "context": {
+        "policy": "overlapping windows; reset positions; pool each token once from its first covering window",
+        "stride": 64,
+        "chunk_length": 128
+      },
+      "logistic_C": 1.0,
+      "mlp_settings": {
+        "learning_rate": 0.001,
+        "dropout": 0.2
+      },
+      "feature_extraction": {
+        "train": {
+          "documents": 20000,
+          "tokens": 5396049,
+          "unknown_tokens": 201993,
+          "unk_rate": 0.03743349995524503,
+          "preparation_seconds": 2.1768108280000433,
+          "chunks_or_windows": 75360,
+          "extraction_seconds": 5.108444532000021,
+          "extraction_documents_per_second": 3915.086064792749
+        },
+        "validation": {
+          "documents": 5000,
+          "tokens": 1348223,
+          "unknown_tokens": 51018,
+          "unk_rate": 0.03784092097523926,
+          "preparation_seconds": 0.5668965490000346,
+          "chunks_or_windows": 18819,
+          "extraction_seconds": 1.226470254999981,
+          "extraction_documents_per_second": 4076.7397167737076
+        },
+        "test": {
+          "documents": 25000,
+          "tokens": 6594814,
+          "unknown_tokens": 244329,
+          "unk_rate": 0.03704865671723266,
+          "preparation_seconds": 2.639225763000013,
+          "chunks_or_windows": 91832,
+          "extraction_seconds": 5.905865617000018,
+          "extraction_documents_per_second": 4233.079724678728
+        }
+      },
+      "classifier_timing": {
+        "logistic_fit_seconds": 0.12998404200004643,
+        "mlp_fit_seconds_including_validation": 1.1200111989999755,
+        "whole_script_seconds": 2.123123377000013
+      }
+    },
+    {
+      "representation": "results_transformer_skipgram",
+      "context": {
+        "policy": "overlapping windows; reset positions; pool each token once from its first covering window",
+        "stride": 64,
+        "chunk_length": 128
+      },
+      "logistic_C": 1.0,
+      "mlp_settings": {
+        "learning_rate": 0.001,
+        "dropout": 0.2
+      },
+      "feature_extraction": {
+        "train": {
+          "documents": 20000,
+          "tokens": 5396049,
+          "unknown_tokens": 201993,
+          "unk_rate": 0.03743349995524503,
+          "preparation_seconds": 1.782374936999986,
+          "chunks_or_windows": 75360,
+          "extraction_seconds": 4.9512616709999975,
+          "extraction_documents_per_second": 4039.374472397989
+        },
+        "validation": {
+          "documents": 5000,
+          "tokens": 1348223,
+          "unknown_tokens": 51018,
+          "unk_rate": 0.03784092097523926,
+          "preparation_seconds": 0.4477263329999914,
+          "chunks_or_windows": 18819,
+          "extraction_seconds": 1.2013578160000407,
+          "extraction_documents_per_second": 4161.957356424966
+        },
+        "test": {
+          "documents": 25000,
+          "tokens": 6594814,
+          "unknown_tokens": 244329,
+          "unk_rate": 0.03704865671723266,
+          "preparation_seconds": 2.1913052209999933,
+          "chunks_or_windows": 91832,
+          "extraction_seconds": 5.990619001000027,
+          "extraction_documents_per_second": 4173.191450804448
+        }
+      },
+      "classifier_timing": {
+        "logistic_fit_seconds": 0.11280947000000197,
+        "mlp_fit_seconds_including_validation": 1.0187076700000262,
+        "whole_script_seconds": 1.9691195270000321
+      }
+    },
+    {
+      "representation": "results_transformer_glove",
+      "context": {
+        "policy": "overlapping windows; reset positions; pool each token once from its first covering window",
+        "stride": 64,
+        "chunk_length": 128
+      },
+      "logistic_C": 1.0,
+      "mlp_settings": {
+        "learning_rate": 0.001,
+        "dropout": 0.2
+      },
+      "feature_extraction": {
+        "train": {
+          "documents": 20000,
+          "tokens": 5396049,
+          "unknown_tokens": 201993,
+          "unk_rate": 0.03743349995524503,
+          "preparation_seconds": 1.9521977199999583,
+          "chunks_or_windows": 75360,
+          "extraction_seconds": 5.069153854999968,
+          "extraction_documents_per_second": 3945.4316385116167
+        },
+        "validation": {
+          "documents": 5000,
+          "tokens": 1348223,
+          "unknown_tokens": 51018,
+          "unk_rate": 0.03784092097523926,
+          "preparation_seconds": 0.48153908599999795,
+          "chunks_or_windows": 18819,
+          "extraction_seconds": 1.2072431110000252,
+          "extraction_documents_per_second": 4141.667866597497
+        },
+        "test": {
+          "documents": 25000,
+          "tokens": 6594814,
+          "unknown_tokens": 244329,
+          "unk_rate": 0.03704865671723266,
+          "preparation_seconds": 2.396211109000035,
+          "chunks_or_windows": 91832,
+          "extraction_seconds": 6.12297791200001,
+          "extraction_documents_per_second": 4082.9805952760653
+        }
+      },
+      "classifier_timing": {
+        "logistic_fit_seconds": 0.1032970470000123,
+        "mlp_fit_seconds_including_validation": 0.7216528609999955,
+        "whole_script_seconds": 1.7454744629999936
+      }
+    }
+  ],
+  "notes": [
+    "All representations concatenate mean and max pooling.",
+    "Compare representations within the same classifier family first.",
+    "LSTM carries recurrent state; Transformer uses finite overlapping windows. Architecture comparisons also reflect this context difference.",
+    "Lower LM perplexity is better; higher task accuracy and macro-F1 are better.",
+    "One fixed classifier seed is used; no seed-variability estimate is available.",
+    "Read error examples before interpreting failures."
+  ]
+}

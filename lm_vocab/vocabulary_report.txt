@@ -1,0 +1,12 @@
+Vocabulary source: /home/plj/DSA4213/assignment/lm_tokenized/train
+Total vocabulary size: 15000
+Vocabulary cap (including specials): 15000
+Minimum training frequency: 2
+Training distinct tokens: 84208
+Special IDs: <pad>=0, <unk>=1, <bos>=2, <eos>=3
+vocab.txt: zero-based line index is token ID.
+Coverage excludes special tokens; no BOS/EOS have been added.
+Validation/test statistics do not affect vocabulary selection.
+train: documents=25000, tokens=6777306, unknown_tokens=224794, UNK_rate=3.3169%, empty_documents=0; mean=271.09, median_lower=203, p95_lower=694, max=1974
+validation: documents=5000, tokens=1359330, unknown_tokens=47959, UNK_rate=3.5281%, empty_documents=0; mean=271.87, median_lower=204, p95_lower=710, max=1674
+test: documents=5000, tokens=1340804, unknown_tokens=46390, UNK_rate=3.4599%, empty_documents=0; mean=268.16, median_lower=198, p95_lower=691, max=1600

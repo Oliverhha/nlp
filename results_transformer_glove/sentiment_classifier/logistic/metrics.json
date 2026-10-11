@@ -1,0 +1,90 @@
+{
+  "C": 1.0,
+  "seed": 42,
+  "validation": {
+    "accuracy": 0.8282,
+    "macro_f1": 0.828198453786084,
+    "classification_report": {
+      "negative": {
+        "precision": 0.8262425447316103,
+        "recall": 0.8312,
+        "f1-score": 0.8287138584247258,
+        "support": 2500.0
+      },
+      "positive": {
+        "precision": 0.8301810865191147,
+        "recall": 0.8252,
+        "f1-score": 0.8276830491474423,
+        "support": 2500.0
+      },
+      "accuracy": 0.8282,
+      "macro avg": {
+        "precision": 0.8282118156253625,
+        "recall": 0.8282,
+        "f1-score": 0.828198453786084,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.8282118156253626,
+        "recall": 0.8282,
+        "f1-score": 0.828198453786084,
+        "support": 5000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2078,
+        422
+      ],
+      [
+        437,
+        2063
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.832,
+    "macro_f1": 0.8319924130461853,
+    "classification_report": {
+      "negative": {
+        "precision": 0.8275970950426271,
+        "recall": 0.83872,
+        "f1-score": 0.8331214240305149,
+        "support": 12500.0
+      },
+      "positive": {
+        "precision": 0.8365228673370094,
+        "recall": 0.82528,
+        "f1-score": 0.8308634020618557,
+        "support": 12500.0
+      },
+      "accuracy": 0.832,
+      "macro avg": {
+        "precision": 0.8320599811898183,
+        "recall": 0.8320000000000001,
+        "f1-score": 0.8319924130461853,
+        "support": 25000.0
+      },
+      "weighted avg": {
+        "precision": 0.8320599811898184,
+        "recall": 0.832,
+        "f1-score": 0.8319924130461854,
+        "support": 25000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10484,
+        2016
+      ],
+      [
+        2184,
+        10316
+      ]
+    ]
+  },
+  "fit_seconds": 0.1032970470000123,
+  "test_classifier_seconds": 0.002603404000012688,
+  "test_documents_per_second": 9602812.317979906,
+  "saved_model_bytes": 8449
+}

@@ -1,0 +1,364 @@
+{
+  "model": "LSTM",
+  "config": {
+    "data_dir": "/home/plj/DSA4213/assignment/lm_encoded",
+    "output_dir": "results_lstm",
+    "device": "cuda",
+    "embedding_dim": 100,
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "context_length": 128,
+    "batch_size": 16,
+    "epochs": 50,
+    "patience": 5,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "cpu_threads": 4,
+    "model_config": {
+      "vocab_size": 15000,
+      "embedding_dim": 100,
+      "hidden_size": 128,
+      "num_layers": 2,
+      "dropout": 0.2
+    },
+    "precision": "float32",
+    "optimizer": "AdamW",
+    "num_workers": 0,
+    "embedding_initialization": "random trainable; PAD row fixed zero",
+    "output_weights_tied": false,
+    "loss": "summed NLL / non-PAD targets",
+    "checkpoint_selection": "minimum validation CE; strict improvement; patience epochs",
+    "determinism_note": "Seeds and cuDNN deterministic settings fixed; exact cross-platform reproduction not guaranteed."
+  },
+  "hardware": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "cpu_model": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "logical_cpus": 32,
+    "system_ram_bytes": 16488153088,
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "available_logical_cpus": 32,
+    "numpy_threadpools": [
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 4,
+        "prefix": "libgomp",
+        "filepath": "/home/plj/miniconda3/envs/dsa4213/lib/python3.11/site-packages/torch/lib/libgomp.so.1",
+        "version": null
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 32,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/plj/miniconda3/envs/dsa4213/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+        "version": "0.3.31.188.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ],
+    "thread_note": "DataLoader uses num_workers=0; PyTorch CPU thread settings recorded separately.",
+    "python_version": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+    "device": "cuda",
+    "torch_version": "2.11.0+cu128",
+    "torch_cuda_runtime": "12.8",
+    "torch_cpu_threads": 4,
+    "torch_interop_threads": 1,
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_total_memory_bytes": 8184725504,
+    "cudnn_version": 91900
+  },
+  "datasets": {
+    "train": {
+      "documents": 25000,
+      "chunks": 66375,
+      "target_tokens": 6802306
+    },
+    "validation": {
+      "documents": 5000,
+      "chunks": 13330,
+      "target_tokens": 1364330
+    },
+    "test": {
+      "documents": 5000,
+      "chunks": 13161,
+      "target_tokens": 1345804
+    }
+  },
+  "best_epoch": 49,
+  "validation": {
+    "cross_entropy": 4.530228837587205,
+    "perplexity": 92.77979015633481
+  },
+  "test": {
+    "cross_entropy": 4.515621376904392,
+    "perplexity": 91.43436357601061,
+    "target_tokens": 1345804,
+    "steps": 823,
+    "seconds": 5.439683103999414,
+    "target_tokens_per_second": 247404.8532368596
+  },
+  "model_size": {
+    "total_parameters": 3684856,
+    "trainable_parameters": 3684856,
+    "parameter_tensor_bytes": 14739424,
+    "checkpoint_bytes": 44484853
+  },
+  "training_budget": {
+    "max_epochs": 50,
+    "actual_epochs": 50,
+    "patience": 5,
+    "optimizer_steps": 207450,
+    "processed_training_targets": 340115300
+  },
+  "timing": {
+    "clock": "time.perf_counter; CUDA synchronized at phase boundaries",
+    "dataset_loading_seconds": 1.4044349300002068,
+    "training_epochs_seconds": 3343.4125354029948,
+    "validation_epochs_seconds": 273.7159839039996,
+    "checkpoint_save_seconds": 2.049534115010829,
+    "fit_and_selection_wall_seconds": 3620.155359972001,
+    "best_checkpoint_reload_seconds": 0.03694210599860526,
+    "test_seconds": 5.439683103999414,
+    "plot_seconds": 0.5661253289981687,
+    "epoch_timing_note": "Includes batch collation/transfer and optimization or evaluation; excludes initial dataset loading and checkpoint writes.",
+    "fit_wall_note": "Includes train/validation, checkpoint saves, CSV writes and epoch telemetry."
+  },
+  "gpu_training_peak_memory": {
+    "allocated_bytes": 572929536,
+    "reserved_bytes": 687865856
+  },
+  "gpu_telemetry_snapshots": [
+    {
+      "phase": "before_training",
+      "nvidia_smi": "0, 40, 8.65, 155, 0"
+    },
+    {
+      "phase": "after_epoch_1",
+      "nvidia_smi": "0, 55, 54.97, 807, 94"
+    },
+    {
+      "phase": "after_epoch_2",
+      "nvidia_smi": "0, 56, 54.99, 807, 93"
+    },
+    {
+      "phase": "after_epoch_3",
+      "nvidia_smi": "0, 57, 54.95, 807, 93"
+    },
+    {
+      "phase": "after_epoch_4",
+      "nvidia_smi": "0, 56, 54.81, 807, 94"
+    },
+    {
+      "phase": "after_epoch_5",
+      "nvidia_smi": "0, 56, 55.01, 807, 94"
+    },
+    {
+      "phase": "after_epoch_6",
+      "nvidia_smi": "0, 56, 55.04, 807, 93"
+    },
+    {
+      "phase": "after_epoch_7",
+      "nvidia_smi": "0, 56, 54.87, 807, 94"
+    },
+    {
+      "phase": "after_epoch_8",
+      "nvidia_smi": "0, 56, 55.02, 807, 92"
+    },
+    {
+      "phase": "after_epoch_9",
+      "nvidia_smi": "0, 56, 54.97, 807, 93"
+    },
+    {
+      "phase": "after_epoch_10",
+      "nvidia_smi": "0, 55, 54.98, 807, 93"
+    },
+    {
+      "phase": "after_epoch_11",
+      "nvidia_smi": "0, 55, 54.91, 807, 94"
+    },
+    {
+      "phase": "after_epoch_12",
+      "nvidia_smi": "0, 55, 54.92, 807, 94"
+    },
+    {
+      "phase": "after_epoch_13",
+      "nvidia_smi": "0, 55, 54.56, 807, 93"
+    },
+    {
+      "phase": "after_epoch_14",
+      "nvidia_smi": "0, 55, 54.93, 807, 93"
+    },
+    {
+      "phase": "after_epoch_15",
+      "nvidia_smi": "0, 55, 55.07, 807, 93"
+    },
+    {
+      "phase": "after_epoch_16",
+      "nvidia_smi": "0, 55, 54.99, 807, 94"
+    },
+    {
+      "phase": "after_epoch_17",
+      "nvidia_smi": "0, 55, 54.91, 807, 94"
+    },
+    {
+      "phase": "after_epoch_18",
+      "nvidia_smi": "0, 55, 55.03, 807, 93"
+    },
+    {
+      "phase": "after_epoch_19",
+      "nvidia_smi": "0, 55, 54.80, 807, 94"
+    },
+    {
+      "phase": "after_epoch_20",
+      "nvidia_smi": "0, 55, 55.02, 807, 94"
+    },
+    {
+      "phase": "after_epoch_21",
+      "nvidia_smi": "0, 55, 54.98, 807, 94"
+    },
+    {
+      "phase": "after_epoch_22",
+      "nvidia_smi": "0, 55, 55.04, 807, 93"
+    },
+    {
+      "phase": "after_epoch_23",
+      "nvidia_smi": "0, 54, 54.98, 807, 93"
+    },
+    {
+      "phase": "after_epoch_24",
+      "nvidia_smi": "0, 55, 54.66, 807, 93"
+    },
+    {
+      "phase": "after_epoch_25",
+      "nvidia_smi": "0, 55, 55.00, 807, 94"
+    },
+    {
+      "phase": "after_epoch_26",
+      "nvidia_smi": "0, 55, 55.02, 807, 94"
+    },
+    {
+      "phase": "after_epoch_27",
+      "nvidia_smi": "0, 55, 55.03, 807, 94"
+    },
+    {
+      "phase": "after_epoch_28",
+      "nvidia_smi": "0, 55, 54.06, 807, 94"
+    },
+    {
+      "phase": "after_epoch_29",
+      "nvidia_smi": "0, 55, 54.75, 807, 93"
+    },
+    {
+      "phase": "after_epoch_30",
+      "nvidia_smi": "0, 55, 54.98, 807, 94"
+    },
+    {
+      "phase": "after_epoch_31",
+      "nvidia_smi": "0, 55, 54.97, 807, 93"
+    },
+    {
+      "phase": "after_epoch_32",
+      "nvidia_smi": "0, 55, 54.99, 807, 94"
+    },
+    {
+      "phase": "after_epoch_33",
+      "nvidia_smi": "0, 55, 54.91, 807, 94"
+    },
+    {
+      "phase": "after_epoch_34",
+      "nvidia_smi": "0, 55, 55.03, 807, 94"
+    },
+    {
+      "phase": "after_epoch_35",
+      "nvidia_smi": "0, 55, 54.99, 807, 94"
+    },
+    {
+      "phase": "after_epoch_36",
+      "nvidia_smi": "0, 55, 54.97, 807, 94"
+    },
+    {
+      "phase": "after_epoch_37",
+      "nvidia_smi": "0, 55, 54.99, 807, 94"
+    },
+    {
+      "phase": "after_epoch_38",
+      "nvidia_smi": "0, 55, 55.06, 807, 93"
+    },
+    {
+      "phase": "after_epoch_39",
+      "nvidia_smi": "0, 55, 54.89, 807, 94"
+    },
+    {
+      "phase": "after_epoch_40",
+      "nvidia_smi": "0, 54, 54.98, 807, 94"
+    },
+    {
+      "phase": "after_epoch_41",
+      "nvidia_smi": "0, 54, 54.99, 807, 93"
+    },
+    {
+      "phase": "after_epoch_42",
+      "nvidia_smi": "0, 54, 54.97, 807, 93"
+    },
+    {
+      "phase": "after_epoch_43",
+      "nvidia_smi": "0, 54, 55.03, 807, 94"
+    },
+    {
+      "phase": "after_epoch_44",
+      "nvidia_smi": "0, 54, 54.99, 807, 94"
+    },
+    {
+      "phase": "after_epoch_45",
+      "nvidia_smi": "0, 54, 54.73, 807, 94"
+    },
+    {
+      "phase": "after_epoch_46",
+      "nvidia_smi": "0, 54, 55.03, 807, 94"
+    },
+    {
+      "phase": "after_epoch_47",
+      "nvidia_smi": "0, 54, 55.02, 807, 93"
+    },
+    {
+      "phase": "after_epoch_48",
+      "nvidia_smi": "0, 54, 54.99, 807, 94"
+    },
+    {
+      "phase": "after_epoch_49",
+      "nvidia_smi": "0, 54, 54.96, 807, 94"
+    },
+    {
+      "phase": "after_epoch_50",
+      "nvidia_smi": "0, 54, 55.00, 807, 94"
+    }
+  ],
+  "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+  "source_sha256": {
+    "train_lstm.py": "5784cf460880c436a19c292474e72d8e56fa3c235beff52679cdfe08e6eb7cb2",
+    "lstm_model.py": "afa5dd9411e32828a7e8a60052339e5c328ded67e7ddf761697f81b48288e4c6",
+    "lm_data.py": "43ef09608960becd4cef277dbe579b2630a847f001569385ccf45da4264a98ca",
+    "tokenize_imdb.py": "9c67d7636ae48759c665aaaed6c3c5769be6d5f03c034e1c82f867773126fd13"
+  },
+  "inference_config": {
+    "task": "teacher-forced next-token scoring on the full test split",
+    "device": "cuda",
+    "batch_size": 16,
+    "context_length": 128,
+    "included": "batch collation/transfer, forward pass and token-average cross-entropy calculation",
+    "excluded": "initial dataset loading, checkpoint loading and disk writes",
+    "target_tokens": 1345804,
+    "repetitions": 1
+  },
+  "inference_seconds": 5.439683103999414,
+  "inference_tokens_per_second": 247404.8532368596,
+  "metadata_note": "Generation records removed after training. Quality/training/size records unchanged; inference fields now refer to recorded test evaluation. Source hashes describe the original training code, not the edited script."
+}

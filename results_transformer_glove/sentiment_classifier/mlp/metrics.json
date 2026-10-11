@@ -1,0 +1,99 @@
+{
+  "settings": {
+    "learning_rate": 0.001,
+    "dropout": 0.2
+  },
+  "seed": 42,
+  "best_epoch": 4,
+  "actual_epochs": 9,
+  "best_validation_macro_f1": 0.82814054350243,
+  "best_validation_ce": 0.3912203013896942,
+  "fit_seconds_including_validation": 0.7216528609999955,
+  "stop_reason": "early_stopping",
+  "validation": {
+    "accuracy": 0.8282,
+    "macro_f1": 0.82814054350243,
+    "classification_report": {
+      "negative": {
+        "precision": 0.8408807644370586,
+        "recall": 0.8096,
+        "f1-score": 0.8249439576115754,
+        "support": 2500.0
+      },
+      "positive": {
+        "precision": 0.8164288468954879,
+        "recall": 0.8468,
+        "f1-score": 0.8313371293932849,
+        "support": 2500.0
+      },
+      "accuracy": 0.8282,
+      "macro avg": {
+        "precision": 0.8286548056662733,
+        "recall": 0.8282,
+        "f1-score": 0.82814054350243,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.8286548056662734,
+        "recall": 0.8282,
+        "f1-score": 0.8281405435024303,
+        "support": 5000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2024,
+        476
+      ],
+      [
+        383,
+        2117
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.82996,
+    "macro_f1": 0.8299369582264953,
+    "classification_report": {
+      "negative": {
+        "precision": 0.8378245556556638,
+        "recall": 0.81832,
+        "f1-score": 0.8279574244202518,
+        "support": 12500.0
+      },
+      "positive": {
+        "precision": 0.8224532874677508,
+        "recall": 0.8416,
+        "f1-score": 0.8319164920327389,
+        "support": 12500.0
+      },
+      "accuracy": 0.82996,
+      "macro avg": {
+        "precision": 0.8301389215617073,
+        "recall": 0.82996,
+        "f1-score": 0.8299369582264953,
+        "support": 25000.0
+      },
+      "weighted avg": {
+        "precision": 0.8301389215617074,
+        "recall": 0.82996,
+        "f1-score": 0.8299369582264954,
+        "support": 25000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10229,
+        2271
+      ],
+      [
+        1980,
+        10520
+      ]
+    ]
+  },
+  "test_classifier_seconds": 0.01050629100001288,
+  "test_documents_per_second": 2379526.704521068,
+  "parameter_count": 33154,
+  "saved_model_bytes": 142133
+}

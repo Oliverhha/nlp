@@ -1,0 +1,9 @@
+representation,pooling,classifier,feature_dimension,mlp_parameter_count,lm_test_ppl,test_accuracy,test_macro_f1,seed
+results_lstm,mean_max,logistic,256,,91.43436357601061,0.80928,0.8092760341621439,42
+results_lstm,mean_max,mlp,256,33154,91.43436357601061,0.8094,0.8093032880862743,42
+results_transformer,mean_max,logistic,256,,92.34222103258745,0.84392,0.8439151051776983,42
+results_transformer,mean_max,mlp,256,33154,92.34222103258745,0.84028,0.8402797544141504,42
+results_transformer_skipgram,mean_max,logistic,256,,100.87295236717135,0.84404,0.8440347533291019,42
+results_transformer_skipgram,mean_max,mlp,256,33154,100.87295236717135,0.8472,0.8471986612157901,42
+results_transformer_glove,mean_max,logistic,256,,108.84827918726391,0.832,0.8319924130461853,42
+results_transformer_glove,mean_max,mlp,256,33154,108.84827918726391,0.82996,0.8299369582264953,42

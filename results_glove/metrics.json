@@ -1,0 +1,59 @@
+{
+  "method": "GloVe 6B 100d",
+  "config": {
+    "glove_file": "/home/plj/DSA4213/assignment/glove/glove.6B.100d.txt",
+    "data_dir": "/home/plj/DSA4213/assignment/lm_encoded",
+    "output_dir": "/home/plj/DSA4213/assignment/results_glove",
+    "seed": 42,
+    "missing_std": 0.1,
+    "embedding_dim": 100,
+    "method": "GloVe 6B 100d",
+    "source_url": "https://nlp.stanford.edu/projects/glove/",
+    "source_file_sha256": "95dde4dfd627ab26608d33e76d1195ec059734bd29089ea52cadb08d07c64544",
+    "external_corpus": "Wikipedia 2014 + Gigaword 5, 6 billion tokens, uncased"
+  },
+  "source_rows_read": 400000,
+  "coverage": {
+    "lexical_vocabulary_size": 14996,
+    "matched_lexical_tokens": 14641,
+    "missing_lexical_tokens": 355,
+    "vocabulary_coverage_percent": 97.63270205388103,
+    "splits": {
+      "train": {
+        "documents": 25000,
+        "text_tokens": 6777306,
+        "tokens_with_glove_vectors": 6453907,
+        "token_coverage_percent": 95.2282071961927,
+        "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+      },
+      "validation": {
+        "documents": 5000,
+        "text_tokens": 1359330,
+        "tokens_with_glove_vectors": 1292050,
+        "token_coverage_percent": 95.05050282124282,
+        "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+      },
+      "test": {
+        "documents": 5000,
+        "text_tokens": 1340804,
+        "tokens_with_glove_vectors": 1275226,
+        "token_coverage_percent": 95.10905397060272,
+        "note": "PAD/BOS/EOS excluded; UNK counts as uncovered."
+      }
+    }
+  },
+  "initialization": {
+    "missing_words": "Normal(mean=0, std=0.1); seed=42",
+    "special_tokens": "PAD is zero; UNK/BOS/EOS use the same seeded random initialization.",
+    "freezing": "The entire aligned input table will be frozen in the language model.",
+    "normalization": "Public vectors are copied without scaling or normalization."
+  },
+  "vocab_sha256": "5c46c1856306f51ba01fa97e9710346fd1864b12ed0a684afbdc4e75ed237603",
+  "timing": {
+    "file_loading_and_alignment_seconds": 0.5455520430004981,
+    "coverage_measurement_seconds": 1.318000484001459,
+    "matrix_save_seconds": 0.005703086999346851,
+    "note": "Preparation costs only; no local GloVe training. Download/extraction time excluded."
+  },
+  "source_sha256": "09a7e7af6f7056a583238ff0c270f060b1e3d406d69878046a49565b191ce3ac"
+}

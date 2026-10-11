@@ -1,0 +1,99 @@
+{
+  "settings": {
+    "learning_rate": 0.001,
+    "dropout": 0.2
+  },
+  "seed": 42,
+  "best_epoch": 8,
+  "actual_epochs": 13,
+  "best_validation_macro_f1": 0.8403990806987048,
+  "best_validation_ce": 0.37693464756011963,
+  "fit_seconds_including_validation": 1.1200111989999755,
+  "stop_reason": "early_stopping",
+  "validation": {
+    "accuracy": 0.8404,
+    "macro_f1": 0.8403990806987048,
+    "classification_report": {
+      "negative": {
+        "precision": 0.8420418006430869,
+        "recall": 0.838,
+        "f1-score": 0.8400160384923817,
+        "support": 2500.0
+      },
+      "positive": {
+        "precision": 0.8387738853503185,
+        "recall": 0.8428,
+        "f1-score": 0.840782122905028,
+        "support": 2500.0
+      },
+      "accuracy": 0.8404,
+      "macro avg": {
+        "precision": 0.8404078429967027,
+        "recall": 0.8404,
+        "f1-score": 0.8403990806987048,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.8404078429967027,
+        "recall": 0.8404,
+        "f1-score": 0.8403990806987047,
+        "support": 5000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2095,
+        405
+      ],
+      [
+        393,
+        2107
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.84028,
+    "macro_f1": 0.8402797544141504,
+    "classification_report": {
+      "negative": {
+        "precision": 0.841125992461304,
+        "recall": 0.83904,
+        "f1-score": 0.8400817013096239,
+        "support": 12500.0
+      },
+      "positive": {
+        "precision": 0.8394381932806639,
+        "recall": 0.84152,
+        "f1-score": 0.8404778075186768,
+        "support": 12500.0
+      },
+      "accuracy": 0.84028,
+      "macro avg": {
+        "precision": 0.840282092870984,
+        "recall": 0.84028,
+        "f1-score": 0.8402797544141504,
+        "support": 25000.0
+      },
+      "weighted avg": {
+        "precision": 0.8402820928709841,
+        "recall": 0.84028,
+        "f1-score": 0.8402797544141504,
+        "support": 25000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10488,
+        2012
+      ],
+      [
+        1981,
+        10519
+      ]
+    ]
+  },
+  "test_classifier_seconds": 0.010203472999990026,
+  "test_documents_per_second": 2450146.1414191457,
+  "parameter_count": 33154,
+  "saved_model_bytes": 142069
+}

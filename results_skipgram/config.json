@@ -1,0 +1,20 @@
+{
+  "train_dir": "/home/plj/DSA4213/assignment/lm_tokenized/train",
+  "data_dir": "/home/plj/DSA4213/assignment/lm_encoded",
+  "output_dir": "/home/plj/DSA4213/assignment/results_skipgram",
+  "embedding_dim": 100,
+  "window": 5,
+  "negative": 5,
+  "min_count": 2,
+  "sample": 0.001,
+  "epochs": 10,
+  "workers": 1,
+  "seed": 42,
+  "missing_std": 0.1,
+  "method": "Skip-gram with negative sampling",
+  "sg": 1,
+  "hs": 0,
+  "alpha": 0.025,
+  "min_alpha": 0.0001,
+  "shrink_windows": true
+}

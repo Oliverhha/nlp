@@ -1,0 +1,255 @@
+{
+  "selection": "10 highest-confidence errors per true class and 10 least-confident test predictions; inspect manually, not a random sample",
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "examples": {
+    "negative_predicted_positive": [
+      {
+        "review_id": "test/neg/3486_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.998967170715332,
+        "predicted_confidence": 0.998967170715332,
+        "review": "this film has the language, the style and the attitude down ... plus greats rides from occy (a world champ) and the great jerry lopez. john philbin as turtle has the surf pidgin down, and the surfing scenes are still the best ever. a true classic that can be seen many times. nia peeples is a babe, and laird hamilton shows the early stuff that has made him the world's number one extreme surfer."
+      },
+      {
+        "review_id": "test/neg/7652_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9986836314201355,
+        "predicted_confidence": 0.9986836314201355,
+        "review": "very disturbing, but expertly crafted & scripted and intelligently directed with a good eye for color and detail. mary beth hurt, sandy dennis, and especially randy quaid are unusually good. the story centers around a young boy (bryan madorsky) wondering where all the leftovers they eat every night comes from. his parents (hurt, quaid) strange behavior causes the school psychiatrist (dennis) to get involved. it is a gruesome cannibal movie. but it's not bad. if you like hannibal, you'll love this. if you don't like parents, stay away from the film. just giving advice to cannibal lover and haters. rated r for strong adult themes and graphic violence."
+      },
+      {
+        "review_id": "test/neg/816_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.997683048248291,
+        "predicted_confidence": 0.997683048248291,
+        "review": "i'm a boorman fan, but this is arguably his least successful film. comedy has never been his strong suit, and here his attempts at screwball farce are clumsily done. still, it's almost worth seeing for boorman's eye for talent: this is one of uma thurman's first starring roles, and as always she is ravishing to watch. (on a sad side note, boorman wrote the script with his daughter, telsche, who died a couple years ago.)"
+      },
+      {
+        "review_id": "test/neg/4514_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9968532919883728,
+        "predicted_confidence": 0.9968532919883728,
+        "review": "chayanne is beautiful enough, vanessa is beautiful enough, i liked the storyline. but i went in with the expectation to see lots of energetic hot salsa dancing, i was disappointed. there needed to be more dancing, especially salsa."
+      },
+      {
+        "review_id": "test/neg/8621_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9963353872299194,
+        "predicted_confidence": 0.9963353872299194,
+        "review": "more suspenseful, more subtle, much, much more disturbing...."
+      },
+      {
+        "review_id": "test/neg/12130_1.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9961298704147339,
+        "predicted_confidence": 0.9961298704147339,
+        "review": "this movie was pure genius. john waters is brilliant. it is hilarious and i am not sick of it even after seeing it about 20 times since i bought it a few months ago. the acting is great, although ricki lake could have been better. and johnny depp is magnificent. he is such a beautiful man and a very talented actor. and seeing most of johnny's movies, this is probably my favorite. i give it 9.5/10. rent it today!"
+      },
+      {
+        "review_id": "test/neg/10970_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.995726466178894,
+        "predicted_confidence": 0.995726466178894,
+        "review": "even though he only made his debut film in australia and left for great britain and then america to continue his career, australians will tell you that the greatest film star they ever produced was errol flynn. i'm not sure he ever even went back to australia after his breakout success in captain blood. still i attribute this film to the well known aussie irreverence for trashing the reputation of one of their own. part of the problem in telling errol flynn's life story was that he told enough tall tales in his life right up to the very end in his memoir, my wicked wicked ways. i could see that a lot of the film was based on that and upon reading between the lines of that book. his mother's infidelity to his father was not written, but could have been inferred in reading my wicked wicked ways. he didn't particularly like the woman, that is clear from a few sources. i wish the film had dealt more with his new guinea adventures, that to me was the most interesting part of my wicked wicked ways. as for his street fighting in the depression, i tend to disbelieve that. even if he had been successful at it, i guarantee that enough of that would have ruined his looks and he would never have had a career as a leading man. still the folks down under seem to think the atmosphere of sydney during the depression was captured well and guy pearce is a charismatic errol flynn. american audiences know him best as the uptight, but honest lieutenant exley in la confidential which came out the same year as flynn. but la confidential was a far better film."
+      },
+      {
+        "review_id": "test/neg/9133_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9953526258468628,
+        "predicted_confidence": 0.9953526258468628,
+        "review": "the peace and beauty of koyaanisqatsi was a powerful affirmation of the natural world. in naqoyqatsi, we are assaulted by images of the synthetic, the competitive, the violent, and the digital -- the destructive constructs of our culture. some liberties are taken with the images, with posterization, distressing, and much slow motion. the connections between the sequences are inscrutable, if there are any. naqoyqatsi is defined at the film's end, a missed opportunity to place the images in context. the film is difficult to watch, the quality of the archival footage uneven, and it's most redeeming qualities are its theme and the hypnotic score of philip glass."
+      },
+      {
+        "review_id": "test/neg/6170_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9952620267868042,
+        "predicted_confidence": 0.9952620267868042,
+        "review": "mickey rourke hunts diane lane in elmore leonard's killshot it is not like mickey rourke ever really disappeared. he has had a steady string of appearances before he burst back on the scene. he was memorable in: domino, sin city, man on fire, once upon a time in mexico, and get carter. but in his powerful dramatic performance in the wrestler (2008), we see a full blown presentation of the character only hinted at in get carter. whenever we get to know him, rourke remains a cool, but sleazy, muscle bound slim ball. this is an elmore leonard story, and production. leonard wrote such notable movies as taunt western thriller 3:10 to yuma, be cool, jackie brown, get shorty, 52 pick-up, and joe kidd. this means that we get tough guys, some good, some not so good. it also means we get tight, realistic plots with characters doing what is best for them in each situation, weaving complications into violent conclusions. killshot is no different. tough, slim ball killer rourke stalks unhappily married witness lane. think history of violence meets no country for old men. it is not as intense, bloody or gory as those two, but it is almost as good. if you like those two, including david croneberg's equally wonderful eastern promises, you will like killshot also. director john madden has not done a lot of movies. his last few were enjoyable, if not successful: proof, captain corelli's mandolin and shakespeare in love. diana lane hasn't had a powerful movie role since she and richard gere gave incredible performances in unfaithful. lately she is charming and appealing in romantic stories such as nights in rodanthe, must love dogs, and under the tuscan sun. here she is right on mark, balancing her sexy appeal with reserved tension. this is a small part for rosario dawson. yet dawson does a good job with it. you see a lot more of lane, including an underwear scene to rival sigourney weaver in aliens and nicole kidman in eyes wide shut. while you are in the crime drama section, also pick up kiss, kiss, bang, bang, and gone baby gone, and before the devil knows your dead. the last has wonderful performances by phillip seymour hoffman, ethan hawke, marisa tomei and albert finney. killshot flopped at the box office. more is our luck. it is certainly worth a 3-4 dollar rental, if you like this genre. 6/20/2009"
+      },
+      {
+        "review_id": "test/neg/12279_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.9949941039085388,
+        "predicted_confidence": 0.9949941039085388,
+        "review": "this movie is very violent, yet exciting with original dialog and cool characters. it has one of the most moving stories and is very true to life. the movie start off with action star leo fong as a down and out cop who is approaching the end of his career, when he stumbles on to a big case that involves corruption, black mail and murder. this is where the killings start. from start finish fong delivers in this must see action caper. this movie also co-stars richard roundtree. i really enjoyed this film as a child but as i got older i realized that this film is pretty cheesy and not very good. i would not recommend this film and the action is very, very bad."
+      }
+    ],
+    "positive_predicted_negative": [
+      {
+        "review_id": "test/pos/6930_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0011908726301044226,
+        "predicted_confidence": 0.9988090991973877,
+        "review": "to surmise, this film involves two actors (caine and moran) trying to con a gangster. the plot is flimsy at best as several plot holes occur throughout. however this normally shouldn't matter as the comedy should carry a film like this. there are some genuinely funny bits (mostly provided by dylan moran). however, other times, there are long melodramatic scenes that fail to add anything to the movie. caine's character seemed overdone to me. especially at the start, he continually quotes shakespeare and acts like a pompous actor. one could say he was playing the part properly but the character seemed to me flat and unfunny. overall i would say see only if a fan of the actors involved. otherwise wait for video or tv."
+      },
+      {
+        "review_id": "test/pos/3810_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0014130359049886465,
+        "predicted_confidence": 0.9985869526863098,
+        "review": "don't even try to figure out the logic of this story. but do ride along with 10-year-old gus on the most bizarre road trip ever witnessed. more weird characters and implausible situations than a twin peaks reunion! nothing makes sense, yet it's impossible to stop watching motorama! now, where can i find that 'r'????"
+      },
+      {
+        "review_id": "test/pos/6938_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0018112806137651205,
+        "predicted_confidence": 0.9981887340545654,
+        "review": "do-it-yourself indie horror auteur todd sheets returns with another entertainingly atrocious nickel'n'dime shot-on-video clunker that's basically just a feeble excuse to sling around a lot of watery blood and gleaming guts as often as possible. an evil demonic scarecrow resurrects the dead as ravenous rot-faced zombies so they can feast on the living. a bunch of bickering college kids, a trio of dangerous escaped convicts led by the vicious slade (byron nichodemus hamming it up to an outrageous degree), two equally savage sleazeball hoodlums, and a trio of hottie sisters all have to do their best to survive this harrowing ordeal. that's it for the needlessly muddled and convoluted plot, but fortunately what this hilariously horrendous hoot lacks in narrative coherence (plenty) it more than compensates for with a pleasing plethora of gloriously gross'n'graphic gore. disgusting highlights include a woman having her fingers chopped off, a fatal gunshot to a young gal's groin, attempted necrophiliac rape, evisceration, and, of course, more repulsive entrail eating than you can shake a pile of moist intestines at. moreover, we've also got rough, grainy cinematography that constantly alternates between washed-out color and grimy black and white, ineptly staged fight scenes, lousy acting from a uniformly pathetic no-name cast (jerry angell in particular cops the top crummy thespic dishonors for his laughably abysmal histrionics as slimy no-count psycho criminal joe bob), a grating head-banging thrash metal soundtrack, and a generic shivery'n'ominous synthesizer score. let's not forget the ridiculous ending in which several of our survivors stumble across a few vials of flesh-eating bacteria to use on the shambling undead hordes. sure, this flick is pure dreck, but it has a certain endearingly abominable quality to it that in turn makes it a great deal of so-awful-it's-awesome grade z fun for hardcore aficionados of bad fright fare."
+      },
+      {
+        "review_id": "test/pos/12378_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0025062570348381996,
+        "predicted_confidence": 0.9974937438964844,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/7395_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0025062570348381996,
+        "predicted_confidence": 0.9974937438964844,
+        "review": "jack frost 2, is probably the most cheesiest movie i have ever seen in my life. the complete title of the film, is jack frost 2: revenge of the mutant killer snowman. horror movie fans that have a taste for campy story lines, will be delighted to watch this. this film was straight to video, and for good reasons. here's why: the acting, was so atrocious, and so terrible, that it could cause one to cry. the main character had no personality, and the actor's bad acting made it all worse. the screenplay was, was also atrocious. each character always says a cheesy line, and add the cheesy lines to the bad choreography, then you have something bad. second, the story line isn't really all that impressive, but since this movie was straight to video, it is forgiven. the director, and writer could have turned the idea of a killer snowman, into something cool, but they didn't. they story has lots of plot holes in it. in the beginning, a cup of coffee gets knocked into the fish tank, with the melted jack frost. scientists try to restore his life, but they couldn't. once the cup of coffee fell into the tank, jack frost was completely restored. now he is immune to anti-freeze. in jack frost part 1, the main character's dna got mixed up with the anti-freeze that was used to kill jack frost. since the main character is allergic to bananas, jack frost is too. hence, here's my point. they say that sam's dna combined with jack frost's. but, one of the scientists had some saliva on the cup, so when it fell into the tank, the scientists dna would have been combined with jack frosts. another thing, the special effects weren't very good either. here's the good points: jack frost 2 has lots of blood, that looks pretty realistic. even though this movie is flawed to hell, it is still entertaining. overall, jack frost 2 is an enjoyable horror movie. the first one was better though. 7 out of 10."
+      },
+      {
+        "review_id": "test/pos/6499_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0027988513465970755,
+        "predicted_confidence": 0.997201144695282,
+        "review": "what about dj cash money??? this film fails in part by not covering the mid to late 80s. there was only a small mention of dj cheese in 86. also, it's grandmixer \"dst\", not \"dxt\"!!!!!"
+      },
+      {
+        "review_id": "test/pos/5744_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.0037993742153048515,
+        "predicted_confidence": 0.9962006211280823,
+        "review": "right, here we go, you have probably read in previous reviews on this film that it is awful, badly acted, avoid at all costs. well i suppose in some ways this is true, it is fair to say that you couldn't write a spoiler in this comment as there is no plot to spoil. however, there is a fine line between plain awful and absolutely hilarious and believe me this film is the latter. the acting is so bad, the plot so non existent and the ending so completely baffling it will have you laughing the whole way through. there are scenes in this film that take comedy to a new level. do not expect an oscar winner but believe me for the small price you will pay for this disaster, it is worth every penny."
+      },
+      {
+        "review_id": "test/pos/3491_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.004492959473282099,
+        "predicted_confidence": 0.9955070614814758,
+        "review": "no real plot, no character development, no scorcese-level direction, but seriously, were you really expecting any of this? the only thing that matters is that this flick is absolutely hilarious, nearly on the same level as borat. sure, the ending drags a bit, but if borat's cameo didn't crack you up, you must be the worst batty boy in the history of batty boys. sacha baron cohen is possibly the greatest comedian alive, and here he gets more laughs than jude law on a nude beach. i dare you not to laugh. if you can pull the ten-foot pole out of your behind for an hour and a half and just enjoy some well timed and extremely stupid jokes in a stupid story about a stupid character, see this stupid movie. you'll be glad you did. keep it real!"
+      },
+      {
+        "review_id": "test/pos/2795_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.006781216245144606,
+        "predicted_confidence": 0.9932187795639038,
+        "review": "**spoilers ahead** it is really unfortunate that a movie so well produced turns out to be such a disappointment. i thought this was full of (silly) clich\u00e9s and that it basically tried to hard. to the (american) guys out there: how many of you spend your time jumping on your girlfriend's bed and making monkey sounds? to the (married) girls: how many of you have suddenly gone from prudes to nymphos overnight--but not with your husband? to the french: would you really ask about someone being \"\u00e0 la fac\" when you know they don't speak french? wouldn't you use a more common word like \"universit\u00e9\"? i lived in france for a while and i sort of do know and understand europe (and i love it), but my (german) roommate and i found this pretty insulting overall. it looked like a movie funded by the european parliament, and it tried too hard basically. it had all sorts of differences that it tried to tie together (not a bad thing in itself) but the result is at best awkward, but in fact ridiculous--too many clashes that wouldn't really happen. then the end of the movie--the last 10 minutes--ruined all the rest. why doesn't xavier talk to the erasmus students he meets back in paris? why does he just walk off? why does he just run away from his job, is that \"freedom\"? and in the end, is the new europe supposed to rest on a bunch of people who smoke up and shag all day? is this what it's made up of? besides, the acting was pretty horrible. i can't believe judith godr\u00e8che's role and acting. why was she made to look like emanuelle b\u00e9art so much? at first i thought xavier was ok but with retrospect i think he was pretty bad. and that's all really too bad, because technically (opening credits, scenes when he's asking what papers he needs) it was really good (except for sound editing around the british siblings), and the soundtrack was great too. so the form was good, but the content pretty horrible."
+      },
+      {
+        "review_id": "test/pos/10639_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.00701746204867959,
+        "predicted_confidence": 0.9929825663566589,
+        "review": "some users are confused about the identity of the armed men walking down the steps in the \"odessa staircase\" sequence. these men are not cossacks but regular army troops. the cossacks arrive at the scene a little later and they are the men on horses slashing at the crowd with their sabers. to experts on russian history: correct me on this if i'm wrong. but there are a couple of lines in the movie that apparently no one has commented on. after the takeover of the potemkin, someone in the crowd on shore says, \"kill the jews!\" this is on screen for only a couple of seconds but it is there. how cruelly typical of history, not just in russia but in so many other countries, to immediately, unthinkingly and instinctively blame jews for any domestic trouble! perhaps other parts of the movie are not historically factual but the outcry against the jews is all too real. comments, anyone? also, why can't speakers of english learn to pronounce the name as \"potyomkin\" instead of as \"potemkin\"? there's a need in russian to distinguish the two possible pronunciations of \"e\": as either \"ye\" or as \"yo.\" sometimes two dots are used to distinguish these two pronunciations but usually the difference simply has to be memorized."
+      }
+    ],
+    "near_decision_boundary": [
+      {
+        "review_id": "test/pos/4952_10.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4999275207519531,
+        "predicted_confidence": 0.5000724792480469,
+        "review": "lou gossett, jr. is great as 'chappy sinclair', a super u.s. air force pilot who comes to the rescue of a nice but undisciplined 'doug masters' (jason gedrick), the son of a captured pilot who is determined to borrow a couple of f-16 fighters to use in an attempt to save his dad from a dictator (david suchet) of an enemy overseas country. better than 'top gun', this air force aviation film has excitement and lots of explosions - you know, all that cool stuff you'd want from a contemporary military adventure film. cool music including twisted sister's dee snider belting out 'we're not gonna take it' and king cobra's excellent 'never say die'. aim high! air force!"
+      },
+      {
+        "review_id": "test/neg/547_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5001749992370605,
+        "predicted_confidence": 0.5001749992370605,
+        "review": "i found this to be a tremendously disappointing version of a charming story. i thought the acting was on the whole quite good. reginald owen did chew the scenery, as mentioned by others, but i found him moderately amusing in his brief scenes. tcm has made an ann harding fan of me, and i thought she was fine as usual here. jessie ralph had a field day as the old battleaxe, ordering everybody around, and frank morgan, as always, played frank morgan with a twinkle. for me, the problem was the script and/or the editing--transitions were awkward, motivations were murky. the movie was just too darned short to convey the story properly! i felt completely let down, particularly since i had such fond memories of the later version."
+      },
+      {
+        "review_id": "test/pos/5336_8.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.4997096061706543,
+        "predicted_confidence": 0.5002903938293457,
+        "review": "although it isn't half as hilarious as \"chicken run,\" the new wallace and gromit comedy \"the curse of the were-rabbit\" (*** out of ****) yields more laughs than most live action comedies. british director nick park, who created the wallace and gromit characters, and co-director steve box rely on the old-fashioned, stop-motion method of animation--known best as claymation--to create several visually adorable characters in more than enough side-splitting scenes about a monstrously mutant hare out to devour every vegetable in sight. amusing as its whimsical storyline is, the heart of the hilarity lies in the imaginative way with which park and company have painstakingly constructed characters and gags out of a brand of modeling clay called plasticine. basically, every shot that you see in \"the curse of the were-rabbit\" required patient souls that made minor alterations in the clay characters for a series of individual shots that merge into a veritable montage of merriment. hollywood pioneered claymation as a form of animation as far back as the silent movies of the 1920s, before the industry turned its back on the complicated process. aardman studio animators managed to crank out a mere three seconds of usable footage per day. for the record, \"the curse of the were-rabbit\" took five years to make. the lumpy looking characters, with thumb-prints clearly visible in their respective clay complexions, look incredibly funny with their ping-pong ball eyes and over-biting mouths. interestingly, gromit emerges as the funniest character, a lovable mutt with no mouth but an expressively inexpressive face who says more than most of the talking characters. wallace and gromit are respectively master and pooch. as the human half of the duo, wallace is a homily looking moron without a clue who somehow manages to construct machines that do some rather incredible things. one of the funnier scenes shows master and pooch awakened by a system of chutes, hatches, and spring-operated contraptions that dress and feed them. meanwhile, gromit is the animal half. the running joke is that gromit shows more common sense than his genius of a master. as good as his ideas and inventions are, wallace could not succeed without the loyal gromit giving him a hand. our heroes run a pest protection business called 'anti-pesto.' essentially, they must protect every vegetable patch for miles around using an ungainly looking device called a bun-van 6000 that literally sucks rabbits out of their ground and into a huge glass container. no, wallace and gromit don't kill the critters. instead, they keep them as pets, and wallace experiments with an invention\u0097mind-o-matic--designed to convert hares into carrot-haters. this \"frankenstein\" meets \"the fly\" approach plunges poor wallace into deep trouble when he swaps bits of his brain with that of a rabbit. not long thereafter, a mysterious towering terror stalks the vegetable patches on full moon nights and creates chaos for everyone as the village's 517th annual vegetable contest approaches. initially, wallace and gromit appeared in park's oscar-nominated, film school project \"a grand day out\" (1989). since then aardman has released ten other animated shorts, among them \"wallace and gromit: a close shave\" (1993) and the oscar-winning wallace and gromit: the wrong trousers\" (1995). \"curse of the were-rabbit\" differs not only because it represents the duo's big-screen debut, but also it runs a whopping 85 minutes. the first two-thirds of \"were-rabbit\" contain better gags than the last third, but park and company never miss a chance to slip in an adult joke that kids won't get but attentive grown-ups will appreciate. \"wallace and gromit: the curse of the were-rabbit\" is hare-raising fun."
+      },
+      {
+        "review_id": "test/pos/6998_7.txt",
+        "true_label": 1,
+        "predicted_label": 0,
+        "positive_probability": 0.49970555305480957,
+        "predicted_confidence": 0.5002944469451904,
+        "review": "this film gets off to a bad start. an incredibly corny monologue is followed immediately by a brilliantly-done, truly amazing spaceship crash. then things go downhill again, as you realize that the survivors are all a) bad actors (apart from the docking pilot and the psychopath) and b) almost all of them fit too nicely into the role of monster-fodder. hell, half of them don't even speak english, preventing the audience from getting to know the characters at all. you feel as if you were watching \"deep blue sea\" meets \"silence of the lambs\", minus the good bits. and unfortunately, the entire thing tries to hard to be \"crashed on a desert planet with hannibal lecter\" during the daylight scenes. vin diesel is a great actor - but he is no anthony hopkins, and he frankly annoys as the smart hyper-cool psycho. there is at least one very good scene involving an unexpected survivor - but apart from that you could just as well have cut out the first thirty minutes or so... but then things take a turn. i can't exactly pinpoint the moment, but soon the movie gets a lot better. it also feels less chopped - the scenes actually begin to follow each other with a consistent narrative, and vin diesel becomes much less annoying and soon he is a show-stealer. by the time the first monsters appear, the film is actually quite enjoyable. by the time night falls, it is great. thrilling, horrifying and exciting. and even the character development of most main characters is well-done. if you can just sit through the poor bits at the start you're in for some great entertainment. besides, the visuals are eye-candy, and i honestly admit: i love the colour and the tone of this movie. 7/10 (could have been 9/10, if only....)"
+      },
+      {
+        "review_id": "test/neg/4758_4.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5003702044487,
+        "predicted_confidence": 0.5003702044487,
+        "review": "this frothy romantic comedy is based on the kind of story i loved as a teenager, but now find rather distasteful. in the case of may-september attachments, doubtless what is on the mind of the elder party is either lust, or an inability to face the reality of aging, or both. and the younger is most likely looking for the kind parent that she (or he) lacked as a child. these underlying agendas seem more pathetic than romantic to me now; there is also something rather predatory about them. dick powell looked a bit embarrassed--as well he should--at playing the elder lover in this silly story. he was, at fifty, attempting the role of a thirty-eight-year-old man romancing a teen-ager. but young debbie reynolds was a knockout--pretty and saucy and full of vinegar--as a misbehaving seventeen-year-old presented as a kind of \"gift\" to the morally upright and honest screenwriter, as a subject for him to study. her spirited performance wrung from me a better rating than this film would otherwise deserve. anne francis was cast as powell's beautiful, but brittle fianc\u00e9e, and handled her small role deftly. some of the dialogue was quite amusing, too, so it's not a total washout. 5/10"
+      },
+      {
+        "review_id": "test/neg/8612_2.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.49961429834365845,
+        "predicted_confidence": 0.5003857016563416,
+        "review": "firstly, i'll admit i haven't seen vampires: los muertos, but i've seen the original vampires film and love it. i rented this film having heard nothing about it. i didn't expect to be impressed. i wasn't. i love the idea of shifting the action to the far east, which should have opened up a lot of new avenues for the action sequences as well as the story line, but not enough was made of this. the fight scenes and the motorbike chases were painfully boring. there were some parts i liked, like the way the slayer team weren't shown as heroic good guys, as they were in the first movie. i'd been hoping since i saw the old hammer movie legend of the 7 golden vampires a few years ago that someone would one day make another good asian-based vampire film. this was not it."
+      },
+      {
+        "review_id": "test/neg/5581_2.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.5004096627235413,
+        "predicted_confidence": 0.5004096627235413,
+        "review": "the kind of b-movies from the 1950's that were schlocky yet so much fun are to what predator island pays homage. filmed in connecticut, predator island is set on an island called with a lighthouse hell's beacon which is inhabited by only the couple who tends the lighthouse. in typical 1950's sci-fi fashion after a half dozen young adults crash their boat into the island's rocky shore hideous creatures from outer space invade the island after a meteor hits nearby. the creatures start both inhabiting the bodies of their victims as well as devouring them. lots of cursing and lame comebacks are the primary form of dialogue in this movie. it is so hokey that you just have to laugh at times. if you are looking for a movie that is stupid, but in a fun way, then this one fits the bill. interesting note: i appear in the film as a dead body in the far background of the final scene. during filming they needed about 50 extras, yet around 300 people showed up for the opportunity. they eventually used nearly 200 of them."
+      },
+      {
+        "review_id": "test/neg/8733_3.txt",
+        "true_label": 0,
+        "predicted_label": 0,
+        "positive_probability": 0.4995512366294861,
+        "predicted_confidence": 0.5004487633705139,
+        "review": "after his career as a romantic leading man ended in the late 1960s, rock hudson starred in lots of different projects, including tv shows and lesser films. however, i believe that \"embryo\" is his only turn as a mad scientist, and that's probably a good thing. i guess he needed the work. driving along one dark and stormy night, brilliant dr. paul holliston (hudson) hits and injures a doberman, which he brings back to his lab (that looks somewhat like a dank midwestern basement). he then manages to raise the dog's unborn puppy outside the womb, so naturally he decides to do the same thing with a human being. he raises victoria (the beautiful barbara carrera) from a fetus the same way. victoria grows at an astonishing pace, and soon blossoms into a gorgeous young woman. predictably, things go very wrong. after a halcyon beginning, holliston's sister-in-law martha (diane ladd) begins to wonder where the young woman came from, and victoria herself begins to show signs of instability and violence. the final sequence is one long car chase straight out of \"smokey and the bandit\", after which victoria\u0097who has shockingly aged in just a few minutes\u0097is assaulted by a frantic holliston, who tries in vain to destroy his malformed creation along with its unborn child. all of this is accompanied by screeching tires, roaring engines, a car fire, and lots of sirens. the limp ending\u0097a bunch of paramedics frantically working on victoria while holliston writhes in regret\u0097is more labored than creepy. although just made in 1976, this movie is very dated. the only difference between this and the many 1940s mad scientist movies is that hudson plays the lead role rather than boris karloff. the sets are pretty cheap and very antiquated to today's audiences, to the extent that hudson's reel-to-reel tape recorder is about the size of a refrigerator. much of the action takes place in a poorly lighted laboratory. hudson sleepwalks through his sordid role, giving the impression that he's truly a washed-up movie star, while ladd and carrera are much more believable. surprisingly, roddy mcdowall pops up briefly as a chess player. the passport video transfer is very substandard, looking as though it had been made from a poor vhs copy using home equipment. if you're nostalgic for 1976, watch this once just to say you did. otherwise, watch a football game or soap opera instead."
+      },
+      {
+        "review_id": "test/neg/6031_3.txt",
+        "true_label": 0,
+        "predicted_label": 1,
+        "positive_probability": 0.500488817691803,
+        "predicted_confidence": 0.500488817691803,
+        "review": "this movie is not realistic at all, more of a comedy than a serious war film. very old-fashioned too. maybe i was just expecting it to be on a same level with \"platoon\". i wonder, why 50% of the voters gave it 10? something must be wrong."
+      },
+      {
+        "review_id": "test/pos/9767_10.txt",
+        "true_label": 1,
+        "predicted_label": 1,
+        "positive_probability": 0.5005879402160645,
+        "predicted_confidence": 0.5005879402160645,
+        "review": "i remember watching this series avidly and being so disappointed when it came to an end. over the years since then, i have tried to find out if i could obtain a copy of it on either video or d.v.d., to no avail. however, i was delighted to find this website with details of it, only to be disappointed again at the point of purchase, that the videos available will not play on english recorders! this production was so wonderful, being absolutely accurate with nevil shute's novel, taking the storyline through after the end of the war, with joe and jean's subsequent life together - absolutely marvellous - and i just wish i were able to see it again, as since it's original screening, there have been no repeats of it on british television."
+      }
+    ]
+  }
+}
