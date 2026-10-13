@@ -175,7 +175,7 @@ def main():
     if not manifest_path.is_file():
         parser.error('Prepared dataset missing. Run split_sentiment_data.py first, or set --data-dir to its output.')
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
-    if manifest.get('dataset_format') != 'imdb_sentiment_txt_v1':
+    if manifest.get('dataset_format') != 'imdb_sentiment_txt':
         parser.error('Unsupported dataset manifest; use the output of split_sentiment_data.py.')
     output = args.output_dir or source / 'sentiment_features'
     if output.exists():
