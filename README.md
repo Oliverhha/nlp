@@ -1,4 +1,4 @@
-# DSA4213 Assignment
+# Language Models, Embeddings, and Representations
 
 ## 1. Set Up
 
